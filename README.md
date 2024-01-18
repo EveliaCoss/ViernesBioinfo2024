@@ -61,6 +61,9 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Viernes 5. Introducción a Rmarkdown (1/marzo/2024) - Alejandra Schafer (Por confirmar)
 - Viernes 6. Manipulación de datos usando dplyr (8/marzo/2024) - Evelia Coss
 
+-----------
+Temas por acomodar:
+
 - Manipulación de datos usando dplyr - Evelia Coss
 - Creando for loops para la manipulación de datos - Evelia Coss
 - Creando tus propias funciones para la manipulación de datos - Evelia Coss
