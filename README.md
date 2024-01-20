@@ -16,22 +16,9 @@ Fomentar la formación y crecimiento en bioinformática a través de cursos grat
     - Auditorio del INMEGEN
     - Aula de Bioinformatica de LIIGH
     - Zoom
-- Grabación de las sesiones 📹, a menos que contengan contenido delicado.
+- Grabación de las sesiones 📹.
 - Este curso de contempla finalizar hasta junio de 2024 (5 meses).
 - Los cambios en horarios se anunciaran por Discord.
-
-## Verifica tu horario
-
-- CDMX (GMT-6) - 11 am - 1 pm (Sede del curso)
-- Nicaragua, Manágua (GMT -6) - 11 am - 1 pm
-- El Salvador (GMT -6) - 11 am - 1 pm
-- Perú, Lima (GMT -5) - 12 pm - 2 pm
-- Colombia, Bogotá (GMT -5) - 12 pm - 2 pm
-- Ecuador, Quito (GMT -5) - 12 pm - 2 pm
-- Bolívia, La Paz (GMT -4) - 1 pm - 3 pm
-- Argentina, Buenos Aires (GMT -3) - 2 pm - 4 pm
-- Chile, Santiago (GMT -3) - 2 pm - 4 pm
-- Uruguay, Montevideo (GMT -3) - 2 pm - 4 pm
 
 ## Inscripción
 
