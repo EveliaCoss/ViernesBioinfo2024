@@ -44,8 +44,8 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Viernes 1. Manipulación de datos con R base (vector y dataframe) (2/Feb/2024) - Evelia Coss
 - Viernes 2. Manipulación de datos con R base (matrix y lista) (9/Feb/2024) - Evelia Coss
 - Viernes 3. Manipulación de datos con funciones de R base (16/Feb/2024) - Evelia Coss
-- Viernes 4. Sesión abierta de repaso con Israel (23/Feb/2024)
-- Viernes 5. Introducción a Rmarkdown (1/marzo/2024) - Alejandra Schafer (Por confirmar)
+- Viernes 4. Introducción a Rmarkdown (23/Feb/2024) - Alejandra Schafer
+- Viernes 5. Sesión abierta de repaso con Israel (1/marzo/2024) 
 - Viernes 6. Manipulación de datos usando dplyr (8/marzo/2024) - Evelia Coss
 
 -----------
