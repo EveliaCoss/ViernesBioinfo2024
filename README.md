@@ -15,7 +15,7 @@ Fomentar la formación y crecimiento en bioinformática a través de cursos grat
 - Clases hibridas en:
     - Auditorio del INMEGEN
     - Aula de Bioinformatica de LIIGH
-    - Zoom
+    - Google meet (se encuentra el link en el calendario)
 - Grabación de las sesiones 📹.
 - Este curso de contempla finalizar hasta junio de 2024 (5 meses).
 - Los cambios en horarios se anunciaran por Discord.
