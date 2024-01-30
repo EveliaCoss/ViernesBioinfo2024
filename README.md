@@ -48,7 +48,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Viernes 1. Información general del curso e Introducción a R (2/Feb/2024) - Evelia Coss
 - Viernes 2. Manipulación de datos con R base (vector y dataframe) (9/Feb/2024) - Evelia Coss
 - Viernes 3. Manipulación de datos con R base (matrix y lista) (16/Feb/2024) - Evelia Coss
-- Viernes 4. Introducción a Rmarkdown (23/Feb/2024) - Alejandra Schafer
+- Viernes 4. Introducción a Rmarkdown (23/Feb/2024) - Alejandra Schafer (confirmado)
 - Viernes 5. Terapia de Bioinfo grupal (opcional) (1/marzo/2024) - Israel Aguilar
 - Viernes 6. Manipulación de datos con funciones de R base (8/marzo/2024) - Evelia Coss
 - Viernes 7. Manipulación de datos usando dplyr (15/marzo/2024) - Evelia Coss
@@ -56,11 +56,11 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Viernes 9. Generación de diversos gráficos usando ggplot2 (29/marzo/2024) - Sofia Salazar
 - Viernes 10. Terapia de Bioinfo grupal (opcional) (5/abril/2024) - Israel Aguilar
 - Viernes 11. Manipulación de datos para crear un heatmap (ComplexHeatmap) (12/abril/2024) - Sofia Salazar
-- Viernes 12. Bioestadistica (19/abril/2024) - Obed Ramirez
-- Viernes 13. Bioestadistica (26/abril/2024) - Obed Ramirez
+- Viernes 12. Bioestadistica (19/abril/2024) - Obed Ramirez (confirmado)
+- Viernes 13. Bioestadistica (26/abril/2024) - Obed Ramirez (confirmado)
 - Viernes 14. Terapia de Bioinfo grupal (opcional) (3/mayo/2024) - Israel Aguilar
-- Viernes 15. Exploración de datos y elección de pruebas o modelos (17/mayo/2024) - Domingo Martinez
-- Viernes 16. Exploración de datos y elección de pruebas o modelos (24/mayo/2024) - Domingo Martinez
+- Viernes 15. Exploración de datos y elección de pruebas o modelos (17/mayo/2024) - Domingo Martinez (por confirmar fecha)
+- Viernes 16. Exploración de datos y elección de pruebas o modelos (24/mayo/2024) - Domingo Martinez (por confirmar fecha)
 - Viernes 17. Introducción a Python (31/mayo/2024) - Shadday Guerrero
 - Viernes 18. Python (7/junio/2024) - Shadday Guerrero
 - Viernes 19. Python (14/junio/2024) - Shadday Guerrero
