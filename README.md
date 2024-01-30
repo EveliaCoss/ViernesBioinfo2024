@@ -26,7 +26,7 @@ Los cursos se imparten cada viernes, se les pide que se inscriban máximo el JUE
 
 La click en el siguiente link de [Google form](https://forms.gle/7e2e2mrLHG3HqQeu5)
 
-Para cualquier duda o problema mandar un correo con copia a los coordinadores del curso, la Dra. Evelia Coss (ecoss@liigh.unam.mx) y el Dr. Israel Aguilar ().
+Para cualquier duda o problema mandar un correo con copia a los coordinadores del curso, la Dra. Evelia Coss (ecoss@liigh.unam.mx) y el Dr. Israel Aguilar (iaguilar@inmegen.gob.mx).
 
 Link del calendario de [VieRnes de Bioinfo](https://calendar.google.com/calendar/u/1?cid=MDdmMzVjZTU2MGJiMzg1M2E1MTk5NDUwZTlkOTEwOTM1NTc2ZGYxODVlOGZhNmQyMDAzZmY4OTJhMTkzN2I4MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 
@@ -36,31 +36,40 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 
 ## Instructores 👾
 
-- Dra. Evelia Lorena Coss Navarrete (ecossnav@gmail.com)
-- Dr. Israel Aguilar
+- Dra. Evelia Lorena Coss Navarrete (ecoss@liigh.unam.mx)
+- Dr. Israel Aguilar (iaguilar@inmegen.gob.mx)
+- Sofia Salazar
+- Dr. Obed Ramirez
+- Dr. Domingo Martinez
 
 ## Contenido 📌
 
-- Viernes 1. Manipulación de datos con R base (vector y dataframe) (2/Feb/2024) - Evelia Coss
-- Viernes 2. Manipulación de datos con R base (matrix y lista) (9/Feb/2024) - Evelia Coss
-- Viernes 3. Manipulación de datos con funciones de R base (16/Feb/2024) - Evelia Coss
+- Viernes 1. Información general del curso e Introducción a R (2/Feb/2024) - Evelia Coss
+- Viernes 2. Manipulación de datos con R base (vector y dataframe) (9/Feb/2024) - Evelia Coss
+- Viernes 3. Manipulación de datos con R base (matrix y lista) (16/Feb/2024) - Evelia Coss
 - Viernes 4. Introducción a Rmarkdown (23/Feb/2024) - Alejandra Schafer
 - Viernes 5. Terapia de Bioinfo grupal (opcional) (1/marzo/2024) - Israel Aguilar
-- Viernes 6. Manipulación de datos usando dplyr (8/marzo/2024) - Evelia Coss
+- Viernes 6. Manipulación de datos con funciones de R base (8/marzo/2024) - Evelia Coss
+- Viernes 7. Manipulación de datos usando dplyr (15/marzo/2024) - Evelia Coss
+- Viernes 8. Creando tus propias funciones para la manipulación de datos (for loops y funciones) (22/marzo/2024) - Evelia Coss
+- Viernes 9. Generación de diversos gráficos usando ggplot2 (29/marzo/2024) - Sofia Salazar
+- Viernes 10. Terapia de Bioinfo grupal (opcional) (5/abril/2024) - Israel Aguilar
+- Viernes 11. Manipulación de datos para crear un heatmap (ComplexHeatmap) (12/abril/2024) - Sofia Salazar
+- Viernes 12. Bioestadistica (19/abril/2024) - Obed Ramirez
+- Viernes 13. Bioestadistica (26/abril/2024) - Obed Ramirez
+- Viernes 14. Terapia de Bioinfo grupal (opcional) (3/mayo/2024) - Israel Aguilar
+- Viernes 15. Exploración de datos y elección de pruebas o modelos (17/mayo/2024) - Domingo Martinez
+- Viernes 16. Exploración de datos y elección de pruebas o modelos (24/mayo/2024) - Domingo Martinez
+- Viernes 17. Introducción a Python (31/mayo/2024) - Shadday Guerrero
+- Viernes 18. Python (7/mayo/2024) - Shadday Guerrero
+- Viernes 19. Python (14/mayo/2024) - Shadday Guerrero
+- Viernes 20. Python (21/mayo/2024) - Shadday Guerrero
 
------------
-Temas por acomodar:
+-------------
 
-- Manipulación de datos usando dplyr - Evelia Coss
-- Creando for loops para la manipulación de datos - Evelia Coss
-- Creando tus propias funciones para la manipulación de datos - Evelia Coss
-- Generación de diversos gráficos usando ggplot2 - Evelia Coss
-- Manipulación de datos para crear un heatmap (ComplexHeatmap) - Evelia Coss
+Temas por acomodar en fechas:
+
 - Creando funciones para la generación de gráficos con ggplot2 - Evelia Coss
-- Introduccion a Python - Gabriel y Sibba
-- Exploración de datos y elección de pruebas o modelos - Domingo Martinez
-- Bioestadistica - Obed Ramirez
-- Introduccion a Shiny app - Domingo Martinez
 
 ## Licencia y términos de uso
 
