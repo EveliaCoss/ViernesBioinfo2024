@@ -65,11 +65,11 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Viernes 18. Python (7/junio/2024) - Shadday Guerrero
 - Viernes 19. Python (14/junio/2024) - Shadday Guerrero
 - Viernes 20. Python (21/junio/2024) - Shadday Guerrero
-- Viernes 21.  (28/junio/2024) - PIZZAS (Por definir fecha de cierre)
-- Viernes 22.  (5/julio/2024) 
-- Viernes 23.  (12/julio/2024)
-- Viernes 24.  (19/julio/2024)
-- Viernes 26. Python (26/julio/2024) - PIZZAS (Por definir fecha de cierre)
+- Viernes 21. Introducción a Bash (28/junio/2024) - Israel Aguilar
+- Viernes 22. Introducción a Bash (5/julio/2024) - Israel Aguilar
+- Viernes 23. Nextflow (12/julio/2024) - Israel Aguilar
+- Viernes 24. Nextflow (19/julio/2024) - Israel Aguilar
+- Viernes 26. Nextflow (26/julio/2024) - Israel Aguilar
 
 -------------
 
