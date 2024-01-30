@@ -62,9 +62,14 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Viernes 15. Exploración de datos y elección de pruebas o modelos (17/mayo/2024) - Domingo Martinez
 - Viernes 16. Exploración de datos y elección de pruebas o modelos (24/mayo/2024) - Domingo Martinez
 - Viernes 17. Introducción a Python (31/mayo/2024) - Shadday Guerrero
-- Viernes 18. Python (7/mayo/2024) - Shadday Guerrero
-- Viernes 19. Python (14/mayo/2024) - Shadday Guerrero
-- Viernes 20. Python (21/mayo/2024) - Shadday Guerrero
+- Viernes 18. Python (7/junio/2024) - Shadday Guerrero
+- Viernes 19. Python (14/junio/2024) - Shadday Guerrero
+- Viernes 20. Python (21/junio/2024) - Shadday Guerrero
+- Viernes 21.  (28/junio/2024) 
+- Viernes 22.  (5/julio/2024) 
+- Viernes 23.  (12/julio/2024)
+- Viernes 24.  (19/julio/2024)
+- Viernes 26. Python (26/julio/2024) - PIZZAS
 
 -------------
 
