@@ -41,6 +41,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Sofia Salazar
 - Dr. Obed Ramirez
 - Dr. Domingo Martinez
+- Dr. Shadday Guerrero
 
 ## Contenido 📌
 
