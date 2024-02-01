@@ -71,11 +71,16 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Viernes 24. Nextflow (19/julio/2024) - Israel Aguilar
 - Viernes 26. Nextflow (26/julio/2024) - Israel Aguilar
 
--------------
+### Viernes 1. Información general del curso e Introducción a R
 
-Temas por acomodar en fechas:
-
-- Creando funciones para la generación de gráficos con ggplot2 - Evelia Coss
+- Fecha: Viernes 2 de febrero 2024
+- Instructora: Dra. Evelia Coss
+- Presentación: [Introducción a R](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D1_IntroduccionR_slides_P2.html#1)
+- Grabación: Clase1
+- Lecturas y cursos recomendados:
+    - [R for dummies](https://drive.google.com/file/d/1qgmGVEFd93qyISIPNkuZU-iQArG-YyhQ/view?usp=sharing)
+    - [R for beginners](https://drive.google.com/file/d/1iCRDCXB5wzSzbpk0LJjPpYutluKTSlTp/view?usp=sharing)
+    - [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
 
 ## Licencia y términos de uso
 
