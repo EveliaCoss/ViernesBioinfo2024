@@ -3,7 +3,7 @@ title: "Introducción a R, parte 1"
 subtitle: "VieRnes de Bioinformatica"
 author: "Dra. Evelia Coss y Sofía Salazar"
 institute: "LIIGH, UNAM"
-date: "2023/09/29"
+date: "2024/02/02"
 output:
   xaringan::moon_reader:
     css: 
