@@ -1,0 +1,612 @@
+Name,Alignment,Intelligence,Strength,Speed,Durability,Power,Combat,Total
+3-D Man,good,50,31,43,32,25,52,233
+A-Bomb,good,38,100,17,80,17,64,316
+Abe Sapien,good,88,14,35,42,35,85,299
+Abin Sur,good,50,90,53,64,84,65,406
+Abomination,bad,63,80,53,90,55,95,436
+Abraxas,bad,88,100,83,99,100,56,526
+Adam Monroe,good,63,10,12,100,71,64,320
+Adam Strange,good,1,1,1,1,0,1,5
+Agent  13,good,1,1,1,1,0,1,5
+Agent Bob,good,10,8,13,5,5,20,61
+Agent Zero,good,75,28,38,80,72,95,388
+Air-Walker,bad,50,85,100,85,100,40,460
+Alan Scott,good,63,80,23,90,98,32,386
+Alex Woolsly,good,1,1,1,1,0,1,5
+Alfred Pennyworth,good,63,10,17,10,7,55,162
+Allan Quatermain,good,1,1,1,1,0,1,5
+Amazo,bad,75,100,100,100,100,100,575
+Ammo,bad,1,1,1,1,0,1,5
+Ando Masahashi,good,1,1,1,1,0,1,5
+Angel,good,63,13,46,64,17,42,245
+Angel Salvadore,good,38,10,28,28,46,60,210
+Angela,bad,1,1,1,1,0,1,5
+Animal Man,good,56,48,47,85,73,80,389
+Annihilus,bad,75,80,47,56,59,64,381
+Ant-Man,good,100,10,23,28,32,32,225
+Ant-Man II,good,63,10,23,28,32,28,184
+Anti-Monitor,bad,88,90,38,90,100,90,496
+Anti-Spawn,bad,1,1,1,1,0,1,5
+Anti-Venom,,75,60,65,90,85,84,459
+Apocalypse,bad,100,100,33,100,100,60,493
+Aquababy,good,10,16,12,14,37,14,103
+Aqualad,good,63,44,42,75,76,60,360
+Aquaman,good,63,80,50,80,65,80,418
+Arachne,good,1,1,1,1,0,1,5
+Archangel,good,63,13,58,64,28,42,268
+Arclight,bad,38,63,23,42,52,70,288
+Ares,good,75,82,35,80,62,101,435
+Ariel,good,50,10,12,14,72,28,186
+Armor,good,50,63,12,80,55,54,314
+Arsenal,good,1,1,1,1,0,1,5
+Astro Boy,good,1,1,1,1,0,1,5
+Atlas,good,50,80,23,99,69,42,363
+Atom,good,1,1,1,1,0,1,5
+Atom Girl,good,38,10,23,28,38,42,179
+Atom I,good,1,1,1,1,0,1,5
+Atom II,good,1,1,1,1,0,1,5
+Atom III,good,1,1,1,1,0,1,5
+Atom IV,good,1,1,1,1,0,1,5
+Aurora,good,50,15,83,56,69,56,329
+Azazel,bad,50,11,47,95,87,80,370
+Azrael,good,63,18,17,20,35,80,233
+Aztar,good,1,1,1,1,0,1,5
+Bane,bad,88,53,23,56,51,95,366
+Banshee,good,50,10,58,42,60,70,290
+Bantam,good,25,53,23,54,21,56,232
+Batgirl I,good,1,1,1,1,0,1,5
+Batgirl II,good,1,1,1,1,0,1,5
+Batgirl III,good,1,1,1,1,0,1,5
+Batgirl IV,good,69,12,27,56,42,100,306
+Batgirl V,good,1,1,1,1,0,1,5
+Batgirl VI,good,75,10,23,28,22,80,238
+Batman,good,100,18,27,42,37,100,324
+Batman II,good,88,11,33,28,36,100,296
+Battlestar,good,50,53,35,74,48,74,334
+Beak,good,1,1,1,1,0,1,5
+Beast,good,88,48,35,56,35,84,346
+Beast Boy,good,50,28,50,70,79,40,317
+Beetle,bad,1,1,1,1,0,1,5
+Ben 10,good,10,7,8,10,90,40,165
+Beta Ray Bill,good,63,80,35,95,100,84,457
+Beyonder,good,88,100,23,100,100,56,467
+Big Barda,good,63,90,23,85,42,72,375
+Big Daddy,good,38,10,12,32,22,64,178
+Big Man,bad,75,12,23,28,19,70,227
+Bill Harken,good,63,36,33,60,23,40,255
+Billy Kincaid,bad,1,1,1,1,0,1,5
+Binary,good,1,1,1,1,0,1,5
+Bird-Brain,good,25,10,35,28,21,42,161
+Bird-Man,bad,1,1,1,1,0,1,5
+Bird-Man II,bad,1,1,1,1,0,1,5
+Birdman,good,1,1,1,1,0,1,5
+Bishop,good,63,14,23,75,85,65,325
+Bizarro,neutral,75,95,100,100,95,85,550
+Black Abbott,bad,1,1,1,1,0,1,5
+Black Adam,bad,88,100,92,100,89,56,525
+Black Bolt,good,75,67,100,84,100,56,482
+Black Canary I,good,1,1,1,1,0,1,5
+Black Canary II,good,1,1,1,1,0,1,5
+Black Cat,good,75,16,33,10,23,70,227
+Black Goliath,good,1,1,1,1,0,1,5
+Black Knight III,good,63,10,8,70,43,70,264
+Black Lightning,good,50,11,53,28,70,75,287
+Black Mamba,bad,75,10,35,42,78,65,305
+Black Panther,good,88,16,30,60,41,100,335
+Black Widow,good,75,13,27,32,32,100,279
+Black Widow II,good,1,1,1,1,0,1,5
+Blackout,bad,63,32,45,80,38,65,323
+Blackwing,bad,38,10,35,32,20,56,191
+Blackwulf,,50,28,8,30,59,25,200
+Blade,good,63,28,38,50,33,90,302
+Blaquesmith,good,1,1,1,1,0,1,5
+Bling!,good,69,14,12,90,52,28,265
+Blink,good,50,8,20,28,55,64,225
+Blizzard,bad,1,1,1,1,0,1,5
+Blizzard I,bad,1,1,1,1,0,1,5
+Blizzard II,bad,38,10,27,42,47,56,220
+Blob,bad,10,83,23,95,26,72,309
+Bloodaxe,bad,63,80,33,80,84,84,424
+Bloodhawk,good,50,10,50,80,66,64,320
+Bloodwraith,bad,1,1,1,1,0,1,5
+Blue Beetle,good,1,1,1,1,0,1,5
+Blue Beetle I,good,1,1,1,1,0,1,5
+Blue Beetle II,good,1,1,1,1,0,1,5
+Blue Beetle III,good,50,34,58,80,97,30,349
+Bolt,good,1,1,1,1,0,1,5
+Bomb Queen,bad,1,1,1,1,0,1,5
+Boom Boom,good,38,10,12,42,56,64,222
+Boomer,good,1,1,1,1,0,1,5
+Booster Gold,good,56,85,53,50,72,40,356
+Box,good,1,1,1,1,0,1,5
+Box III,good,1,1,1,1,0,1,5
+Box IV,good,50,75,23,28,11,56,243
+Brainiac,bad,100,28,63,90,60,75,416
+Brainiac 5,good,100,10,23,28,60,32,253
+Brother Voodoo,good,1,1,1,1,0,1,5
+Bullseye,bad,50,11,25,70,20,70,246
+Bumblebee,good,63,28,25,10,45,35,206
+Bumbleboy,good,1,1,1,1,0,1,5
+Bushido,good,38,10,8,10,19,70,155
+Cable,good,88,48,23,56,100,80,395
+Callisto,bad,63,53,23,42,45,85,311
+Cameron Hicks,good,50,10,23,28,51,70,232
+Cannonball,good,50,28,67,99,79,56,379
+Captain America,good,63,19,35,56,46,100,319
+Captain Atom,good,1,1,1,1,0,1,5
+Captain Britain,good,75,77,50,60,31,80,373
+Captain Epic,good,1,1,1,1,0,1,5
+Captain Mar-vell,good,1,1,1,1,0,1,5
+Captain Marvel,good,100,100,67,95,62,56,480
+Captain Marvel II,good,75,81,27,90,34,56,363
+Captain Planet,good,1,1,1,1,0,1,5
+Captain Universe,good,1,1,1,1,0,1,5
+Carnage,bad,63,63,70,84,81,90,451
+Cat,good,1,1,1,1,0,1,5
+Cat II,good,1,1,1,1,0,1,5
+Catwoman,good,63,13,33,28,24,85,246
+Cecilia Reyes,good,1,1,1,1,0,1,5
+Century,good,88,80,53,64,74,100,459
+Cerebra,good,1,1,1,1,0,1,5
+Chamber,good,50,10,20,80,57,64,281
+Chameleon,bad,88,10,12,28,28,28,194
+Changeling,bad,63,10,23,42,64,64,266
+Cheetah I,bad,1,1,1,1,0,1,5
+Cheetah II,bad,1,1,1,1,0,1,5
+Cheetah III,bad,1,1,1,1,0,1,5
+Chromos,bad,1,1,1,1,0,1,5
+Chuck Norris,good,50,80,47,56,42,99,374
+Claire Bennet,good,38,9,12,100,73,28,260
+Clea,good,1,1,1,1,0,1,5
+Cloak,good,63,10,47,64,74,56,314
+Cogliostro,bad,1,1,1,1,0,1,5
+Colin Wagner,good,1,1,1,1,0,1,5
+Colossal Boy,good,1,1,1,1,0,1,5
+Colossus,good,63,83,33,100,46,80,405
+Corsair,good,1,1,1,1,0,1,5
+Crimson Crusader,good,1,1,1,1,0,1,5
+Crimson Dynamo I,good,1,1,1,1,0,1,5
+Crystal,good,63,16,12,14,57,56,218
+Curse,bad,1,1,1,1,0,1,5
+Cy-Gor,bad,1,1,1,1,0,1,5
+Cyborg,good,75,53,42,85,72,64,391
+Cyborg Superman,bad,75,93,92,100,100,80,540
+Cyclops,good,75,10,23,42,76,80,306
+Cypher,good,1,1,1,1,0,1,5
+Dagger,good,63,10,35,42,52,70,272
+Danny Cooper,good,1,1,1,1,0,1,5
+Daphne Powell,good,38,10,8,10,56,10,132
+Daredevil,good,75,13,27,28,57,95,295
+Darkhawk,good,50,32,33,70,74,64,323
+Darkman,good,75,14,23,85,12,28,237
+Darkseid,bad,88,100,23,100,100,95,506
+Darkside,bad,1,1,1,1,0,1,5
+Darkstar,good,38,8,35,42,52,64,239
+Dash,good,9,4,83,42,12,28,178
+Dazzler,good,63,10,35,42,64,56,270
+Deadman,good,50,10,33,100,100,42,335
+Deadpool,neutral,50,15,30,100,100,100,395
+Deadshot,bad,50,10,23,28,47,80,238
+Deathlok,good,69,32,30,70,40,60,301
+Deathstroke,neutral,75,30,35,100,36,90,366
+Demogoblin,bad,50,48,42,35,54,60,289
+Destroyer,bad,50,95,58,98,90,70,461
+DL Hawkins,good,50,12,12,56,48,56,234
+Doc Samson,good,75,80,33,80,36,70,374
+Doctor Doom,bad,100,32,20,100,93,84,429
+Doctor Doom II,bad,1,32,1,1,0,1,36
+Doctor Fate,good,81,16,25,80,100,50,352
+Doctor Octopus,bad,1,1,1,1,0,1,5
+Doctor Strange,good,100,10,12,84,100,60,366
+Domino,good,63,10,27,28,49,74,251
+Donna Troy,good,1,1,1,1,0,1,5
+Doomsday,bad,88,80,67,120,100,90,545
+Doppelganger,bad,8,63,60,95,62,84,372
+Dormammu,bad,88,95,83,100,100,80,546
+Dr Manhattan,good,88,32,42,95,100,42,399
+Ego,bad,88,80,83,99,71,28,449
+Elastigirl,good,38,32,12,90,20,14,206
+Electro,bad,69,10,50,56,67,64,316
+Elektra,good,63,11,30,28,59,100,291
+Elle Bishop,bad,50,8,12,42,63,42,217
+Elongated Man,good,38,10,27,90,41,42,248
+Emma Frost,good,75,63,35,90,82,42,387
+Energy,good,1,1,1,1,0,1,5
+ERG-1,good,1,1,1,1,0,1,5
+Evilhawk,bad,50,32,33,70,78,64,327
+Exodus,bad,63,81,28,28,100,70,370
+Fabian Cortez,bad,1,1,1,1,0,1,5
+Falcon,good,38,13,50,28,22,64,215
+Fallen One II,bad,88,85,83,100,100,56,512
+Faora,bad,88,95,75,100,87,90,535
+Feral,good,38,28,45,28,20,70,229
+Fighting Spirit,good,1,1,1,1,0,1,5
+Fin Fang Foom,good,50,81,23,100,68,70,392
+Firebird,good,38,8,40,14,90,42,232
+Firelord,good,38,63,75,90,48,28,342
+Firestar,good,50,8,54,55,71,32,270
+Firestorm,good,50,53,58,56,100,42,359
+Fixer,bad,1,1,1,1,0,1,5
+Flash Gordon,good,1,1,1,1,0,1,5
+Flash I,good,63,10,100,50,57,32,312
+Flash II,good,63,10,100,60,66,32,331
+Flash III,good,63,10,100,60,83,32,348
+Flash IV,good,63,10,100,32,59,48,312
+Forge,good,63,10,12,28,12,48,173
+Franklin Richards,good,1,1,1,1,0,1,5
+Franklin Storm,good,38,10,1,1,0,10,60
+Frenzy,bad,63,53,35,100,38,52,341
+Frigga,good,1,1,1,1,0,1,5
+Galactus,neutral,100,100,83,100,100,70,553
+Gambit,good,63,10,23,28,55,84,263
+Garbage Man,good,1,1,1,1,0,1,5
+Gary Bell,good,63,5,8,10,54,10,150
+General Zod,bad,94,100,96,100,94,95,579
+Genesis,good,1,1,1,1,0,1,5
+Ghost Rider,good,50,55,25,100,70,60,360
+Ghost Rider II,good,1,1,1,1,0,1,5
+Giant-Man,good,1,1,1,1,0,1,5
+Giant-Man II,good,1,1,1,1,0,1,5
+Giganta,bad,81,89,23,85,32,42,352
+Goblin Queen,bad,75,10,23,28,65,56,257
+Gog,bad,50,34,47,72,39,56,298
+Goku,good,56,100,75,90,100,100,521
+Goliath,good,1,1,1,1,0,1,5
+Goliath II,good,1,1,1,1,0,1,5
+Goliath III,bad,1,1,1,1,0,1,5
+Goliath IV,good,1,1,1,1,0,1,5
+Granny Goodness,bad,1,1,1,1,0,1,5
+Gravity,good,50,32,33,40,72,30,257
+Green Arrow,good,75,12,35,28,26,90,266
+Green Goblin,bad,75,48,35,48,38,28,272
+Green Goblin II,bad,75,55,37,50,38,26,281
+Green Goblin III,good,1,1,1,1,0,1,5
+Green Goblin IV,good,1,1,1,1,0,1,5
+Groot,good,75,85,33,70,92,64,419
+Guardian,good,1,1,1,1,0,1,5
+Guy Gardner,good,38,80,27,64,97,64,370
+Hal Jordan,good,63,90,53,64,100,56,426
+Hancock,good,50,85,65,100,70,28,398
+Harley Quinn,bad,81,12,23,42,30,80,268
+Havok,good,63,10,25,60,71,45,274
+Hawk,good,38,38,35,95,36,42,284
+Hawkeye,good,50,12,23,14,26,80,205
+Hawkeye II,good,50,6,8,10,24,50,148
+Hawkgirl,good,50,28,53,99,74,72,376
+Hawkman,good,1,1,1,1,0,1,5
+Hawkwoman I,good,1,1,1,1,0,1,5
+Hawkwoman II,good,1,1,1,1,0,1,5
+Hawkwoman III,good,1,1,1,1,0,1,5
+Hellboy,good,63,53,23,85,30,75,329
+Hellcat,good,50,10,23,42,18,70,213
+Hellstorm,good,1,1,1,1,0,1,5
+Hercules,good,63,100,46,85,67,100,461
+Hiro Nakamura,good,1,1,1,1,0,1,5
+Hit-Girl,good,10,8,23,14,21,56,132
+Hobgoblin,bad,1,1,1,1,0,1,5
+Hollow,good,1,1,1,1,0,1,5
+Hope Summers,good,63,10,12,32,89,75,281
+Howard the Duck,good,1,1,1,1,0,1,5
+Hulk,good,88,100,47,100,41,85,461
+Human Torch,good,56,10,63,70,74,42,315
+Huntress,good,69,10,23,28,34,95,259
+Husk,good,63,63,35,78,53,64,356
+Hydro-Man,bad,38,13,25,80,66,50,272
+Hyperion,good,63,95,75,95,58,72,458
+Iceman,good,63,32,53,100,100,64,412
+Impulse,good,50,10,100,60,63,60,343
+Ink,good,38,28,17,40,66,50,239
+Invisible Woman,good,69,10,27,70,74,56,306
+Iron Fist,good,75,23,35,42,43,100,318
+Iron Man,good,100,85,58,85,100,64,492
+Iron Monger,bad,88,63,25,90,57,56,379
+Ironman,good,1,1,1,1,0,1,5
+Isis,good,75,48,75,46,43,56,343
+Jack Bauer,good,1,1,1,1,0,1,5
+Jack of Hearts,good,63,55,100,30,70,30,348
+Jack-jack,good,6,34,67,80,69,6,262
+Jean Grey,good,100,80,67,100,100,70,517
+Jennifer Kale,good,75,10,35,42,61,72,295
+Jessica Sanders,good,1,1,1,1,0,1,5
+Jigsaw,bad,1,1,1,1,0,1,5
+Jim Powell,good,38,38,23,80,23,20,222
+JJ Powell,good,88,10,8,10,14,10,140
+Johann Krauss,good,1,1,1,1,0,1,5
+John Stewart,good,50,80,27,64,94,54,369
+John Wraith,good,75,12,35,28,65,80,295
+Joker,bad,100,10,12,56,22,90,290
+Jolt,good,63,12,27,32,31,42,207
+Jubilee,good,56,8,22,20,66,90,262
+Juggernaut,neutral,44,100,42,100,74,70,430
+Junkpile,bad,50,38,17,90,71,30,296
+Justice,good,50,10,33,70,55,30,248
+Kang,bad,100,48,58,70,71,70,417
+Kevin 11,bad,25,7,12,14,100,40,198
+Kick-Ass,good,10,10,23,14,21,56,134
+Kid Flash,good,25,4,92,42,13,30,206
+Kid Flash II,good,1,1,1,1,0,1,5
+Killer Croc,bad,25,48,33,85,36,60,287
+Kilowog,good,81,90,53,42,100,80,446
+Kingpin,bad,75,18,25,40,13,70,241
+Klaw,bad,63,38,33,100,62,60,356
+Kool-Aid Man,good,25,10,12,14,10,14,85
+Kraven II,bad,50,34,23,28,36,85,256
+Kraven the Hunter,bad,63,32,35,42,26,85,283
+Krypto,good,9,80,100,90,72,40,391
+Lady Bullseye,bad,1,1,1,1,0,1,5
+Lady Deathstrike,bad,1,1,1,1,0,1,5
+Leader,bad,100,10,12,14,58,42,236
+Leech,good,25,5,12,14,62,14,132
+Lex Luthor,bad,100,10,12,14,10,28,174
+Light Lass,good,38,10,35,28,65,42,218
+Lightning Lad,good,38,10,23,28,60,42,201
+Lightning Lord,bad,44,10,23,42,66,42,227
+Living Brain,bad,75,53,35,56,31,28,278
+Liz Sherman,good,1,1,1,1,0,1,5
+Lizard,bad,38,51,27,70,40,56,282
+Lobo,bad,88,83,35,100,95,85,486
+Loki,bad,88,57,47,85,85,56,418
+Longshot,good,50,10,27,10,71,70,238
+Luke Cage,good,44,55,23,95,35,64,316
+Luke Campbell,bad,1,1,1,1,0,1,5
+Luna,good,38,6,83,14,53,14,208
+Lyja,good,1,1,1,1,0,1,5
+Mach-IV,bad,75,36,60,84,60,56,371
+Machine Man,good,63,32,35,84,51,64,329
+Magneto,bad,88,80,27,84,91,80,450
+Magog,good,50,48,23,64,66,72,323
+Magus,bad,88,100,70,99,100,74,531
+Man-Bat,neutral,38,18,50,70,33,30,239
+Man-Thing,good,50,32,8,100,98,40,328
+Man-Wolf,good,63,44,35,42,38,70,292
+Mandarin,bad,100,28,23,28,99,95,373
+Martian Manhunter,good,100,100,96,100,100,85,581
+Marvel Girl,good,63,85,47,42,100,80,417
+Master Brood,good,1,1,1,1,0,1,5
+Master Chief,good,75,73,35,80,62,100,425
+Match,bad,75,95,83,85,90,70,498
+Matt Parkman,good,63,10,12,14,59,56,214
+Maverick,good,63,10,12,42,60,85,272
+Maxima,bad,75,90,35,56,67,75,398
+Maya Herrera,good,50,10,12,14,60,14,160
+Medusa,good,75,34,35,70,35,56,305
+Meltdown,good,38,10,12,42,58,64,224
+Mephisto,bad,88,85,35,95,100,42,445
+Mera,good,56,62,54,70,55,70,367
+Metallo,bad,75,53,23,95,74,64,384
+Metamorpho,good,1,1,1,1,0,1,5
+Meteorite,good,1,1,1,1,0,1,5
+Metron,good,88,10,47,56,69,28,298
+Micah Sanders,good,63,8,12,14,57,14,168
+Micro Lad,good,38,28,27,28,44,32,197
+Mimic,good,63,67,47,56,79,42,354
+Minna Murray,good,1,1,1,1,0,1,5
+Misfit,good,63,32,23,80,62,42,302
+Miss Martian,good,63,85,58,100,100,45,451
+Mister Fantastic,good,100,10,18,70,32,64,294
+Mister Freeze,bad,75,32,12,70,37,28,254
+Mister Mxyzptlk,bad,113,10,12,14,100,28,277
+Mister Sinister,bad,1,1,1,1,0,1,5
+Mogo,good,1,1,1,1,0,1,5
+Mohinder Suresh,good,1,1,1,1,0,1,5
+Moloch,bad,1,1,1,1,0,1,5
+Molten Man,bad,50,73,23,84,53,56,339
+Monarch,good,1,1,1,1,0,1,5
+Monica Dawson,good,50,10,35,14,48,90,247
+Moon Knight,good,50,36,23,42,28,75,254
+Moonstone,good,56,67,47,52,79,80,381
+Morlun,bad,63,60,35,42,59,56,315
+Morph,good,1,1,1,1,0,1,5
+Moses Magnum,bad,75,28,12,42,55,56,268
+Mr Incredible,good,38,73,35,95,25,42,308
+Ms Marvel,good,63,80,47,52,70,80,392
+Ms Marvel II,good,38,63,23,84,11,56,275
+Multiple Man,good,63,11,23,70,28,62,257
+Mysterio I,bad,75,10,23,42,50,56,256
+Mystique,bad,75,12,23,64,58,74,306
+Namor,good,1,1,1,1,0,1,5
+Namora,good,50,85,42,42,41,64,324
+Namorita,good,50,72,47,70,30,70,339
+Naruto Uzumaki,good,50,80,32,80,100,100,442
+Nathan Petrelli,good,1,1,1,1,0,1,5
+Nick Fury,good,75,11,23,42,25,100,276
+Nightcrawler,good,50,10,47,14,52,80,253
+Nightwing,good,88,11,33,28,36,100,296
+Niki Sanders,good,63,52,35,28,37,56,271
+Nina Theroux,good,63,5,8,10,54,20,160
+Nite Owl II,good,1,1,1,1,0,1,5
+Northstar,good,50,18,83,56,70,70,347
+Nova,good,100,85,67,101,100,85,538
+Nova,good,38,60,100,100,100,25,423
+Offspring,good,50,10,35,99,100,56,350
+Omega Red,bad,1,1,1,1,0,1,5
+Omniscient,good,1,1,1,1,0,1,5
+Onslaught,bad,88,85,47,100,100,85,505
+Oracle (DC),good,75,11,23,28,19,76,232
+Osiris,good,75,85,60,95,65,42,422
+Overtkill,bad,1,1,1,1,0,1,5
+Penance,good,1,1,1,1,0,1,5
+Penance I,good,1,1,1,1,0,1,5
+Penance II,good,1,1,1,1,0,1,5
+Penguin,bad,75,10,12,28,30,45,200
+Peter Petrelli,good,63,28,23,28,69,56,267
+Phantom,good,1,1,1,1,0,1,5
+Phantom Girl,good,38,10,23,28,53,42,194
+Phoenix,good,100,80,67,100,100,70,517
+Plastic Lad,good,1,1,1,1,0,1,5
+Plastic Man,good,50,63,23,100,100,56,392
+Plastique,bad,50,10,23,28,60,42,213
+Poison Ivy,bad,69,14,23,14,71,36,227
+Power Girl,good,88,98,67,95,67,75,490
+Power Man,good,1,1,1,1,0,1,5
+Professor X,good,100,8,12,14,90,32,256
+Proto-Goblin,bad,63,38,23,48,22,28,222
+Psylocke,good,1,1,1,1,0,1,5
+Punisher,good,50,16,23,28,22,100,239
+Pyro,bad,38,10,12,14,50,28,152
+Quantum,good,1,1,1,1,0,1,5
+Question,good,81,14,27,35,20,80,257
+Quicksilver,good,63,28,100,60,57,56,364
+Quill,good,38,10,12,14,23,14,111
+Ra's Al Ghul,bad,100,28,32,42,27,100,329
+Rachel Pirzad,good,63,4,8,10,52,10,147
+Raven,neutral,50,10,29,70,62,40,261
+Razor-Fist II,bad,1,1,1,1,0,1,5
+Red Arrow,good,63,16,25,20,24,80,228
+Red Hood,neutral,75,12,23,28,24,95,257
+Red Hulk,good,50,88,47,95,59,75,414
+Red Mist,bad,25,10,23,14,20,56,148
+Red Robin,good,81,11,27,32,29,80,260
+Red Skull,bad,75,10,12,14,19,80,210
+Red Tornado,good,75,38,67,60,92,40,372
+Redeemer II,bad,1,1,1,1,0,1,5
+Redeemer III,bad,1,1,1,1,0,1,5
+Renata Soliz,good,1,1,1,1,0,1,5
+Rhino,bad,25,80,43,90,37,85,360
+Rick Flag,bad,88,11,23,28,19,95,264
+Riddler,bad,100,10,12,14,10,14,160
+Ripcord,good,1,1,1,1,0,1,5
+Robin I,good,88,11,27,28,32,85,271
+Robin II,good,1,1,1,1,0,1,5
+Robin III,good,81,11,27,28,30,85,262
+Robin V,good,69,8,33,16,29,65,220
+Rocket Raccoon,good,50,5,23,28,28,64,198
+Rogue,good,75,10,12,28,80,80,285
+Ronin,good,38,10,27,32,21,90,218
+Rorschach,good,75,10,29,20,23,80,237
+Sabretooth,bad,55,53,25,90,28,100,351
+Sage,good,75,10,12,14,28,56,195
+Sandman,neutral,50,75,47,97,62,56,387
+Sasquatch,good,75,80,23,56,15,42,291
+Savage Dragon,good,63,70,54,85,49,72,393
+Scarecrow,bad,81,10,12,14,48,50,215
+Scarlet Spider,good,75,53,60,74,39,56,357
+Scarlet Spider II,good,88,55,60,40,30,56,329
+Scarlet Witch,bad,88,10,23,42,67,28,258
+Scorpia,bad,38,28,42,28,34,28,198
+Scorpion,bad,50,52,60,85,49,80,376
+Sentry,good,75,80,58,84,97,54,448
+Shadow King,good,75,12,27,100,100,75,389
+Shadowcat,good,88,8,21,25,69,70,281
+Shang-Chi,good,63,12,30,50,25,100,280
+Shatterstar,good,63,48,45,64,42,84,346
+She-Hulk,good,69,100,42,100,33,70,414
+She-Thing,good,1,1,1,1,0,1,5
+Shocker,bad,63,10,23,70,63,56,285
+Shriek,good,50,10,23,28,45,42,198
+Shrinking Violet,good,1,1,1,1,0,1,5
+Sif,good,50,57,25,52,19,70,273
+Silk Spectre I,good,1,1,1,1,0,1,5
+Silk Spectre II,good,1,1,1,1,0,1,5
+Silver Surfer,good,63,100,84,101,100,32,480
+Silverclaw,good,50,28,35,42,34,42,231
+Sinestro,bad,75,80,53,64,100,56,428
+Siren,bad,38,10,12,14,55,28,157
+Siren II,bad,1,1,1,1,0,1,5
+Siryn,bad,38,8,47,28,50,42,213
+Skaar,good,50,85,27,90,62,85,399
+Snowbird,good,50,32,27,42,63,52,266
+Sobek,good,50,34,23,46,20,56,229
+Solomon Grundy,bad,9,93,13,100,78,30,323
+Songbird,good,75,36,27,42,55,56,291
+Space Ghost,good,38,18,33,40,90,80,299
+Spawn,good,75,60,50,90,100,95,470
+Spectre,good,1,1,1,1,0,1,5
+Speedball,good,1,1,1,1,0,1,5
+Speedy,good,1,1,1,1,0,1,5
+Spider-Carnage,bad,1,1,1,1,0,1,5
+Spider-Girl,good,63,38,60,65,46,75,347
+Spider-Man,good,88,55,60,74,58,85,420
+Spider-Woman,good,50,42,42,32,62,52,280
+Spider-Woman II,good,1,1,1,1,0,1,5
+Spider-Woman III,good,50,48,27,42,60,28,255
+Spider-Woman IV,bad,1,1,1,1,0,1,5
+Spiderman,good,1,1,1,1,0,1,5
+Spyke,good,50,12,17,60,41,30,210
+Stacy X,good,1,1,1,1,0,1,5
+Stardust,good,88,85,100,110,100,85,568
+Starfire,good,50,80,33,85,59,70,377
+Stargirl,good,50,40,27,90,71,56,334
+Steel,good,81,82,53,90,64,64,434
+Stephanie Powell,good,69,10,54,10,17,10,170
+Storm,good,75,10,47,30,88,75,325
+Sub-Mariner,good,63,80,47,56,37,84,367
+Sunspot,good,63,63,35,25,79,70,335
+Super Moos,good,8,1,1,10,65,40,125
+Superboy,good,75,95,83,90,84,60,487
+Superboy-Prime,bad,94,100,100,100,100,85,579
+Supergirl,good,94,98,92,100,85,75,544
+Superman,good,100,100,100,100,94,85,579
+Swamp Thing,bad,88,80,23,100,66,56,413
+Sylar,bad,75,10,12,28,91,56,272
+Synch,good,75,67,23,28,74,56,323
+Tempest,good,38,10,45,28,62,60,243
+Thanos,bad,88,100,17,100,100,80,485
+The Cape,good,38,10,23,32,22,64,189
+The Comedian,neutral,63,14,17,10,12,80,196
+Thing,good,75,84,21,90,26,80,376
+Thor,good,69,100,92,100,100,85,546
+Thor Girl,good,75,83,70,84,100,70,482
+Thunderbird,good,50,32,27,32,14,70,225
+Thunderbird II,good,1,1,1,1,0,1,5
+Thunderbird III,good,1,1,1,1,0,1,5
+Thunderstrike,good,63,80,70,84,31,72,400
+Thundra,good,38,81,32,64,26,54,295
+Tiger Shark,bad,38,72,42,70,21,28,271
+Tigra,good,63,32,53,38,33,90,309
+Tinkerer,bad,100,10,23,14,10,14,171
+Titan,good,1,1,1,1,0,1,5
+Toad,neutral,50,34,58,56,49,28,275
+Toxin,good,56,73,70,84,75,70,428
+Tracy Strauss,good,1,1,1,1,0,1,5
+Trickster,,1,1,1,1,0,1,5
+Triplicate Girl,good,63,10,23,42,44,42,224
+Two-Face,bad,88,10,12,14,9,28,161
+Ultragirl,good,50,80,35,70,35,80,350
+Ultron,bad,88,83,42,100,100,64,477
+Utgard-Loki,bad,50,80,23,84,72,64,373
+Vagabond,good,1,1,1,1,0,1,5
+Valerie Hart,good,1,1,1,1,0,1,5
+Valkyrie,good,1,1,1,1,0,1,5
+Vanisher,bad,63,10,75,56,39,42,285
+Venom,bad,75,57,65,84,79,84,444
+Venom II,bad,50,57,47,70,54,56,334
+Venom III,bad,63,73,35,90,66,56,383
+Vertigo II,good,1,1,1,1,0,1,5
+Vindicator,good,1,1,1,1,0,1,5
+Vindicator II,good,63,63,53,64,56,70,369
+Violator,bad,1,1,1,1,0,1,5
+Violet,good,10,4,12,28,65,14,133
+Vision,good,100,72,54,95,76,70,467
+Vision II,good,1,1,1,1,0,1,5
+Vulcan,good,1,1,1,1,0,1,5
+Vulture,bad,63,22,47,56,40,56,284
+Walrus,bad,50,28,8,50,11,20,167
+War Machine,good,63,80,63,100,100,85,491
+Warbird,good,1,1,1,1,0,1,5
+Warlock,good,88,36,79,95,71,95,464
+Warp,bad,38,10,23,28,63,50,212
+Warpath,good,38,72,47,70,26,84,337
+Wasp,good,63,8,58,52,23,42,246
+Watcher,good,100,80,67,89,100,56,492
+Weapon XI,bad,1,1,1,1,0,1,5
+White Queen,good,1,1,1,1,0,1,5
+Wildfire,good,50,32,23,100,77,42,324
+Willis Stryker,bad,38,16,23,28,41,60,206
+Winter Soldier,good,56,32,35,65,60,84,332
+Wiz Kid,good,1,1,1,1,0,1,5
+Wolfsbane,good,38,16,35,42,26,42,199
+Wolverine,good,55,32,38,100,44,100,369
+Wonder Girl,good,75,90,25,80,39,60,369
+Wonder Man,good,75,100,53,90,64,64,446
+Wonder Woman,good,88,100,50,100,42,100,480
+Wondra,good,1,1,1,1,0,1,5
+Wyatt Wingfoot,good,10,10,12,1,1,56,90
+X-23,good,75,24,35,90,27,85,336
+X-Man,good,88,53,53,95,92,84,465
+Yellow Claw,bad,1,1,1,1,0,1,5
+Yellowjacket,good,88,10,12,28,12,14,164
+Yellowjacket II,good,50,10,35,28,31,28,182
+Ymir,good,50,100,27,100,83,28,388
+Zatanna,good,75,10,23,28,100,56,292
+Zoom,bad,50,10,100,28,72,28,288
