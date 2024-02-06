@@ -77,7 +77,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Fecha: Viernes 2 de febrero 2024
 - Instructora: Dra. Evelia Coss
 - Presentación: [Introducción a R](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D1_IntroduccionR_slides_P2.html#1)
-- Grabación: Clase1
+- Grabación: [Clase1](https://drive.google.com/file/d/1E8HLYIOP-7b_1oX5Xsos-ikVtvyTpgS6/view?usp=sharing)
 - Lecturas y cursos recomendados:
     - [R for dummies](https://drive.google.com/file/d/1qgmGVEFd93qyISIPNkuZU-iQArG-YyhQ/view?usp=sharing)
     - [R for beginners](https://drive.google.com/file/d/1iCRDCXB5wzSzbpk0LJjPpYutluKTSlTp/view?usp=sharing)
