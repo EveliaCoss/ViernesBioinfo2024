@@ -83,6 +83,18 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
     - [R for beginners](https://drive.google.com/file/d/1iCRDCXB5wzSzbpk0LJjPpYutluKTSlTp/view?usp=sharing)
     - [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
 
+### Viernes 2. Manipulación de datos con R base (vector y dataframe)
+
+- Fecha: Viernes 16 de febrero 2024
+- Instructora: Dra. Evelia Coss
+- Presentación: [Manipulación de datos con R base (vector y dataframe)](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D2_IntroduccionR_segunda.html#1)
+- Grabación: Clase2
+- Lecturas y cursos recomendados:
+    - [R for dummies](https://drive.google.com/file/d/1qgmGVEFd93qyISIPNkuZU-iQArG-YyhQ/view?usp=sharing)
+    - [R for beginners](https://drive.google.com/file/d/1iCRDCXB5wzSzbpk0LJjPpYutluKTSlTp/view?usp=sharing)
+    - [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
+
+      
 ## Licencia y términos de uso
 
 El material de los VieRnes de Bioinformatica se distribuye públicamente a través de este repositorio GitHub bajo la Licencia No Comercial Creative Commons 4.0
