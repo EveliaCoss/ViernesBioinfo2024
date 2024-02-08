@@ -735,7 +735,7 @@ Gracias por tu atención, respira y coméntame tus dudas.
 Instala los siguientes paquete ANTES de la siguiente clase:
 
 ```{r paquetes necesarios,eval=FALSE}
-install.packages("Rmakdown")
+install.packages("rmarkdown")
 install.packages("dplyr")
 install.packages("reshape2")
 install.packages("remotes")

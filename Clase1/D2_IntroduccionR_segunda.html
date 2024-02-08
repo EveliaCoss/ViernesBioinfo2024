@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang xml:lang>
   <head>
-    <title>Introducción a R, parte 1</title>
+    <title>Introducción a R, parte 2</title>
     <meta charset="utf-8" />
     <meta name="author" content="Dra. Evelia Coss y Sofía Salazar" />
     <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
@@ -1699,7 +1699,7 @@ left: 6px;
 })(window, document)
 </script>
     <script id="xaringanExtra-webcam-options" type="application/json">{"width":"200","height":"200","margin":"1em"}</script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xdf0418d93084d49a18d66b4a045a94e","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x71f84486d294398847d6c7c9a720a06","expires":1}</script>
     <script>(function(f){if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.himalaya = f()}})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 'use strict';
 
@@ -4101,683 +4101,16 @@ background-size: 15%
 
 
 .center-column[
-# Introducción a R, parte 1
+# Introducción a R, parte 2
 ### VieRnes de Bioinformatica
 
 ####Dra. Evelia Coss y Sofía Salazar 
-#### 2024/02/02
-]
-
----
-background-image: url(data:image/png;base64,#imagenes/liigh_unam_logo.png) 
-background-position: 10% 10%
-background-size: 10%
-class: middle, center
-
-
-# VieRnes de Bioinformática
-----
-
-.left-col[ 
-### <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#181818;overflow:visible;position:relative;"><path d="M416 0c17.7 0 32 14.3 32 32c0 59.8-30.3 107.5-69.4 146.6c-28 28-62.5 53.5-97.3 77.4l-2.5 1.7c-11.9 8.1-23.8 16.1-35.5 23.9l0 0 0 0 0 0-1.6 1c-6 4-11.9 7.9-17.8 11.9c-20.9 14-40.8 27.7-59.3 41.5H283.3c-9.8-7.4-20.1-14.7-30.7-22.1l7-4.7 3-2c15.1-10.1 30.9-20.6 46.7-31.6c25 18.1 48.9 37.3 69.4 57.7C417.7 372.5 448 420.2 448 480c0 17.7-14.3 32-32 32s-32-14.3-32-32H64c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-59.8 30.3-107.5 69.4-146.6c28-28 62.5-53.5 97.3-77.4c-34.8-23.9-69.3-49.3-97.3-77.4C30.3 139.5 0 91.8 0 32C0 14.3 14.3 0 32 0S64 14.3 64 32H384c0-17.7 14.3-32 32-32zM338.6 384H109.4c-10.1 10.6-18.6 21.3-25.5 32H364.1c-6.8-10.7-15.3-21.4-25.5-32zM109.4 128H338.6c10.1-10.7 18.6-21.3 25.5-32H83.9c6.8 10.7 15.3 21.3 25.5 32zm55.4 48c18.4 13.8 38.4 27.5 59.3 41.5c20.9-14 40.8-27.7 59.3-41.5H164.7z"/></svg> Sofía Salazar Magaña
-
-Estudiante de la [Licenciatura en Ciencias Genómicas](https://www.enesjuriquilla.unam.mx/?page_id=2136) @ ENES-J UNAM
-
-Asistente de investigación @ [RegGenoLab](https://liigh.unam.mx/), LIIGH UNAM
-
-Asistente de investigación @ [Im Lab](https://hakyimlab.org/), The University of Chicago 
-
-
-[<svg aria-hidden="true" role="img" viewBox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg> GitHub: SophSM](https://github.com/SophSM)
-]
-
-.center-col[
-### <svg aria-hidden="true" role="img" viewBox="0 0 576 512" style="height:1em;width:1.12em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#181818;overflow:visible;position:relative;"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg> Miembro
-
-- [LupusRGMX](https://twitter.com/LupusRgmx)
-
-- [Proyecto JAGUAR](https://twitter.com/PJaguarLATAM)
-]
-
-.right-col[
-&lt;img src=&quot;figures/LAB-logo.png&quot;, height = &quot;150&quot;&gt;
-&lt;img src = &quot;figures/lupus-logo.png&quot;&gt;
-&lt;img src = &quot;figures/jaguar-logo.png&quot;&gt;
-]
----
-class: center, middle
-
-<svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:3em;width:3.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
-# Clase 1. Introducción a R
-
----
-
-## ¿Qué es R?
-
-R es un entorno de desarrollo de software libre y lenguaje de programación. 
-
-**¿Por qué utilizar R?**
-
-Es ampliamente utilizado para la *computación estadística, gráfica, y de machine learning*. Ofrece una amplia variedad de **funciones estadísticas** (modelos lineales y no lineales, pruebas estadísticas clásicas, análisis de series de tiempo, clasificación, agrupamiento, etc.), y para realizar gráficas.
-
-Además, existen numerosas librerías que nos pemiten realizar análisis y más gráficas, incluyendo para análisis de datos genómicos.
-
-.center[
-&lt;img src = &quot;figures/r-logo.png&quot;, height = &quot;150&quot;&gt;
+#### 2024/02/09
 ]
 
 ---
 
-.center[
-&lt;img src = &quot;figures/meme1.jpeg&quot;, height = &quot;600&quot;&gt;
-]
-
----
-
-## ¿Cómo instalamos R?
-
-Para installar R, debemos de entrar a la página de [CRAN](https://cran.r-project.org/) &quot;The Comprehensive R Archive Network&quot;. Al installar R, descargamos también ~ 25 paqueterías/librerías.
-
-**CRAN** es una red en la que se archivan todas las versiones de R base, así como todos los paquetes para R que han pasado por un proceso de revisión riguroso, realizado por el CRAN Team.
-
-.center[
-&lt;img src = &quot;figures/download-r.png&quot;, height = &quot;320&quot;&gt;
-]
-
----
-
-## ¿Qué es RStudio?
-
-RStudio es un **entorno de desarrollo integrado (IDE)** para R. Un IDE es una aplicación que ayuda a los programadores a *desarrollar código de una manera eficiente*. Nos proporciona una interfaz para poder editar código fuente, herramientas de ambiente, visualización, terminal y consola.
-
-**RStudio Desktop** es una aplicación que se utiliza ampliamente para desarrollar programas en R, pero también podemos accesar al IDE de RStudio a través con [RStudio Server](https://posit.co/download/rstudio-server/), a través de un navegador web.
-
-.center[
-&lt;img src = &quot;figures/rstudio-logo.png&quot;, height = &quot;250&quot;&gt;
-]
----
-## ¿Cómo descargamos RStudio?
-
-Podemos descargar RStudio desde [esta página](https://posit.co/download/rstudio-desktop/). Ya realizamos el paso 1: Install R. 
-
-En el paso 2: Install R studio, nos debería detectar el sistema operativo, descarguemos la versión recomendada en el botón **azul** y sigamos las instrucciones de instalación.
-.center[
-&lt;img src = &quot;figures/download-rstudio.png&quot;, height = &quot;400&quot;&gt;
-]
----
-## Las partes de RStudio
-
-.center[
-&lt;img src = &quot;figures/partes-rstudio.png&quot;, height = &quot;600&quot;&gt;
-]
----
-## Cambiando el aspecto de RStudio
-
-Podemos cambiar la forma en que se ve la aplicación desde **Editar &gt; Preferencias &gt; Apariencia**, escogemos el tema que nos guste y damos click en **Aplicar** y luego **OK** 
-
-.center[
-&lt;img src = &quot;figures/apariencia-rstudio.png&quot;, height = &quot;300&quot;&gt;
-]
-
----
-
-## Comenzando con R y RStudio: 1. R Project
-
-Al comenzar a trabajar con R y RStudio, ya sea para crear un programa para un proyecto, crear una aplicación, presentación, blog, paquete, etc, es recomendado crear un **R project**.
-
-Al crear un R project, se creará un folder en donde estarán todos los documentos, fotos, scripts, etc. que usaremos en ese projecto. Es una forma organizada y práctica de trabajar con R.
-
----
-## ¿Cómo iniciamos un R project?
-
-Vayamos en la parte superior al menú **Archivos &gt; Nuevo Proyecto**.
-.center[
-&lt;img src = &quot;figures/r_2.png&quot;, height = &quot;450&quot;&gt;]
----
-## ¿Cómo iniciamos un R project?
-
-Seleccionamos la opción de **Nuevo directorio**.
-.center[
-&lt;img src = &quot;figures/r_3.png&quot;, height = &quot;450&quot;&gt;]
----
-
-## ¿Cómo iniciamos un R project?
-
-Seleccionamos el tipo de projecto que vamos a iniciar, en nuestro caso **Nuevo proyecto**.
-.center[
-&lt;img src = &quot;figures/r_4.png&quot;, height = &quot;450&quot;&gt;]
----
-
-## ¿Cómo iniciamos un R project?
-
-Nombramos el folder que crearemos y seleccionamos en dónde queremos que se almacene. 
-.center[
-&lt;img src = &quot;figures/r_5.png&quot;, height = &quot;450&quot;&gt;]
----
-
-## ¿Cómo iniciamos un R project?
-
-¡Felicidades, acabas de crear un R project! Si vamos al folder en donde creamos nuestro proyecto, podemos observar que se creó un archivo con terminación **Rproj**, este es un archivo que contiene la configuración específica para nuestro proyecto. 
-
-Este archivo también establece como **directorio de trabajo** el folder en donde iniciamos el proyecto (puedes comprobarlo desde la consola de RStudio, escribiendo el comando `getwd()`). Esto es muy conveniente puesto que así podemos asegurarnos de que vamos a acceder a los archivos que estén exclusivamente en nuestro entorno de trabajo.
-
-
-```r
-getwd()
-# [1] &quot;C:/Users/ecoss/OneDrive - CINVESTAV/Documentos/Posdoc_LIIGH/VieRnesBioinfo/ViernesBioinfo_2024/Presentaciones&quot;
-```
-
-Cambiar directorio de trabajo
-
-
-```r
-setwd(&quot;/Users/sofiasalazar/nuevodirectorio&quot;) # Mac y Linux, iOS, ejemplo de Sofi
-setwd(&quot;C:/Users/ecoss/OneDrive - CINVESTAV/Documentos/Posdoc_LIIGH/Clases_Cursos_Medicina_Guadalajara2023&quot;) # Windows
-```
-
----
-## Comenzando con nuestro proyecto: Crear un Rscript
-
-Para comenzar a trabajar en un proyecto, necesitamos crear un archivo para escribir nuestro programa. Entra en **Archivo &gt; Nuevo Archivo**.
-
-Podemos ver que tenemos distintas opciones de archivos que podemos crear, en este caso vamos a crear nuestro primer Rscript.
-
-.center[
-&lt;img src = &quot;figures/r_6.png&quot;, height = &quot;350&quot;&gt;]
-
----
-## Crear un Rscript
-
-**¿Qué es un Rscript?** Es simplemente un archivo de texto con las instrucciones de nuestro algoritmo escritas en el lenguaje de R. También contiene nuestros comentarios escritos con `#`.
-
-Intenta escribir tu primer Rscript en el **editor**, copiando el siguiente algoritmo para realizar una suma:
-
-
-```r
-a &lt;- 2
-b &lt;- 3
-suma = a + b
-suma
-```
-
-Selecciona todo el código, después ve a la parte superior de la ventana del **editor** y da click en el botón **Run**. Enseguida de esto, en la **consola** se ejecutará tu código y podrás ver el siguiente resultado:
-
-.left-col[
-&lt;img src = &quot;figures/script-R.png&quot;, height = &quot;150&quot;&gt;]
-
-.center-col[
-También pueden ejecutar tu código línea por línea, poniendo tu cursor al principio o al final de la linea y presionando las teclas **Control + Enter** o **Command + Enter**.
-]
----
-## Crear un Rscript
-
-**¿Qué es un Rscript?** Es simplemente un archivo de texto con las instrucciones de nuestro algoritmo escritas en el lenguaje de R. También contiene nuestros comentarios escritos con `#`.
-
-Intenta escribir tu primer Rscript en el **editor**, copiando el siguiente algoritmo para realizar una suma:
-
-
-```r
-a &lt;- 2
-b &lt;- 3
-suma = a + b
-suma
-```
-
-Selecciona todo el código, después ve a la parte superior de la ventana del **editor** y da click en el botón **Run**. Enseguida de esto, en la **consola** se ejecutará tu código y podrás ver el siguiente resultado:
-
-.left-col[
-&lt;img src = &quot;figures/script-R.png&quot;, height = &quot;150&quot;&gt;]
-
-.center-col[
-También pueden ejecutar tu código línea por línea, poniendo tu cursor al principio o al final de la linea y presionando las teclas **Control + Enter** o **Command + Enter**.
-]
-
-.right-col[&lt;img src = &quot;figures/meme4.jpeg&quot;, height = &quot;200&quot;&gt;]
-
----
-
-## R session
-
-Al momento de comenzar a ejecutar líneas de código, guardar valores en variables y cargar librerías, estaremos guardando esto en nuestra &quot;sesión de R&quot;. Esto es un &quot;ambiente&quot; que puedes guardar al finalizar de trabajar y lo que guardaste lo puedes cargar a Rstudio la próxima vez que vayas a continuar trabajando.
-
-Para guardar tu sesión de R:
-
-
-```r
-save.image(file = &quot;/una/direccion/enTu/PC/sesionR_miPrograma.RData&quot;)
-```
-
-Para cargar tu sesión de R:
-
-
-```r
-load(file = &quot;/una/direccion/enTu/PC/sesionR_miPrograma.RData&quot;)
-```
-
-También puedes guardar y cargar **solo alguna variable**:
-
-
-```r
-save(variable, file = &quot;/una/direccion/enTu/PC/variable.RData&quot;)
-load(&quot;/una/direccion/enTu/PC/variable.RData&quot;) # ahora &quot;variable&quot; estara en tu ambiente
-```
-
----
-## Buenas prácticas de programación: Set up de tu trabajo
-
-Es buena idea comenzar **todos** tus scripts con las mismas líneas de código que indiquen lo siguiente:
-
-.content-box-gray[
-- *Título de tu programa*
-- *Autor (author)*: Su nombre
-- *Fecha (date)*: Fecha de creación
-- *Propósito general de tu programa (Description)*: ¿Para qué sirve el programa? Ej: El siguiente programa realiza la suma de dos numeros enteros a partir de la entrada del usuario y posteriormente la imprime en pantalla.
-- *Usage* ¿Cómo se utiliza?
-- *Paquetes (packages)*
-- *Directorio de trabajo (Working directory)*: En que carpeta se encuentra tu datos y programa.
-  - *Directorio de input*: aquí estan guardados los datos que vas a usar en el programa
-  - *Directorio de output*: aquí es donde vas a guardar tus resultados
-- *Argumentos (Arguments)*
-  - *Información de entrada (Data Inputs)*: Ej: Solo numeros enteros (sin decimales).
-  - *Información de salida (Outpus)*: Graficas, figuras, tablas, etc.
-- Líneas en donde cargues los datos que vas a usar
-]
-
----
-
-.center[&lt;img src = &quot;figures/meme3.jpeg&quot;, height = &quot;400&quot;&gt;
-
-]
-
----
-
-## Buenas prácticas de programación: Set up de tu trabajo
-
-
-```r
-# Mi programa
-# Tu nombre
-# Fecha: dd-mm-aaaa
-# Este script ejecuta xxx utilizando como input xxx y dando como output xxx
-# Input dir
-indir &lt;- &quot;/Users/sofiasalazar/miPrograma/input/&quot;
-# Output dir
-outdir &lt;- &quot;/Users/sofiasalazar/miPrograma/output/&quot;
-# Librerias
-
-library(ggplot2)
-library(tidyverse)
-
-# Cargar input
-datos_file &lt;- paste0(indir,&quot;misDatos.csv&quot;)
-datos_file
-```
-
-
-```r
-datos &lt;- read.csv(datos_file)
-load(file = paste0(indir, &quot;variable.RData&quot;))
-load(file = paste0(indir, &quot;sesionR_miPrograma.RData&quot;))
-```
-
----
-## ¿Qué es una librería?
-
-En programación, una librería es una colección de código pre-escrito. Una librería contiene una &quot;paquete&quot; o &quot;librería&quot; de funciones que podemos utilizar si descargamos e importamos esa librería a nuestro programa. 
-
-Como mencioné anteriormente, al descargar R, también descargamos una serie de librerías, llamadas **base R packages**. Sin embargo, dependiendo del problema que queramos resolver con nuestro programa, necesitaremos librerías que nos permitan hacer otras cosas.
-
-Existen distintas formas de instalar librerías.
-
----
-## Instalar librerías: CRAN
-
-1. Instalación desde el repositorio de CRAN: podemos descargar paqueterías de CRAN de dos formas: 
-
-La primera, desde consola con el siguiente comando:
-
-
-```r
-install.packages(&quot;ggplot2&quot;)
-```
-
-La segunda, desde el menú **Herramientas &gt; Instalar paqueterías**. En la ventana, ingresamos el nombre de la librería y click en **Instalar**. 
-
-.center[
-&lt;img src = &quot;figures/r_7.png&quot;, height = &quot;250&quot;&gt;]
-
----
-## Instalar librerías: Bioconductor
-
-Alternativamente, podemos instalar paqueterías de Bioconductor, que es otro repositorio de paquetes diseñados para el análisis de datos genómicos, por ejemplo para hacer análisis estadísticos, anotación, acceso a bases de datos públicas, etc.
-
-Hay muchas librerías que están tanto en CRAN como en Bioconductor, pero también hay librerías específicas para uno de ellos. Para poder instalar desde bioconductor, necesitamos primero instalar el &quot;instalador de bioconductor&quot;:
-
-
-```r
-install.packages(&quot;BiocManager&quot;) # Esto es necesario solo 1 vez
-```
-
-Después, instalamos la librería que queremos y la cargamos:
-
-
-```r
-BiocManager::install(&quot;DESeq2&quot;)
-library(DESeq2)
-```
-
-Puedes ver librerías y sus manuales en la [página de Bioconductor](bioconductor.org) o cuando ingresamos en **consola**: 
-
-
-```r
-browseVignettes(&quot;DESeq2&quot;)
-```
-
----
-## Instalar librerías: Source
-
-Podemos instalar librerías si tienes los archivos en tu PC, esto es útil cuando no tienes acceso a internet.
-
-
-```r
-install.packages(&quot;~/Downloads/ggplot2_1.0.1.tar.gz&quot;, type=&quot;source&quot;, repos=NULL)
-```
-
-O desde **GitHub**:
-
-
-```r
-install.packages(&quot;remotes&quot;)# instalar el paquete remotes
-remotes::install_github(&quot;mitchelloharawild/icons&quot;)
-```
-
-Cuando hay funciones que tienen el mismo nombre en varios paquetes, lo mejor es que le digas a R de que paquete viene esa función mediante los `::`. Ejemplo: `dplyr::select()`
-
----
-## ¿Cómo podemos verificar que paquetes tenemos?
-
-En la ventana inferior derecha, existe una pestaña que se llama &quot;Packages&quot; que contendra la lista de paquetes instalados en tu computadora, su descripción corta y su versión.  
-
-Tambien en esta pestaña podemos instalar paquetes dandado click en INSTALL.
-
-.center[
-&lt;img src = &quot;figures/paquetes_descargados.png&quot;, height = &quot;400&quot;&gt;]
-
----
-
-## Eliminación de paquetes 
-
-En algunas ocasiones vamos a tener que actualizar las versiones de los paquetes, pero primero dedes eliminar la versión anterior. Dando click en el botón que contiene una `X` que esta al final de la fila en cada programa.
-
-.center[
-&lt;img src = &quot;figures/paquetes_eliminar.png&quot;, height = &quot;250&quot;&gt;]
-
-También puedes usar codigo para eliminar el paquete:
-
-
-```r
-remove.packages(&quot;package-to-remove&quot;)
-```
-
----
-
-## Cargar paquetes en el ambiente de R
-
-- **Opción A:** Emplear la función `library` para cargar en el ambiente el paquete.
-
-
-```r
-library(ggplot2)
-```
-
-- **Opción B:** Dando click a la *casilla que indica el paquete*. Para dejar de usarlo da de nuevo click en esa casilla para que deje de estar marcada.
-
-.center[
-&lt;img src = &quot;figures/paquete_cargado.png&quot;, height = &quot;250&quot;&gt;]
-
----
-
-## Buenas prácticas al finalizar tu programa
-
-- **Guarda tu output**
-
-
-```r
-write.csv(datos_procesados, file = paste0(outdir, &quot;datos_procesados.csv&quot;))
-save(datos_procesados, file = paste0(outdir, &quot;datos_procesados.RData&quot;))
-save.image(file = paste0(outdir, &quot;sesionR_miPrograma.RData&quot;)
-```
-
-- **Especifica qué librerías utilizaste y qué versiones**
-
-Cuando hacemos un programa, puede que en el futuro otras personas lo quieran utilizar, sin embargo, es probable que **las librerías que usaste en el momento que escribiste el programa se hayan actualizado.**
-
-Es por eso que **al final de TODO programa que escribas, ejecutes y escribas el resultado de correr la siguiente línea.**
-
-
-```r
-sessionInfo()
-```
-
-Puedes intentar correr este comando tú, lo que verás impreso en consola son todas las librerías instaladas en tu sesión de R, así como **la versión**. Entonces así, si alguien quiere reproducir tus resultados en algún momento, deberá instalar las mismas versiones de las librerías que tú utilizaste.
-
----
-
-## Importar datos en R
-
-Existen distintos tipos de formatos de datos que podemos ingresar a R para su análisis. Los principales son:
-
-### A) Datos separados por un valor
-
-Por ejemplo por comas (.csv), tab (.tsv) o espacios. Aunque la siguiente función puede leer por cualquier separador.
-
-
-```r
-read.table(&quot;/path/dataset.csv&quot;, header = TRUE, delim = &quot;,&quot;)
-read.table(&quot;/path/dataset.tsv&quot;, header = TRUE, delim = &quot;\t&quot;)
-read.table(&quot;/path/dataset.&quot;, header = TRUE, delim = &quot;,&quot;)
-```
-
-El parámetro header nos dice si considerar la primera fila como nombre de las variables.
-
-También podemos leer un archivo .csv directamente:
-
-
-```r
-read.csv(&quot;/path/dataset.csv&quot;)
-```
-
----
-
-## Datos en formato CSV
-
-Archivos separados por comas. 
-
-Este ejemplo fue obtenido del repositorio de Github de [Cosmoduende](dataset_shdb/charactersStats.csv).
-
-.center[
-&lt;img src = &quot;figures/formatoCSV_marvel.png&quot;, height = &quot;250&quot;&gt;]
-
----
-
-## Datos en formato TSV
-
-Archivo separado por tabuladores. 
-
-Este ejemplo proviene de la base de datos de *Arabidopsis thaliana*, la planta modelo en el estudio de la genómica. Este archivo indica el tipo o característica del gen anotado en [Araport11](https://www.arabidopsis.org/download_files/Genes/Araport11_genome_release/Araport11_gene_type).
-
-.center[
-&lt;img src = &quot;figures/formatoTSV_arabidopsis.png&quot;, height = &quot;250&quot;&gt;]
-
----
-
-## Se pueden cargar datos biológicos en formato TSV
-
-- Formato de texto plano - [Araport11 Gene Type.txt](https://www.arabidopsis.org/download_files/Genes/Araport11_genome_release/Araport11_gene_type)
-- [Formato GFF](https://genome.ucsc.edu/FAQ/FAQformat.html#format3): [Araport11_GFF3_genes_transposons.current.gff](https://drive.google.com/file/d/1EBl07-o6Ai2QvOzDwjbFmazipWK1Jgj2/view?usp=share_link) 
-- [Formato GTF](https://genome.ucsc.edu/FAQ/FAQformat.html#format4): [Araport11_GTF_genes_transposons.current.gtf](https://drive.google.com/file/d/1XdQqVeaeB6Uz2AGFWRrUmKJ_9z2goYZX/view?usp=share_link) - 
-- [Formato BED12](https://genome.ucsc.edu/FAQ/FAQformat.html) - [Araport11_pcoding_transcripts.bed](https://drive.google.com/file/d/1a3UzS6X_rQ8eyw0WllM8vR8DK4Aq3dR6/view?usp=share_link)
-
----
-## Otros formatos
-
-### B) Archivos tipo RData
-
-Usualmente cargan todo el ambiente o varias variables
-
-
-```r
-load(&quot;/path/ambiente.RData&quot;)
-```
-
-### C) Archivos tipo RDS
-
-Se usan para cargar variables, usualmente muy pesadas
-
-
-```r
-variable &lt;- readRDS(&quot;/path/variable.RData&quot;)
-```
-
----
-
-class: center, middle
-
-<svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:3em;width:3.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
-# Marvel vs DC comics
-
-.center[.pull-right[
-&lt;img src = &quot;logos/Marvel_Logo.png&quot;, height = &quot;250&quot;&gt;]
-]
-
-.center[.pull-left[
-&lt;img src = &quot;logos/DC-comic-1.png&quot;, height = &quot;250&quot;&gt;]
-]
-
----
-
-class: center, middle
-
-## Crea un RProject
-
----
-## Recapitulando las buenas prácticas:
-
-
-```r
-######
-# Script de clase &quot;Intro a R&quot;
-# Evelia Coss
-# 9 de octubre 2023
-#######
-
-indir = &quot;C:/Users/ecoss/IntroR_BasesDeDatos2023/data/&quot;
-outdir = &quot;C:/Users/ecoss/IntroR_BasesDeDatos2023/results&quot;
-```
-
----
-
-## Ejercicio: cargar un dataset
-
-Descarga los tres datasets de Marvel dando click en este [link](https://github.com/cosmoduende/r-marvel-vs-dc/tree/main/dataset_shdb), debes tener tres archivos en la misma carpeta `charactersStats.csv`, `heroesInformation.csv` y `superHeroPowers.csv`. Asegúrate de guardarlo en el directorio donde hiciste tu Rproject. En mi caso, guarde los datos en la carpeta `data/`.
-
-Importa los archivos en R de la siguiente manera:
-
-
-```r
-infoCharacters &lt;- read.csv(&quot;data/heroesInformation.csv&quot;, na.strings = c(&quot;-&quot;, &quot;-99&quot;)) 
-# La opcion na.string nos permite sustituir valores - y -99 por NA
-infoPowers &lt;- read.csv(&quot;data/superHeroPowers.csv&quot;)
-infoStats &lt;- read.csv(&quot;data/charactersStats.csv&quot;, na.strings = &quot;&quot;)
-```
-
-Visualiza su información con `head()` o `View()`.
-
-&gt; **NOTA:** Primero debes crear la carpeta data/ antes de descargar los archivos.
-
----
-
-## Recuerda: Verifica que el archivo este en el lugar correcto
-
-1) Verifica tu directorio de trabajo
-
-
-```r
-getwd()
-# [1] &quot;C:/Users/ecoss/OneDrive - CINVESTAV/Documentos/Posdoc_LIIGH/VieRnesBioinfo/ViernesBioinfo_2024/Presentaciones&quot;
-```
-
-2) Verifica que se encuentren los tres archivos en la carpeta `data/`.
-
-
-```r
-dir(&quot;data&quot;)
-# [1] &quot;charactersStats.csv&quot;   &quot;fullMarvelDc.RData&quot;    &quot;heroesInformation.csv&quot;
-# [4] &quot;marvelDc.RData&quot;        &quot;MMHOME.csv&quot;            &quot;planets.csv&quot;          
-# [7] &quot;superheroes.RData&quot;     &quot;superHeroPowers.csv&quot;
-```
-
----
-
-## Buenas prácticas
-
-1) Importar datos
-
-
-```r
-######
-# Script de clase &quot;Intro a R&quot;
-# Evelia Coss
-# 9 de octubre 2023
-#######
-
-indir = &quot;C:/Users/ecoss/OneDrive - CINVESTAV/Documentos/Posdoc_LIIGH/VieRnesBioinfo/ViernesBioinfo_2024/Presentaciones/data/&quot;
-outdir = &quot;C:/Users/ecoss/OneDrive - CINVESTAV/Documentos/Posdoc_LIIGH/VieRnesBioinfo/ViernesBioinfo_2024/Presentaciones/&quot;
-
-infoCharacters &lt;- read.csv(paste0(indir,&quot;heroesInformation.csv&quot;), na.strings = c(&quot;-&quot;, &quot;-99&quot;)) 
-# La opcion na.string nos permite sustituir valores - y -99 por NA
-infoPowers &lt;- read.csv(paste0(indir,&quot;superHeroPowers.csv&quot;))
-infoStats &lt;- read.csv(paste0(indir,&quot;charactersStats.csv&quot;), na.strings = &quot;&quot;)
-```
-
----
-## Buenas prácticas
-
-2) Visualizar su información con `head()`
-
-
-```r
-head(infoCharacters, 5)[1:5]
-#   X        name Gender Eye.color              Race
-# 1 0      A-Bomb   Male    yellow             Human
-# 2 1  Abe Sapien   Male      blue     Icthyo Sapien
-# 3 2    Abin Sur   Male      blue           Ungaran
-# 4 3 Abomination   Male     green Human / Radiation
-# 5 4     Abraxas   Male      blue     Cosmic Entity
-```
-
----
-
-## Ejercicio: Guarda tu ambiente
-
-Con el comando:
-
-
-```r
-save.image(paste0(indir, miAmbiente1.RData))
-```
-
----
-
-class: center, middle
-
-<svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:3em;width:3.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
-# Viernes 9 de febrero 2024  
-## Manipulación de datos con Marvel y DC comics 
-
-Gracias por tu atención, respira y coméntame tus dudas. 
-
-Instala los siguientes paquete ANTES de la siguiente clase:
+### Paquetes necesarios
 
 
 ```r
@@ -4786,6 +4119,730 @@ install.packages(&quot;dplyr&quot;)
 install.packages(&quot;reshape2&quot;)
 install.packages(&quot;remotes&quot;)
 ```
+
+---
+
+class: center, middle
+
+<svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:3em;width:3.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+# Estructura de datos / Tipos de datos
+
+---
+
+## Existen 5 estructuras de datos en R
+
+Las estructuras de datos son objetos que contienen datos. Cuando trabajamos con R, lo que estamos haciendo es manipular estas estructuras.
+
+| Tipo        | Declaración de la variable       | Conversión       | Dimensiones  | Contenido               |
+|-------------|----------------------------------|------------------|--------------|-------------------------|
+| Vector      | c(), seq(), rep(), valorI:valorN; seq_len() | as.vector()      |  1           | homogénea               |
+| Lists       | list()                           | as.list()        |  1*          | homogénea               |
+| Matrix      | matrix(valores, nrow=x, ncol=y)  | as.matrix()      |  2           | heterogénea             |
+| Dataframe   | data.frame()                      | as.dataframe()   |  2           | heterogénea             |
+
+Tambien estan los `array` pero son poco usados en R.
+
+Para conocer la estructura del archivo debes usar `str()`.
+
+Una lista puede contener matrices en su interior, vectores, funciones, etc.
+
+---
+
+.center[
+&lt;img src = &quot;imagenes/DataStructure.png&quot;, height = &quot;400&quot;&gt;
+]
+
+---
+
+## Recordatorio: Clases de variables
+
+| Clases    | Declaración de la variable    | Conversión de formato  |                   Reglas                                     |
+|-----------|------------------------------|-------------------------|--------------------------------------------------------------|
+| numeric   | `numeric()`                  | `as.numeric()`          | FALSE -&gt; 0, TRUE -&gt; 1; &quot;1&quot;, &quot;2&quot;, ... -&gt; 1,2, ...; &quot;A&quot; -&gt; NA  |
+| integer   | `integer()`                  | `as.integer()`          | FALSE -&gt; 0, TRUE -&gt; 1; &quot;1&quot;, &quot;2&quot;, ... -&gt; 1,2, ...; &quot;A&quot; -&gt; NA  |
+| double    | `double()`                   | `as.double()`           |                                                              |
+| character | `character()`                | `as.character()`        |  1,2, ... -&gt; &quot;1&quot;, &quot;2&quot;, ...; FALSE -&gt; &quot;FALSE&quot;; TRUE -&gt; &quot;TRUE&quot;|
+| logical   | `logical()`                  | `as.logical()`          | 0 -&gt; FALSE, other numbers -&gt; TRUE; (&quot;FALSE&quot;, &quot;F&quot;) -&gt; FALSE; (&quot;TRUE&quot;, &quot;T&quot;) -&gt; TRUE, other character -&gt; NA|
+| factor    | `factor()`                   | `as.factor()`           |                                                             |
+
+Si queremos saber la clase de la variable debemos usar `class()`, aunque tambien `str()` te dice esta información. 
+
+&gt; NOTA: `as.integer()` convierte los numeros a enteros. Ejemplo: as.integer(2.5) = 2. En cambio, `as.double()` permite que los numeros contengan decimales.
+
+.left[.footnote[.black[
+R for beginners, Página 24
+]]]
+
+---
+
+## Recordatorio: Operadores
+
+| Aritméticos              | Comparación               | Argumentos lógicos (Logical Operators)   |
+|--------------------------|---------------------------|------------------------------------------|
+| `+`  Adición / suma      | `&lt;`  Menor que            | `!x`  - Not x (logical NOT)              |  
+| `-`  Sustracción / resta | `&gt;`  Mayor que            | `x &amp; y` OR `x AND y` -  (logical AND)    |                
+| `*`  Multiplicación      | `&lt;=` Menor o igual que    | `x &amp;&amp; y`  - identico                     |
+| `/` OR %% División       | `&gt;=`  Mayor o igual que   | `xor(x,y)`  Funcion OR                   |
+| `^` OR ** Exponencial    | `==`  Igual a             | `%in%` pertenece a                       | 
+| `%/%` División integral  | `!=`  Diferente de        |                                          |
+
+Otra forma de escrir OR es `x | y` OR `x || y`.
+
+.left[.footnote[.black[
+R for beginners, Página 25
+]]]
+
+---
+## Jerarquía de operaciones
+
+En R, al igual que en matemáticas, las operaciones tienen un orden de evaluación definido.
+
+Cuanto tenemos varias operaciones ocurriendo al mismo tiempo, en realidad, algunas de ellas son realizadas antes que otras y el resultado de ellas dependerá de este orden.
+
+
+| Orden |  Operadores             | 
+|-------|-------------------------|
+| 1     |  `^`                    |
+| 2     | `* /`                   |
+| 3	    | `+ -`                   |
+| 4	    | `&lt; &gt; &lt;= &gt;= == !=`       |
+| 5     | `!`                     |
+| 6	    | `&amp;`                     |
+| 7	    | OR                      |
+
+---
+
+name: en-vivo
+background-color: var(--morado-claro)
+class: middle, center, inverse
+
+<svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:3em;width:3.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M128 0C92.7 0 64 28.7 64 64V288H19.2C8.6 288 0 296.6 0 307.2C0 349.6 34.4 384 76.8 384H320V288H128V64H448V96h64V64c0-35.3-28.7-64-64-64H128zM512 128H400c-26.5 0-48 21.5-48 48V464c0 26.5 21.5 48 48 48H592c26.5 0 48-21.5 48-48V256H544c-17.7 0-32-14.3-32-32V128zm32 0v96h96l-96-96z"/></svg>
+# Manipulación de datos con R base (vector y dataframe) 
+
+---
+
+## Vector: Formas de declarar un vector
+
+
+```r
+# Declarar el vector con 5 posiciones (del 1 al 5)
+# Opcion A - c()
+x &lt;- c(1,2,3,4,5)
+
+# Opcion B - valorI:valorN
+x &lt;- 1:5 
+x
+# [1] 1 2 3 4 5
+
+# Opcion C - seq(inicio, final)
+x &lt;- seq(1,5) # 
+x
+# [1] 1 2 3 4 5
+
+# Opcion D -seq_len(final)
+x &lt;- seq_len(5) 
+x
+# [1] 1 2 3 4 5
+
+# Opcion E - rep(valor, veces)
+y &lt;- c(rep(1,5), rep(c(3,5),5))
+y
+#  [1] 1 1 1 1 1 3 5 3 5 3 5 3 5 3 5
+```
+
+---
+
+## Vector: Estructura y clases de variables
+
+Conocer la estructura de un vector mediante la función `str()`. El vector es de tipo `integer` y va de 1 a 5.
+
+
+```r
+str(x)
+#  int [1:5] 1 2 3 4 5
+```
+Para solo ver el tipo usamos la función `class()`
+
+
+```r
+class(x)
+# [1] &quot;integer&quot;
+```
+
+---
+
+## Ejercicios
+
+
+```r
+x &lt;- c(TRUE, TRUE, FALSE, FALSE)
+x
+# [1]  TRUE  TRUE FALSE FALSE
+x &lt;- as.factor(x)
+```
+
+Vamos a crear un nuevo vector con los nombres de los participantes a esta clase
+
+
+```r
+ClaseBioinfo &lt;- c(&quot;Jose Luis&quot;, &quot;Diego&quot;, &quot;Rosita&quot;, &quot;Yuri&quot;, 
+                  &quot;Ulises&quot;, &quot;Tere&quot;, &quot;Chucho&quot;)
+ClaseBioinfo
+# [1] &quot;Jose Luis&quot; &quot;Diego&quot;     &quot;Rosita&quot;    &quot;Yuri&quot;      &quot;Ulises&quot;    &quot;Tere&quot;     
+# [7] &quot;Chucho&quot;
+
+# ver estructura
+str(ClaseBioinfo)
+#  chr [1:7] &quot;Jose Luis&quot; &quot;Diego&quot; &quot;Rosita&quot; &quot;Yuri&quot; &quot;Ulises&quot; &quot;Tere&quot; &quot;Chucho&quot;
+```
+
+---
+## Ejercicios
+
+Extraer información
+
+
+```r
+ClaseBioinfo ==&quot;Ulises&quot;
+# [1] FALSE FALSE FALSE FALSE  TRUE FALSE FALSE
+ClaseBioinfo ==&quot;Chucho&quot;
+# [1] FALSE FALSE FALSE FALSE FALSE FALSE  TRUE
+```
+
+Cuando son mas de un valor usamos `%in%`
+
+
+```r
+ClaseBioinfo %in% c(&quot;Ulises&quot;, &quot;Chucho&quot;)
+# [1] FALSE FALSE FALSE FALSE  TRUE FALSE  TRUE
+```
+
+
+---
+## Ejercicios
+
+Ahora tambien podemos usar:
+
+
+```r
+ClaseBioinfo == c(&quot;Ulises&quot;, &quot;Chucho&quot;)
+```
+Podemos declarar un vector de los tratamientos
+
+
+```r
+# opcion A
+y &lt;- rep(c(&quot;Control&quot;, &quot;Condicion&quot;),5)
+y
+#  [1] &quot;Control&quot;   &quot;Condicion&quot; &quot;Control&quot;   &quot;Condicion&quot; &quot;Control&quot;   &quot;Condicion&quot;
+#  [7] &quot;Control&quot;   &quot;Condicion&quot; &quot;Control&quot;   &quot;Condicion&quot;
+# opcion B
+y &lt;- c(rep(&quot;Control&quot;,5), rep(&quot;Condicion&quot;,5))
+y
+#  [1] &quot;Control&quot;   &quot;Control&quot;   &quot;Control&quot;   &quot;Control&quot;   &quot;Control&quot;   &quot;Condicion&quot;
+#  [7] &quot;Condicion&quot; &quot;Condicion&quot; &quot;Condicion&quot; &quot;Condicion&quot;
+```
+
+---
+
+## Dataframe: Formas de declarar un vector
+
+
+```r
+x &lt;- 1:4
+n &lt;- 10
+M &lt;- c(10, 35)
+y &lt;- 2:4
+```
+
+Podemos declarar los componentes de un Dataframe en variables separadas y luego juntarlo o en una sola linea.
+
+
+```r
+x &lt;- 1:4; n &lt;- 10; M &lt;- c(10, 35); y &lt;- 2:4
+```
+
+Vamos a crear dataframes apartir de estos vectores.
+
+
+```r
+data.frame(x, n)
+#   x  n
+# 1 1 10
+# 2 2 10
+# 3 3 10
+# 4 4 10
+data.frame(x, M)
+#   x  M
+# 1 1 10
+# 2 2 35
+# 3 3 10
+# 4 4 35
+```
+
+---
+
+## Dataframe en una sola linea
+
+Crear un dataframe en una sola linea, sin declarar cada variable.
+
+
+```r
+data.frame(x = 1:4, n = 10)
+#   x  n
+# 1 1 10
+# 2 2 10
+# 3 3 10
+# 4 4 10
+data.frame(x = 1:4, M = c(10, 35))
+#   x  M
+# 1 1 10
+# 2 2 35
+# 3 3 10
+# 4 4 35
+```
+
+---
+
+## Dataframe: Ejercicio
+
+- ¿Porque al intentar hacer esta dataframe nos da error?
+
+
+```r
+data.frame(x, y)
+# Error in data.frame(x, y) : 
+#  arguments imply differing number of rows: 4, 3
+```
+
+--
+
+&gt; NOTA: El número de filas y columnas debe ser el mismo número. Existen excepciones al usar paquetes como `dplyr`.
+
+---
+
+## Dataframe: Estructura y clases de variables
+
+Cada columna es una **variable** la cual puede ser de un tipo o clase.
+
+
+```r
+df &lt;- data.frame(genes = paste0(&quot;Gen&quot;, seq_len(8)), 
+                 expression = c(3.8, 5.5, 6.3, 1.8, 9, rep(3,3)), 
+                 treatment =c(rep(&quot;Control&quot;, 4), rep(&quot;Condicion1&quot;,4)))
+head(df)
+#   genes expression  treatment
+# 1  Gen1        3.8    Control
+# 2  Gen2        5.5    Control
+# 3  Gen3        6.3    Control
+# 4  Gen4        1.8    Control
+# 5  Gen5        9.0 Condicion1
+# 6  Gen6        3.0 Condicion1
+```
+
+Es un dataframe con 3 variables (`genes`, `expression` y `treatment`) y cada uno tiene su propia clase.
+
+
+```r
+str(df)
+# &#39;data.frame&#39;:	8 obs. of  3 variables:
+#  $ genes     : chr  &quot;Gen1&quot; &quot;Gen2&quot; &quot;Gen3&quot; &quot;Gen4&quot; ...
+#  $ expression: num  3.8 5.5 6.3 1.8 9 3 3 3
+#  $ treatment : chr  &quot;Control&quot; &quot;Control&quot; &quot;Control&quot; &quot;Control&quot; ...
+```
+---
+
+## Dataframe con los datos de la clase
+
+Vamos a crear un nuevo vector con las edades, llamado `edad`, posteriormente, vamos a combinarlo con el vector que creamos previamente `ClaseBioinfo`
+
+
+```r
+# declarar un vector e incorporarlo en el dataframe
+edad &lt;- c(31,32, 30, 30, 28, 32, 29)
+# Almacenar el dataframe
+ClaseBioinfo &lt;- data.frame(ClaseBioinfo, edad)
+ClaseBioinfo
+#   ClaseBioinfo edad
+# 1    Jose Luis   31
+# 2        Diego   32
+# 3       Rosita   30
+# 4         Yuri   30
+# 5       Ulises   28
+# 6         Tere   32
+# 7       Chucho   29
+```
+---
+
+## Agregar una nueva columna en el dataframe
+
+Tambien podemos agregar nuevas columnas usando el simbolo `$` de la siguiente manera:
+
+
+```r
+ClaseBioinfo$formacion &lt;- c(&quot;medicina&quot;, &quot;nutricion&quot;, &quot;medicina&quot;, 
+                            &quot;biologia&quot;, &quot;medicina&quot;, &quot;medicina&quot;, 
+                            &quot;biologia&quot;)
+head(ClaseBioinfo,3)
+#   ClaseBioinfo edad formacion
+# 1    Jose Luis   31  medicina
+# 2        Diego   32 nutricion
+# 3       Rosita   30  medicina
+```
+
+El dataframe tiene 7 filas y 3 columnas.
+
+
+```r
+str(ClaseBioinfo)
+# &#39;data.frame&#39;:	7 obs. of  3 variables:
+#  $ ClaseBioinfo: chr  &quot;Jose Luis&quot; &quot;Diego&quot; &quot;Rosita&quot; &quot;Yuri&quot; ...
+#  $ edad        : num  31 32 30 30 28 32 29
+#  $ formacion   : chr  &quot;medicina&quot; &quot;nutricion&quot; &quot;medicina&quot; &quot;biologia&quot; ...
+```
+
+---
+
+## Dataframe, completando espacios faltantes
+
+Cuando creamos la columna `formacion` en el dataframe, al contener 9 elementos el dataframe, R repite 3 veces los valores contenidos en la columna `formacion` para rellenar los 9 espacios.
+
+
+```r
+ClaseBioinfo &lt;- c(&quot;Jose Luis&quot;, &quot;Diego&quot;, &quot;Rosita&quot;, &quot;Yuri&quot;, 
+                  &quot;Ulises&quot;, &quot;Tere&quot;, &quot;Chucho&quot;, &quot;Evelia&quot;, &quot;Fulanito&quot;)
+edad &lt;-c(31,32, 30, 30, 28, 32, 29,29,30)
+ClaseBioinfo &lt;- data.frame(ClaseBioinfo, edad) # crear dataframe
+ClaseBioinfo$formacion &lt;- c(&quot;medicina&quot;, &quot;nutricion&quot;, &quot;medicina&quot;)
+head(ClaseBioinfo, 3)
+#   ClaseBioinfo edad formacion
+# 1    Jose Luis   31  medicina
+# 2        Diego   32 nutricion
+# 3       Rosita   30  medicina
+```
+
+---
+
+## Ejercicios: 
+
+A partir del siguiente ejemplo, completa los siguientes ejercicios:
+
+
+```r
+df &lt;- data.frame(genes = paste0(&quot;Gen&quot;, seq_len(8)), 
+                 expression = c(3.8, 5.5, 6.3, 1.8, 9, rep(3,3)), 
+                 treatment =c(rep(&quot;Control&quot;, 4), rep(&quot;Condicion1&quot;,4)))
+```
+
+1) Convierte la columna 3 perteneciente a tratamiento (`treatment`) a `factor`.
+
+&gt; NOTA: En este ejemplo, solo tenemos dos condiciones &quot;Control&quot; y &quot;Condicion1&quot;. Por lo que, solo deben hacer dos niveles (levels).
+
+2) Renombra las filas con los nombres de los genes y elimina la columna 1.
+
+&gt; NOTA: Recuerda que para renombrar las filas es `rownames()` y las columnas se usa `colnames()`.
+
+---
+
+## Ejercicios: Respuestas
+
+1) Modifica la columna 3 perteneciente a tratamiento (`treatment`) a `factor`.
+
+
+```r
+df$treatment &lt;- as.factor(df$treatment) # conversion a factor
+str(df)
+# &#39;data.frame&#39;:	8 obs. of  3 variables:
+#  $ genes     : chr  &quot;Gen1&quot; &quot;Gen2&quot; &quot;Gen3&quot; &quot;Gen4&quot; ...
+#  $ expression: num  3.8 5.5 6.3 1.8 9 3 3 3
+#  $ treatment : Factor w/ 2 levels &quot;Condicion1&quot;,&quot;Control&quot;: 2 2 2 2 1 1 1 1
+```
+
+&gt; NOTA: El signo de dinero `$` nos permite seleccionar una columna (variable) de un dataframe.
+
+--
+
+2) Renombra las filas con los nombres de los genes y elimina la columna 1.
+
+
+```r
+rownames(df) &lt;- df$genes # renombrar
+df &lt;- df[,-1] # eliminar columna 1
+```
+
+---
+
+class: center, middle
+
+<svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:3em;width:3.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+# Indexado en R
+
+---
+
+## Index
+
+.pull-left[
+Por medio de un **index** podemos: 
+
+- 1) Obtener la información de un dato en específico.
+- 2) Modificar un dato en específico.
+- 3) Eliminarlo un dato en específico.
+
+Podemos hacer la pregunta de dos maneras, 1) ¿Cuál es el nivel de expresión del Gen2? O 2) ¿Que gen contiene una expresión de 5.5?
+]
+
+.center[.pull-right[
+&lt;img src = &quot;figures/dataframe_ejemplo.png&quot;, height = &quot;400&quot;&gt;]]
+
+---
+
+## Ejercicios
+
+1) **¿Cuál es el nivel de expresión del Gen2?**
+
+&gt; NOTA: Recuerda que un dataframe tiene dos dimensiones 1) fila y 2) columna, dataframe[fila, columna]. Estos nos ayudaran como coordenadas en el dataframe.
+
+
+```r
+# Opcion A
+df[2,1]
+# [1] 5.5
+
+# Opcion B
+df$expression[2]
+# [1] 5.5
+
+# Opcion C
+df[&quot;Gen2&quot;,]
+#      expression treatment
+# Gen2        5.5   Control
+df[&quot;Gen2&quot;,1]
+# [1] 5.5
+
+# Opcion D
+df[&quot;Gen2&quot;,&quot;expression&quot;]
+# [1] 5.5
+```
+
+---
+
+## Ejercicios
+
+2) **¿Que gen contiene una expresión de 1.8?**
+
+.pull-left[
+
+
+```r
+# Opcion A
+df[df[, &quot;expression&quot;] == 1.8,]
+#      expression treatment
+# Gen4        1.8   Control
+df[df[, 1] == 1.8,]
+#      expression treatment
+# Gen4        1.8   Control
+
+# Opcion B
+df[df == 1.8,]
+#      expression treatment
+# Gen4        1.8   Control
+```
+]
+
+.pull-left[
+
+```r
+# Opcion C
+df[df$expression == 1.8,]
+#      expression treatment
+# Gen4        1.8   Control
+
+# Opcion D
+subset(df, expression == 1.8)
+#      expression treatment
+# Gen4        1.8   Control
+```
+
+]
+
+---
+
+## Index usando un vector
+
+Podemos crear una variable *i* que será nuestro index para extraer valores
+
+
+```r
+x &lt;- 1:5
+i &lt;- c(1, 3) # el index es numero y nos permite extraer la posicion 1 y 3 del vector
+x[i]
+# [1] 1 3
+```
+Usar el vector `i` para obtener las filas 1 y 3
+
+
+```r
+df[i,]
+#      expression treatment
+# Gen1        3.8   Control
+# Gen3        6.3   Control
+```
+
+&gt; NOTA: Recuerda que una matriz esta compuesta de filas y columnas.
+
+---
+
+class: center, middle
+
+<svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:3em;width:3.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+# Ejercicios de repaso de Indexado
+## Trabajo en equipo
+
+20 min para terminar los 6 ejercicios por equipo o individual
+
+
+---
+
+## Ejercicio 1 - Vector
+
+
+```r
+# Declarar el vector con 5 posiciones (del 1 al 5)
+x &lt;- 1:5
+x
+# Observar el componente / posicion 3
+x[3]
+# Observar multiles posiciones
+x[c(1,3)]
+x[c(1:3,5)] # OR x[-4]
+# Sustituir el valor de la posicion 3
+x[3] &lt;- 20
+x
+# Eliminar la posicion 1
+x[-1]
+```
+
+---
+
+## Ejercicio 2 - Matriz
+
+
+```r
+# Genera una matriz de tamano 2 x 3 (filas, columnas) (rows, columns) 
+x &lt;- matrix(1:6, 2, 3)
+x
+
+# # Sustituir los valores presentes en la columna 3 de la matriz
+x[, 3] &lt;- 21:22
+x
+
+# Visualizacion en modo de matriz
+x[, 3, drop = FALSE]
+
+# Eliminar la columna 1
+x[, -1]
+
+# Eliminar multiples columnas y Visualizacion en modo de matriz
+x[, -(1:2), drop = FALSE] # es lo mismo que x[, 3, drop = FALSE]
+```
+
+---
+
+## Ejercicio 3 - Lista
+
+
+```r
+# Opcion A
+n=c(2, 3, 5) 
+s=c(&quot;aa&quot;, &quot;bb&quot;, &quot;cc&quot;, &quot;dd&quot;, &quot;ee&quot;) 
+x=list(n, s, 3)
+x  
+ 
+ # Opcion B
+x &lt;- list(c(2, 3, 5), c(&quot;aa&quot;, &quot;bb&quot;, &quot;cc&quot;, &quot;dd&quot;, &quot;ee&quot;), 3)
+x
+```
+
+---
+
+## Ejercicio 4 - Acceder a los elementos de la lista
+
+
+```r
+x[2] # 2do elemento, los datos con titulo
+x[[2]] # 2do elemento, solo los datos
+x[c(2, 3)] # 2ndo y 3er elemento
+```
+
+Acceder a un dato de un elemento
+
+
+```r
+x[[c(2, 3)]] # dato 3 del elemento 2
+```
+
+---
+
+## Ejercicio 5 - Operaciones
+
+
+```r
+# Ejercicio 1
+x &lt;- 1:10 # Declarar un vector
+x[x &gt;= 5] &lt;- 20 # todos los numeros que sean mayor o igual a 5 sustituir por 20
+x
+# A partir del resultado de x realiza lo siguiente
+x[x == 1] &lt;- 25 # todos los numeros que sean igual a 1 sustituir por 25
+x
+
+# Ejercicio 2
+x &lt;- matrix(1:20, 4, 5) #Genera una matriz de tamano 4 x 5 (filas, columnas) (rows, columns) 
+x # Visualizar la matriz
+# A partir de la matriz generada realiza lo siguiente
+x[, 5] &lt;- 51:54 # 1. ¿Qué cambios existieron en la matriz?
+x # Visualizar la matriz de salida
+# 2. ¿Cuáles son los valores presentes en la columna 3 de la matriz?
+x[, 5]
+#3. ¿Como cambia el valor de salida cuando coloco drop= FALSE?
+x[, 5, drop = FALSE]
+```
+
+---
+
+## Ejercicio 6 - Operaciones
+
+
+```r
+# Ejercicio 3. 
+# 1. ¿Como cambia el valor de salida al eliminar la columna 3?
+x &lt;- matrix(1:16, 4, 4) #Genera una matriz de tamano 4 x 5 (filas, columnas) (rows, columns) 
+x[, -1]
+# 2. ¿Como cambia el valor de salida cuando coloco drop= FALSE?
+x[, -(1:2), drop = FALSE]
+# 3. Renombra las filas y columnas empleando rownames() y colnames(). En fila coloca los nombres: Gen 1, Gen 2, Gen 3 y  Gen 4. Y en columnas coloca los nombres: SRA_1,SRA_2 Y SRA_3
+
+# Ejercicio 4.  Realiza las siguientes operaciones
+# 1. Sumatoria
+x &lt;- 1:4
+y &lt;- 1:2
+z &lt;- x + y
+z
+# 2. Multiplicacion
+x &lt;- 1:4
+a &lt;- 10
+z &lt;- a * x
+z
+```
+
+---
+
+class: center, middle
+
+<svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:3em;width:3.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+# Viernes 16 de febrero 2024  
+## Manipulación de datos con R base (matrix y lista)
+
+Gracias por tu atención, respira y coméntame tus dudas. 
 
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
