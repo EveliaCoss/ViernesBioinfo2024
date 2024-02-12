@@ -85,7 +85,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 
 ### Viernes 2. Manipulación de datos con R base (vector y dataframe)
 
-- Fecha: Viernes 16 de febrero 2024
+- Fecha: Viernes 9 de febrero 2024
 - Instructora: Dra. Evelia Coss
 - Presentación: [Manipulación de datos con R base (vector y dataframe)](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D2_IntroduccionR_segunda.html#1)
 - Grabación: Clase2
@@ -94,6 +94,12 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
     - [R for beginners](https://drive.google.com/file/d/1iCRDCXB5wzSzbpk0LJjPpYutluKTSlTp/view?usp=sharing)
     - [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
 
+### Viernes 3. Manipulación de datos con R base (matrix y lista)
+
+- Fecha: Viernes 16 de febrero 2024
+- Instructora: Dra. Evelia Coss
+- Presentación: Manipulación de datos con R base (matrix y lista)
+- Grabación: Clase3
       
 ## Licencia y términos de uso
 
