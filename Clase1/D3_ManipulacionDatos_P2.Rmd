@@ -1,0 +1,683 @@
+---
+title: "Manipulación de datos con R base (matrix y lista)"
+subtitle: "VieRnes de Bioinformatica"
+author: "Dra. Evelia Coss"
+institute: "LIIGH, UNAM"
+date: "2024/02/16"
+output:
+  xaringan::moon_reader:
+    css: 
+      - xaringan-themer.css
+      - css/mi-tema.css
+      - default
+      - rladies
+      - rladies-fonts 
+    lib_dir: libs
+    seal: false
+    self_contained: true
+    nature:
+      highlightStyle: googlecode
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
+      beforeInit: "macros.js"
+      slideNumberFormat: "%current%/%total%"           # Numeracion de paginas en el estilo 12/42 
+
+---
+```{r setup, include = FALSE}
+# Setup chunk
+# Paquetes a usar
+#options(htmltools.dir.version = FALSE) cambia la forma de incluir código, los colores
+
+library(knitr)
+library(tidyverse)
+library(xaringanExtra)
+library(icons)
+library(fontawesome)
+library(emo)
+
+# set default options
+opts_chunk$set(collapse = TRUE,
+               dpi = 300,
+               warning = FALSE,
+               error = FALSE,
+               comment = "#")
+
+top_icon = function(x) {
+  icons::icon_style(
+    icons::fontawesome(x),
+    position = "fixed", top = 10, right = 10
+  )
+}
+
+knit_engines$set("yaml", "markdown")
+
+# Con la tecla "O" permite ver todas las diapositivas
+xaringanExtra::use_tile_view()
+# Agrega el boton de copiar los códigos de los chunks
+xaringanExtra::use_clipboard()
+
+# Crea paneles impresionantes 
+xaringanExtra::use_panelset()
+
+# Para compartir e incrustar en otro sitio web
+xaringanExtra::use_share_again()
+xaringanExtra::style_share_again(
+  share_buttons = c("twitter", "linkedin")
+)
+
+# Funcionalidades de los chunks, pone un triangulito junto a la línea que se señala
+xaringanExtra::use_extra_styles(
+  hover_code_line = TRUE,         #<<
+  mute_unhighlighted_code = TRUE  #<<
+)
+
+# Agregar web cam
+
+xaringanExtra::use_webcam()
+```
+
+```{r xaringan-editable, echo=FALSE}
+# Para tener opciones para hacer editable algun chunk
+xaringanExtra::use_editable(expires = 1)
+# Para hacer que aparezca el lápiz y goma
+xaringanExtra::use_scribble()
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+# Establecer colores para el tema
+library(xaringanthemer)
+#style_mono_light(base_color = "#562457")
+```
+
+class: title-slide, middle, center
+background-image: url(imagenes/liigh_unam_logo.png) 
+background-position: 10% 10%
+background-size: 15% 
+
+
+.center-column[
+# `r rmarkdown::metadata$title`
+### `r rmarkdown::metadata$subtitle`
+
+####`r rmarkdown::metadata$author` 
+#### `r rmarkdown::metadata$date`
+]
+
+---
+
+.center[
+<img src = "imagenes/DataStructure.png", height = "400">
+]
+
+---
+## Matriz (matrix)
+
+```{r}
+# Opcion A
+x <- matrix(c(1,2,3,4,5,6), nrow = 2, ncol = 3)
+x
+```
+Ahora que ya conocemos las funciones `seq()` y `seq_len()` podemos crear la matriz de esta manera:
+
+```{r, eval=FALSE}
+# Opcion B
+x <- matrix(seq(1,6), nrow = 2, ncol = 3)
+# Opcion C
+x <- matrix(seq_len(6), nrow = 2, ncol = 3)
+```
+
+---
+## Extraer elementos de una matriz (matrix)
+
+Al igual que con los dataframe usaremos las filas y columnas (x[fila, columna]) para extraer la información. 
+
+```{r}
+x[2,3]
+```
+Obtener la información de la columna 1.
+
+```{r}
+x[,1]
+```
+
+---
+
+## Extraer elementos de una matriz (matrix)
+
+A diferencia del error que nos daria si no respetamos el [fila, columna], en las matrices si nos dara una salida:
+
+```{r}
+x[2]
+```
+Nos da el 2nd elemento contenido en la matriz, recuerdas que los elementos de la matriz al declararla eran c(1,2,3,4,5,6). 
+
+> NOTA: Para evitar complicaciones es mejor usar la manera [fila, columna].
+
+---
+
+## Ejercicios:
+
+1) Genera una matriz de tamano 2 x 3 (filas, columnas) (rows, columns) 
+
+```{r eval=FALSE}
+# Opcion A
+x <- matrix(1:6, nrow = 2, ncol = 3)
+# Opcion B
+x <- matrix(1:6, 2, 3)
+x
+```
+
+2) Sustituir los valores presentes en la columna 3 de la matriz, por los valores 10 y 15
+
+```{r}
+x[, 3] <- c(10,15)
+x
+```
+
+---
+
+## Ejercicios:
+
+3) Visualizacion en modo de vector
+
+```{r}
+x[, 3] 
+```
+4) Visualizacion en modo de matriz
+
+```{r}
+x[, 3, drop = FALSE]
+```
+
+--
+> NOTA: Por default se encuentra como `drop = TRUE` dentro del codigo interno, si queremos visualizar nuestros datos como una matriz de salida, podriamos cambiarlo a `drop = FALSE`.
+
+---
+
+## Ejercicios:
+
+5) Eliminar la columna 1
+
+```{r}
+x[, -1]
+```
+
+6) Eliminar multiples columnas y Visualizacion en modo de matriz 
+
+```{r}
+x[, -(1:2), drop = FALSE] # es lo mismo que x[, 3, drop = FALSE]
+```
+
+---
+
+## Tambien podemos usar `drop = FALSE` en los dataframes
+
+En la clase anterior visualizamos los cambios que podemos realizarle al siguiente dataframe.
+
+```{r}
+df <- data.frame(genes = paste0("Gen", seq_len(8)), 
+                 expression = c(3.8, 5.5, 6.3, 1.8, 9, rep(3,3)), 
+                 treatment =c(rep("Control", 4), rep("Condicion1",4)))
+```
+
+Si quiero visualizar los primeros 3 datos de la columna 1 en forma de matriz
+
+```{r}
+head(df[,2, drop = FALSE],3)
+```
+
+---
+
+## Propiedades de las matrices
+
+Estructura de la matriz:
+
+```{r}
+str(x)
+class(x)
+```
+Dimensiones:
+
+```{r}
+dim(x)
+```
+A diferencia de una dataframe, en la matriz el nombre de las filas y columnas es un valor `NULL`.
+
+```{r}
+rownames(x) 
+colnames(x)
+```
+
+---
+
+## Renombrar filas y columnas en la matriz
+
+Recuerda que es una matriz de 2 filas con 3 columnas:
+
+```{r}
+# Renombrar filas
+rownames(x) <- c("Gen1", "Gen2")
+x
+```
+
+```{r}
+# Renombrar columnas
+colnames(x) <- c("Condicion1", "Condicion2", "Condicion3")
+x
+```
+
+---
+
+## Operaciones en una matriz
+
+Dividir toda la matriz entre 2.
+
+```{r}
+x / 2
+```
+Elevar a la 2:
+
+```{r}
+x ** 3
+```
+
+---
+
+## Transponer o invertir la matriz
+
+Usando la funcion `t()`. Se puede emplear en un dataframe tambien.
+
+```{r}
+t(x)
+```
+
+---
+
+## Agregar información en la matriz (por columnas)
+
+```{r}
+# matriz 1
+matriz1 <- matrix(c("apple", "banana", "cherry", "orange","grape", "pineapple", "pear", "melon", "fig"), nrow = 3, ncol = 3)
+
+# matriz 2
+matriz2 <-  matrix(c("strawberry", "blueberry", "raspberry"), nrow = 3, ncol = 1)
+
+# Juntar matrices
+newmatrix <-  cbind(matriz1, matriz2)
+newmatrix
+```
+> NOTA: `cbind()` nos permite unir por columnas las dos matrices, respetando que ambas tienen 3 filas.
+
+---
+
+## Agregar información en la matriz (por filas)
+
+```{r}
+# Crear una nueva matriz mientras juntamos a la matriz 1
+newmatrix <- rbind(matriz1, c("strawberry", "blueberry", "raspberry"))
+newmatrix
+```
+
+> NOTA: `rbind()` nos permite unir por filas respetando que tenemos 3 elementos por fila.
+
+---
+
+## Extraer datos en una matriz
+
+Para un solo elemento, visualizacion tipo matriz
+
+```{r}
+# Opcion A
+newmatrix == "apple"
+```
+Para un solo elemento, visualizacion tipo vector
+
+```{r}
+# Opcion B
+newmatrix %in% "apple"
+```
+
+---
+
+## Extraer datos en una matriz
+
+Para multiples elementos, visualizacion tipo matriz
+
+```{r}
+# Opcion A
+newmatrix == c("apple", "melon")
+```
+
+Para multiples elementos, visualizacion tipo vector
+
+```{r}
+# Opcion B
+newmatrix %in% c("apple", "melon")
+```
+
+---
+
+class: center, middle
+
+`r fontawesome::fa("code", height = "3em")`
+# Descanso de 10 min  
+## Volvemos con: Manipulación de datos con R base de listas
+
+Respira, ve a hacer tus necesidades y coméntame tus dudas. 
+
+---
+
+## Crear una lista (list)
+
+Primero veamos como se declara una lista y su estructura:
+
+```{r}
+# Declarar una lista, cada elemento esta separado por una coma
+mylist <- list("8", c(1,2,3))
+mylist
+```
+Estructura de la lista
+
+```{r}
+str(mylist)
+```
+
+---
+
+## Crear una lista (list)
+
+Una lista puede contener vectores y matrices dentro:
+
+```{r}
+myvector <- 1:10
+mymatrix <- matrix(1:4, nrow = 2)
+mydf     <- data.frame("num" = 1:3, "let" = c("a", "b", "c"))
+```
+
+Guardamos todo en la lista:
+
+```{r}
+mylist <- list(
+  "vector" = myvector,
+  "matriz" = mymatrix,
+  "dataframe" = mydf
+)
+
+str(mylist)
+```
+
+---
+
+## Propiedades de una lista
+
+El largo de una lista es igual al número de elementos que contiene, sin importar de qué tipo o clase sean. 
+
+```{r}
+length(mylist)
+```
+Dado que una lista siempre tiene una sola dimensión, la función dim() nos devuelve `NULL`.
+
+```{r}
+dim(mylist)
+```
+
+Las listas tienen clase list, sin importar qué elementos contienen.
+
+```{r}
+class(mylist)
+```
+
+---
+
+## Extraer elementos de una lista
+
+Para una lista, puede utilizar corchetes simples [ ] o corchetes dobles [[ ]], dependiendo de lo que desee extraer.
+
+.pull-left[
+
+```{r}
+mylist <- list(myvector, mymatrix, mydf)
+mylist
+```
+]
+
+.pull-right[
+Elementos en esta lista, las sublistas:
+
+* [[1]] -  Vector (myvector)
+* [[2]] -  Matriz (mymatrix)
+* [[3]] -  dataframe (mydf)
+]
+---
+
+## Extraer elementos de una lista
+
+Podemos utilizar [ ] para extraer una sublista que sólo contenga, por ejemplo, el primer elemento, que es el vector
+
+```{r}
+mylist[1]
+```
+
+---
+
+## Extraer elementos de una lista
+
+Tambien podemos utilizar [[ ]] para extraer un único elemento, que tendrá la clase de ese elemento.
+
+```{r}
+mylist[[1]]
+```
+En este caso para obtener el primer elemento de esta sublista, emplearemos lo visto en la clase anterior sobre dataframe.
+
+```{r}
+mylist[[1]][1]
+```
+
+---
+
+## Extraer elementos de una lista
+
+Asignar nombres a cada sublista
+
+```{r}
+names(mylist) = c("vector", "matriz", "dataframe")
+```
+
+Para obtener una sublista, podemos emplear lo visto para dataframe, empleando el nombre de la sublista.
+
+```{r}
+mylist$vector
+```
+O puedes usar:
+
+```{r}
+mylist[["vector"]]
+```
+
+---
+
+## Extraer elementos de una lista
+
+Entonces para obtener el primer elemento de la sublista vector puedo hacerlo de la siguiente manera:
+
+```{r}
+# Opcion A
+mylist[[1]][1]
+
+# Opcion B
+mylist$vector[1]
+
+# Opcion C
+mylist[["vector"]][1]
+```
+
+---
+
+## Otra forma de extraer elementos de una lista
+
+Extraer el 3er elemento de la primera sublista.
+
+```{r}
+# Opcion A
+mylist[[1]][3]
+
+# Opcion B
+mylist[[c(1, 3)]]
+```
+> NOTA: Dentro del c(), primero colocamos la sublista y luego el elemento. c(sublista, elemento).
+
+---
+
+## Extraer multiples sublistas
+
+Si queremos las dos primeras sublistas, usaremos [] para seleccionarlas
+
+```{r}
+# Opcion A
+mylist[c(1, 2)]
+
+# Opcion B
+mylist[c("vector", "matriz")]
+```
+> NOTA: Son [] simples para llamar sublistas y [[]] para nombrar a los elementos de las sublistas.
+
+---
+
+## Operaciones en una lista
+
+Podemos realizar operaciones si especificamos a que elemento de la lista queremos ejecutarle alguna operacion. 
+
+```{r}
+mylist[[1]] * 2
+```
+> NOTA: No olvides los [[]] para indicar los elementos contenidos en la lista.
+
+---
+
+## Filtrar algunos elementos
+
+Podemos emplear nuestros conocimientos previos para buscar elementos en una sublista:
+
+```{r}
+# Ejemplo 1
+mylist$matriz[mylist$matriz == 2]
+
+# Ejemplo 2
+mylist$dataframe[mylist$dataframe == "a"]
+```
+
+---
+
+## Sustituir un elemento
+
+```{r}
+mylist$matriz[1] <- 5
+mylist$matriz
+```
+
+---
+
+## Eliminar una sublista
+
+Para eliminar una sublista debemos darle el valor de `NULL`. En este caso eliminaremos el primera sublista (elemento) que es el vector.
+
+```{r}
+mylist[[1]] = NULL
+mylist
+```
+
+---
+
+## Agregar una nueva sublista
+
+Para agregar una sublista usaremos `$`.
+
+```{r}
+mylist$occupation <- "Analista de datos"
+mylist
+```
+
+---
+
+## Agregar una lista existente
+
+```{r}
+frutas <- list( c("manzana", "pera", "uva")) 
+
+mylist <- c(mylist, "frutas" = frutas)  
+mylist  
+```
+
+---
+
+## Usar `append()`
+
+Sirve para agregar elementos a una lista. Toma tres argumentos: la lista original, los elementos a añadir y la posición en la vamos a añadirlos. 
+
+
+```{r}
+append(mylist, #lista original
+       list(c("azul", "rojo", "verde", "negro")), #elementos por agregar en formato de lista
+       after = 2 # Posicion
+       )
+```
+
+---
+class: center, middle
+
+`r fontawesome::fa("code", height = "3em")`
+# Viernes 23 de febrero 2024  
+## Introducción a Rmarkdown - Alejandra Schäfer
+
+Gracias por tu atención, respira y coméntame tus dudas. 
+
+---
+
+## Ejercicios
+
+1) Crea una lista con los nombres de los amigos, Rosita, Rachel y Joey. La lista debe llamarse `friends`. NOTA: Cada amigo es una sublista.
+
+2) Agrega a la lista el nombre de Carlos, despues de Rachel. Empleando la funcion `append()`
+
+3) Agrega a los amigos Monica y Carmen, al final de la lista. Emplea `c()`.
+
+4) Elimina a Carlos de la lista de friends.
+
+---
+
+## Ejercicios:  Respuestas
+
+1) Crea una lista con los nombres de los amigos, Rosita, Rachel y Joey. La lista debe llamarse `friends`. NOTA: Cada amigo es una sublista.
+
+```{r, eval=FALSE}
+friends <- list("Rosita", "Rachel", "Joey")
+```
+
+2) Agrega a la lista el nombre de Carlos, despues de Rachel. Empleando la funcion `append()`
+
+```{r, eval=FALSE}
+friends <- append(friends, "Carlos", after = 2)
+```
+
+3) Agrega a los amigos Monica y Carmen, al final de la lista. Emplea `c()`.
+
+```{r, eval=FALSE}
+friends <- c(friends, "Monica", "Carmen")
+```
+
+4) Elimina a Carlos de la lista de friends.
+
+```{r, eval=FALSE}
+friends[[3]] = NULL
+```
+
+
+
+
+
+
+
+
+
+
