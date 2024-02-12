@@ -98,7 +98,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 
 - Fecha: Viernes 16 de febrero 2024
 - Instructora: Dra. Evelia Coss
-- Presentación: Manipulación de datos con R base (matrix y lista)
+- Presentación: [Manipulación de datos con R base (matrix y lista)](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D3_ManipulacionDatos_P2.html#1)
 - Grabación: Clase3
       
 ## Licencia y términos de uso
