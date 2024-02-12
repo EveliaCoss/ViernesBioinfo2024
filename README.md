@@ -88,7 +88,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Fecha: Viernes 9 de febrero 2024
 - Instructora: Dra. Evelia Coss
 - Presentación: [Manipulación de datos con R base (vector y dataframe)](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D2_IntroduccionR_segunda.html#1)
-- Grabación: Clase2
+- Grabación: [Clase2](https://drive.google.com/file/d/16vskGRS0QAS7f3acI886BVWgLI7j3dkf/view?usp=sharing)
 - Lecturas y cursos recomendados:
     - [R for dummies](https://drive.google.com/file/d/1qgmGVEFd93qyISIPNkuZU-iQArG-YyhQ/view?usp=sharing)
     - [R for beginners](https://drive.google.com/file/d/1iCRDCXB5wzSzbpk0LJjPpYutluKTSlTp/view?usp=sharing)
