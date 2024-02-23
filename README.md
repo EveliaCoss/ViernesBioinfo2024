@@ -100,6 +100,14 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructora: Dra. Evelia Coss
 - Presentación: [Manipulación de datos con R base (matrix y lista)](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D3_ManipulacionDatos_P2.html#1)
 - Grabación: Clase3
+
+### Viernes 4. Introducción a Rmarkdown 
+
+- Fecha: Viernes 23 de febrero 2024
+- Instructora: LCG Alejandra Schafer
+- Presentación: [Introducción a Rmarkdown](https://eveliacoss.github.io/ViernesBioinfo2024/Clase4/Rmakrdown.html#1)
+- Grabación: Clase4
+
       
 ## Licencia y términos de uso
 
