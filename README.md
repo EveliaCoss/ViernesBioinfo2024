@@ -1,8 +1,8 @@
 # VieRnes de Bioinformática (2024)
 
-Colaboración entre INMEGEN y LIIGH-UNAM.
+LIIGH-UNAM.
 
-Primera edición 💜
+Edición 2024 💜
 
 ⭐ Objetivo
 
@@ -13,7 +13,6 @@ Fomentar la formación y crecimiento en bioinformática a través de cursos grat
 - Viernes de 11:30 am a 1:30 pm CDMX (GMT-6), el horario puede variar unos dias dependiendo del instructor.
 - Inicio: 2 de Febrero de 11:30 am a 1:30 pm.
 - Clases hibridas en:
-    - Auditorio del INMEGEN
     - Aula de Bioinformatica de LIIGH
     - Google meet (se encuentra el link en el calendario)
 - Grabación de las sesiones 📹.
@@ -32,8 +31,7 @@ Link del calendario de [VieRnes de Bioinfo](https://calendar.google.com/calendar
 
 ## Entrega de Diplomas
 
-Se otorgará un diploma a los participantes que cuenten con el 80 % de las asistencias emitido por el LIIGH-UNAM, teniendo como representante a la Dra. Maria Avila y del INMEGEN por la Directora de Enseñanza y divulgación, Sofia Flores Fuentes.
-
+Se otorgará un diploma a los participantes que cuenten con el 80 % de las asistencias emitido por el LIIGH-UNAM, teniendo como representante a la Dra. Maria Avila.
 ## Instructores 👾
 
 - Dra. Evelia Lorena Coss Navarrete (ecoss@liigh.unam.mx)
