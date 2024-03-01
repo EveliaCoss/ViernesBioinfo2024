@@ -97,14 +97,22 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Fecha: Viernes 16 de febrero 2024
 - Instructora: Dra. Evelia Coss
 - Presentación: [Manipulación de datos con R base (matrix y lista)](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D3_ManipulacionDatos_P2.html#1)
-- Grabación: Clase3
+- Grabación: [Clase3](https://drive.google.com/file/d/1btEicNMEOYE9b-8xmACiR4qKc9YOgIEy/view?usp=sharing)
 
 ### Viernes 4. Introducción a Rmarkdown 
 
 - Fecha: Viernes 23 de febrero 2024
 - Instructora: LCG Alejandra Schafer
 - Presentación: [Introducción a Rmarkdown](https://eveliacoss.github.io/ViernesBioinfo2024/Clase4/Rmakrdown.html#1)
-- Grabación: Clase4
+- Grabación: [Clase4](https://drive.google.com/file/d/1Efrm9AtSV4S8frzkKT_-a-AMAa-m1DXx/view?usp=sharing)
+
+### Viernes 5. Terapia de Bioinfo grupal (opcional)
+
+- Fecha: Viernes 1 de marzo 2024
+- Instructora: Dr. Israel Aguilar
+- Presentación: 
+- Grabación: Clase5
+
 
       
 ## Licencia y términos de uso
