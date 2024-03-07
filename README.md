@@ -113,8 +113,20 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Presentación: 
 - Grabación: Clase5
 
+### Viernes 6. Manipulación de datos con funciones de R base 
 
-      
+- Fecha: Viernes 8 de marzo 2024
+- Instructora: Dr. Evelia Coss
+- Presentación: [Manipulación de datos con funciones de R base](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D6_ManipulacionDatos_FuncionesRbase.html#1)
+- Grabación: Clase6
+
+### Viernes 7. Manipulación de datos usando dplyr 
+
+- Fecha: Viernes 15 de marzo 2024
+- Instructora: Dr. Evelia Coss
+- Presentación: 
+- Grabación: Clase7
+
 ## Licencia y términos de uso
 
 El material de los VieRnes de Bioinformatica se distribuye públicamente a través de este repositorio GitHub bajo la Licencia No Comercial Creative Commons 4.0
