@@ -135,7 +135,7 @@ Creative Commons Licence This work is licensed under a Creative Commons Attribut
 
 ## Agradecimientos
 
-Queremos agradecer al LIIGH - UNAM por el apoyo y facilidades prestadas para poder impartir estos cursos. Queremos explícitamente agradecer, de manera muy especial, a la Dra. Maria Avila, la Dra, Alejandra Medina-Rivera y Licenciada Eglee Lomelin por su extraordinaria labor y por impulsar estos cursos para el crecimiemnto de todos.
+Queremos agradecer al LIIGH - UNAM por el apoyo y facilidades prestadas para poder impartir estos cursos. Queremos explícitamente agradecer, de manera muy especial, a la Dra. Maria Avila, la Dra, Alejandra Medina-Rivera, Licenciada Eglee Lomelin, Jair Santiago y Luis Aguilar por su extraordinaria labor y por impulsar estos cursos para el crecimiemnto de todos.
 
 --------------
 Cursos hechos con amor 💜
