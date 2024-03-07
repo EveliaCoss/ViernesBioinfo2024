@@ -51,8 +51,8 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Viernes 5. Terapia de Bioinfo grupal (opcional) (1/marzo/2024) - Israel Aguilar
 - Viernes 6. Manipulación de datos con funciones de R base (8/marzo/2024) - Evelia Coss
 - Viernes 7. Manipulación de datos usando dplyr (15/marzo/2024) - Evelia Coss
-- Viernes 8. Creando tus propias funciones para la manipulación de datos (for loops y funciones) (22/marzo/2024) - Evelia Coss
-- Viernes 9. Generación de diversos gráficos usando ggplot2 (29/marzo/2024) - Sofia Salazar
+- Viernes 8. Generación de diversos gráficos usando ggplot2 (22/marzo/2024) - Sofia Salazar
+- Viernes 9. Creando tus propias funciones para la manipulación de datos (for loops y funciones) (29/marzo/2024) - Evelia Coss
 - Viernes 10. Terapia de Bioinfo grupal (opcional) (5/abril/2024) - Israel Aguilar
 - Viernes 11. Manipulación de datos para crear un heatmap (ComplexHeatmap) (12/abril/2024) - Sofia Salazar
 - Viernes 12. Bioestadistica (19/abril/2024) - Obed Ramirez (confirmado)
