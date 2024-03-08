@@ -197,8 +197,11 @@ Tambien podemos incorporarle una nueva columna a un *dataframe*
 
 ```{r}
 date_sample <- rep(c(11, 12, 13, 14),2)
-df_new <- cbind(df, date_sample)
-head(df_new)
+df <- cbind(df, date_sample)
+
+# Renombrar columna 4
+colnames(df)[4] <- "Date"
+head(df)
 ```
 
 ---
@@ -211,8 +214,9 @@ Vamos a unir dos *dataframe* pero ambos deben tener el mismo numero y nombre en 
 
 ```{r}
 df_v2 <- data.frame(genes = paste0("Gen", 9:16), 
-                 expression = c(6.1, 6.2, 5, 2, 7, rep(8,3)), 
-                 treatment =c(rep("Control", 4), rep("Condicion1",4)))
+                    expression = c(6.1, 6.2, 5, 2, 7, rep(8,3)), 
+                    treatment = c(rep("Control", 4), rep("Condicion1",4)),
+                    Date = rep(c(11, 12, 13, 14),2) )
 
 df_v2$treatment <- as.factor(df_v2$treatment) # conversión a factor
 #unir

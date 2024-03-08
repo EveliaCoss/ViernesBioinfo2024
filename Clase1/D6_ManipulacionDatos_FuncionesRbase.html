@@ -1699,7 +1699,7 @@ left: 6px;
 })(window, document)
 </script>
     <script id="xaringanExtra-webcam-options" type="application/json">{"width":"200","height":"200","margin":"1em"}</script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"c3a04db8223b4fffb08d585da50773cf","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xd418f7eff9f4de79e1d21a48098f72c","expires":1}</script>
     <script>(function(f){if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.himalaya = f()}})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 'use strict';
 
@@ -4211,15 +4211,18 @@ Tambien podemos incorporarle una nueva columna a un *dataframe*
 
 ```r
 date_sample &lt;- rep(c(11, 12, 13, 14),2)
-df_new &lt;- cbind(df, date_sample)
-head(df_new)
-#   genes expression  treatment date_sample
-# 1  Gen1        3.8    Control          11
-# 2  Gen2        5.5    Control          12
-# 3  Gen3        6.3    Control          13
-# 4  Gen4        1.8    Control          14
-# 5  Gen5        9.0 Condicion1          11
-# 6  Gen6        3.0 Condicion1          12
+df &lt;- cbind(df, date_sample)
+
+# Renombrar columna 4
+colnames(df)[4] &lt;- &quot;Date&quot;
+head(df)
+#   genes expression  treatment Date
+# 1  Gen1        3.8    Control   11
+# 2  Gen2        5.5    Control   12
+# 3  Gen3        6.3    Control   13
+# 4  Gen4        1.8    Control   14
+# 5  Gen5        9.0 Condicion1   11
+# 6  Gen6        3.0 Condicion1   12
 ```
 
 ---
@@ -4233,20 +4236,21 @@ Vamos a unir dos *dataframe* pero ambos deben tener el mismo numero y nombre en 
 
 ```r
 df_v2 &lt;- data.frame(genes = paste0(&quot;Gen&quot;, 9:16), 
-                 expression = c(6.1, 6.2, 5, 2, 7, rep(8,3)), 
-                 treatment =c(rep(&quot;Control&quot;, 4), rep(&quot;Condicion1&quot;,4)))
+                    expression = c(6.1, 6.2, 5, 2, 7, rep(8,3)), 
+                    treatment = c(rep(&quot;Control&quot;, 4), rep(&quot;Condicion1&quot;,4)),
+                    Date = rep(c(11, 12, 13, 14),2) )
 
 df_v2$treatment &lt;- as.factor(df_v2$treatment) # conversión a factor
 #unir
 df_new &lt;- rbind(df, df_v2)
 head(df_new)
-#   genes expression  treatment
-# 1  Gen1        3.8    Control
-# 2  Gen2        5.5    Control
-# 3  Gen3        6.3    Control
-# 4  Gen4        1.8    Control
-# 5  Gen5        9.0 Condicion1
-# 6  Gen6        3.0 Condicion1
+#   genes expression  treatment Date
+# 1  Gen1        3.8    Control   11
+# 2  Gen2        5.5    Control   12
+# 3  Gen3        6.3    Control   13
+# 4  Gen4        1.8    Control   14
+# 5  Gen5        9.0 Condicion1   11
+# 6  Gen6        3.0 Condicion1   12
 ```
 
 ---
@@ -4272,13 +4276,13 @@ Podemos adornar la salida colocando estas notas.
 
 ```r
 cat(&quot;Dimensiones:&quot;, dim(df), &quot;\n&quot;)
-# Dimensiones: 8 3
+# Dimensiones: 8 4
 cat(&quot;Numero de columnas:&quot;, ncol(df), &quot;\n&quot;)
-# Numero de columnas: 3
+# Numero de columnas: 4
 cat(&quot;Numero de filas:&quot;, nrow(df), &quot;\n&quot;)
 # Numero de filas: 8
 cat(&quot;Nombre de las columnas:&quot;, names(df), &quot;\n&quot;)
-# Nombre de las columnas: genes expression treatment
+# Nombre de las columnas: genes expression treatment Date
 ```
 
 &gt; NOTA: El &quot;\n&quot; indica saltos de linea en el texto.
@@ -4386,8 +4390,8 @@ which(df == 1.8, arr.ind = TRUE)
 ```r
 # Opción B
 df[which(df$expression == 1.8), ]
-#   genes expression treatment
-# 4  Gen4        1.8   Control
+#   genes expression treatment Date
+# 4  Gen4        1.8   Control   14
 ```
 
 ---
