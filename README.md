@@ -119,6 +119,8 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructora: Dr. Evelia Coss
 - Presentación: [Manipulación de datos con funciones de R base](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D6_ManipulacionDatos_FuncionesRbase.html#1)
 - Grabación: Clase6
+- Script: [MarvelvsDCComics_limpieza_script.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/MarvelvsDCComics_limpieza_script.R)
+- Output: Variables [Info_data.RData](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/Info_data.RData)
 
 ### Viernes 7. Manipulación de datos usando dplyr 
 
@@ -126,6 +128,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructora: Dr. Evelia Coss
 - Presentación: 
 - Grabación: Clase7
+- Input: Vamos a emplear el Output de la clase 6 [Info_data.RData](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/Info_data.RData)
 
 ## Licencia y términos de uso
 
