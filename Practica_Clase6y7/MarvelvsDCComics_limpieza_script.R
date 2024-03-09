@@ -1,5 +1,6 @@
 ######
 # Script: Manipulacion y limpieza de los dataframes de superheroes (Parte 1)
+# Manipulación de datos con funciones de R base
 # Autor: Evelia Coss
 # Fecha: 8 de marzo 2024
 # En este script veremos la importacion  y limpieza de datos a partir de 3 archivos CSV.
