@@ -110,7 +110,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 
 - Fecha: Viernes 1 de marzo 2024
 - Instructora: Dr. Israel Aguilar
-- Presentación: 
+- Presentación: [Resolucion de problemas](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase5_%20Viernes%20de%20Bioinfo.pdf)
 - Grabación: Clase5
 
 ### Viernes 6. Manipulación de datos con funciones de R base 
