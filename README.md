@@ -52,23 +52,22 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Viernes 6. Manipulación de datos con funciones de R base (8/marzo/2024) - Evelia Coss
 - Viernes 7. Manipulación de datos usando dplyr (15/marzo/2024) - Evelia Coss
 - Viernes 8. Generación de diversos gráficos usando ggplot2 (22/marzo/2024) - Sofia Salazar
-- Viernes 9. Creando tus propias funciones para la manipulación de datos (for loops y funciones) (29/marzo/2024) - Evelia Coss
-- Viernes 10. Terapia de Bioinfo grupal (opcional) (5/abril/2024) - Israel Aguilar
-- Viernes 11. Manipulación de datos para crear un heatmap (ComplexHeatmap) (12/abril/2024) - Sofia Salazar
-- Viernes 12. Bioestadistica (19/abril/2024) - Obed Ramirez (confirmado)
-- Viernes 13. Bioestadistica (26/abril/2024) - Obed Ramirez (confirmado)
-- Viernes 14. Terapia de Bioinfo grupal (opcional) (3/mayo/2024) - Israel Aguilar
-- Viernes 15. Exploración de datos y elección de pruebas o modelos (17/mayo/2024) - Domingo Martinez (por confirmar fecha)
-- Viernes 16. Exploración de datos y elección de pruebas o modelos (24/mayo/2024) - Domingo Martinez (por confirmar fecha)
-- Viernes 17. Introducción a Python (31/mayo/2024) - Shadday Guerrero (confirmado)
-- Viernes 18. Python (7/junio/2024) - Shadday Guerrero (confirmado)
-- Viernes 19. Python (14/junio/2024) - Shadday Guerrero (confirmado)
-- Viernes 20. Python (21/junio/2024) - Shadday Guerrero (confirmado)
-- Viernes 21. Introducción a Bash (28/junio/2024) - Israel Aguilar
-- Viernes 22. Introducción a Bash (5/julio/2024) - Israel Aguilar
-- Viernes 23. Nextflow (12/julio/2024) - Israel Aguilar
-- Viernes 24. Nextflow (19/julio/2024) - Israel Aguilar
-- Viernes 25. Nextflow (26/julio/2024) - Israel Aguilar
+- Viernes 9. Terapia de Bioinfo grupal (opcional) (5/abril/2024) - Israel Aguilar
+- Viernes 10. Manipulación de datos para crear un heatmap (ComplexHeatmap) (12/abril/2024) - Sofia Salazar
+- Viernes 11. Bioestadistica (19/abril/2024) - Obed Ramirez (confirmado)
+- Viernes 12. Bioestadistica (26/abril/2024) - Obed Ramirez (confirmado)
+- Viernes 13. Terapia de Bioinfo grupal (opcional) (3/mayo/2024) - Israel Aguilar
+- Viernes 14. Exploración de datos y elección de pruebas o modelos (17/mayo/2024) - Domingo Martinez (por confirmar fecha)
+- Viernes 15. Exploración de datos y elección de pruebas o modelos (24/mayo/2024) - Domingo Martinez (por confirmar fecha)
+- Viernes 16. Introducción a Python (31/mayo/2024) - Shadday Guerrero (confirmado)
+- Viernes 17. Python (7/junio/2024) - Shadday Guerrero (confirmado)
+- Viernes 18. Python (14/junio/2024) - Shadday Guerrero (confirmado)
+- Viernes 19. Python (21/junio/2024) - Shadday Guerrero (confirmado)
+- Viernes 20. Introducción a Bash (28/junio/2024) - Israel Aguilar
+- Viernes 21. Introducción a Bash (5/julio/2024) - Israel Aguilar
+- Viernes 22. Nextflow (12/julio/2024) - Israel Aguilar
+- Viernes 23. Nextflow (19/julio/2024) - Israel Aguilar
+- Viernes 24. Nextflow (26/julio/2024) - Israel Aguilar
 
 ### Viernes 1. Información general del curso e Introducción a R
 
