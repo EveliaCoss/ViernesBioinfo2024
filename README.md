@@ -57,8 +57,8 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Viernes 11. Bioestadistica (19/abril/2024) - Obed Ramirez (confirmado)
 - Viernes 12. Bioestadistica (26/abril/2024) - Obed Ramirez (confirmado)
 - Viernes 13. Terapia de Bioinfo grupal (opcional) (3/mayo/2024) - Israel Aguilar
-- Viernes 14. Exploración de datos y elección de pruebas o modelos (17/mayo/2024) - Domingo Martinez (por confirmar fecha)
-- Viernes 15. Exploración de datos y elección de pruebas o modelos (24/mayo/2024) - Domingo Martinez (por confirmar fecha)
+- Viernes 14. Exploración de datos y elección de pruebas o modelos (17/mayo/2024) - Domingo Martinez (confirmado)
+- Viernes 15. Exploración de datos y elección de pruebas o modelos (24/mayo/2024) - Domingo Martinez (confirmado)
 - Viernes 16. Introducción a Python (31/mayo/2024) - Shadday Guerrero (confirmado)
 - Viernes 17. Python (7/junio/2024) - Shadday Guerrero (confirmado)
 - Viernes 18. Python (14/junio/2024) - Shadday Guerrero (confirmado)
