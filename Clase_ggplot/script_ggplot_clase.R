@@ -43,7 +43,7 @@ infoStats <- read.csv(paste0(indir,"data/charactersStats.csv"), na.strings = "")
 #Base de datos de los valores de Home ranch (rango de hogar) (log10) y valores de masa corporal (log10) para 462 especies de mamíferos
 #Tucker, M. A. et al; Home range-body size patterns: are all mammals equal?
 #https://onlinelibrary.wiley.com/journal/14668238?journalRedirectCheck=true
-bd<- read.csv(paste0(indir,"MMHOME.csv"))
+bd<- read.csv(paste0(indir,"data/MMHOME.csv"))
 
 
 ###--- Resumen de la informacion ----
@@ -82,6 +82,10 @@ fullMarvelDc$Race <- as.factor(fullMarvelDc$Race)
 fullMarvelDc$Publisher <- as.factor(fullMarvelDc$Publisher)
 fullMarvelDc$Alignment <- as.factor(fullMarvelDc$Alignment)
 
+marvelDcGender <- fullMarvelDc %>% filter(!is.na(Gender)) %>%
+  group_by(Gender)%>%
+  dplyr::count(Publisher) %>%
+  select(Gender, Publisher, Count = n)
 ###--- Graficas basicas ----
 
 # 1. Base del grafico
@@ -105,6 +109,12 @@ ggplot(data = marvelDcGender) +
 # o asignando atributos fuera del mapping. Recordar la diferencia entre el mapping y "setting aesthetics".
 
 #a. Agregar elementos aeshetics al mapping
+
+# aplicar a todo el grafico y a las capas siguientes el mapping (overide posible)
+ggplot(marvelDcGender, mapping = aes(x = Gender, y = Count)) + 
+  geom_point(mapping = aes(colour= Publisher))
+
+# aplicar el mapping especifico a una capa (mas usado)
 ggplot(marvelDcGender) + 
   geom_point(mapping = aes(x = Gender, y = Count, colour= Publisher)) 
 
@@ -130,6 +140,7 @@ goodBadPalette <- c("#A71D20", "#0DA751", "#818385")
 
 # ONE VARIABLE continuous (valores)
 c <- ggplot(infoCharacters, aes(x = Height))
+c
 c + geom_area(stat = "bin")
 c + geom_density(kernel = "gaussian")
 c + geom_dotplot()
@@ -138,10 +149,12 @@ c + geom_histogram()
 
 # ONE VARIABLE discrete (cualidades)
 d <- ggplot(infoCharacters, aes(x = Gender))
+d
 d + geom_bar()
 
 #TWO VARIABLES both continuous 
 e <- ggplot(data = infoCharacters, aes(x = Height, y = Weight))
+e
 e + geom_point()
 e + geom_jitter(alpha=0.5) #Jitter agrega una pequeña cantidad de ruido aleatorio a los datos. Se utiliza para distribuir puntos que, de otro modo, quedarían sobretrazados.
 
@@ -160,6 +173,7 @@ e + geom_text(aes(label= Publisher)) # remplazar puntos por letras
 
 #one discrete, one continuous
 f <- ggplot(marvelDcGender, aes(x = Gender, y = Count))
+f
 f + geom_col()
 f + geom_boxplot()
 f + geom_violin()
@@ -168,11 +182,13 @@ rm(f, e, d, c) #eliminar variables especificas
 
 #both discrete
 g <- ggplot(infoCharacters, aes(x = Gender, y = Publisher))
+g
 g + geom_count()
 g + geom_jitter()
 
 #Tres variables
 g <- ggplot(infoCharacters, aes(x= Gender, y = Race))
+g
 g + geom_raster(aes(fill = Publisher))
 
 #Aplica la grafica las capas con diferentes geoms
@@ -335,6 +351,7 @@ range(bd$Home.range) # tener presente el rango va de -4.44 a 5.69
 range(bd$Mass) # -2.38  4.52
 
 e <- ggplot(data = bd, aes(x = Home.range, y = Mass))
+e
 e + geom_point()
 #Delimitar x
 e + geom_point() +
@@ -357,12 +374,14 @@ e + geom_point()+
 
 #Rotar los ejes
 f <- ggplot(bd, aes(x=Diet, y = Mass))
+f
 f + geom_boxplot()+
     coord_flip()
 
 #La función coord_trans crea sistemas sistemas de coordenadas cartesianas transformadas,afectando a la apariencia de los geoms
 #Coordenadas polares
 f <- ggplot(bd, aes(x=Diet, y = Mass))
+f
 f + geom_bar(stat = "identity")
 
 f + geom_bar(stat = "identity")+
@@ -425,13 +444,7 @@ finalgraf <- plot_grid(graf1, graf2, labels=c("1A","1B"), ncol = 2, nrow = 1)
 finalgraf
 
 ## Listo! Solo nos queda guardar nuestro grafico
-ggsave(filename = "ggplo2_RMorelia.png", 
-       plot = finalgraf,
-       width = 10, height = 7, units = "in", #pulgadas
-       bg = "white",
-       dpi = 300)
-
-ggsave(filename = "ggplo2_RMorelia.pdf", 
+ggsave(filename = paste0(indir, "ggplot2_final.png"), 
        plot = finalgraf,
        width = 10, height = 7, units = "in", #pulgadas
        bg = "white",
