@@ -1,0 +1,75 @@
+/*-- scss:defaults --*/
+
+$presentation-font-size-root: 30px;
+$code-block-font-size: 20px;
+
+.bigger-font{
+    font-size: 40px;
+}
+
+.center{
+    text-align: center;
+}
+
+.center_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.blank_space{
+    padding-top: 10%;
+}
+
+:root{
+    /*-- Variables definidas de acuerdo a los colors del tema "rladies" --*/
+    --morado-oscuro: #562457;
+    --morado-claro: #88398A;
+    --gris: #D3D3D3;
+    --negro: #181818;
+    --blanco: #FFFFFF;
+    --DarkBlue:           #003087;
+    --Blue:               #005EB8;
+    --BrightBlue:         #0072CE;
+    
+    --Black:              #231F20;
+    --DarkGrey:           #425563;
+    --MidGrey:            #768692;
+    --PaleGrey:           #E8EDEE;
+    --White:              #FFFFFF;
+    
+    --DarkGreen:          #006747;
+    --Green:              #009639;
+    --AquaGreen:          #00A499;
+    
+    --Purple:             #bf94e4;
+    --DarkPink:           #7C2855;
+    --Pink:               #AE2573;
+    --DarkRed:            #8A1538;
+    --Red:                #DA291C;
+    
+    --my-blue:            #122140;
+    --my-yellow:          #e5bf00;
+    --my-gold:            #C99C00;
+    
+    --my-coral:          #903030;
+    --my-red:            #FF3300;
+    --my-pink:           #c09090;
+    --quarto:            #dcf0fd;
+    }
+
+.title {
+    background-color: rgba(255, 255, 255, 0.6);
+      
+    }
+      
+.subtitle{
+        font-size: 30px;
+        background-color: rgba(255, 255, 255, 0.6);
+        color: black;
+        position: relative;
+        top: -0.450em;
+        text-align: center;
+  }
+/*-- scss:rules --*/

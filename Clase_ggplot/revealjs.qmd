@@ -1,0 +1,384 @@
+---
+title: "¿Cómo hacer presentaciones en R?"
+author: "Haydee, Fernanda, Ximena, Sofía"
+format: 
+    revealjs:
+        incremental: false
+        slide-number: c
+        show-slide-number: all
+        scrollable: true
+        footer: "Reveal js Quarto"
+        menu: 
+            side: right
+        theme: [default, custom.scss]
+---
+
+## Paquetes y plataformas
+
+- Rmarkdown - Xaringan, revealjs
+- Quarto - reveal js
+
+
+
+
+
+
+## Crear diapositivas
+:::{style="font-size: 25px"}
+- Yaml: (Yet Another Markdown Language) configura características generales del documento 
+- [Todas las opciones YAML](https://quarto.org/docs/reference/formats/presentations/revealjs.html)
+:::
+
+```{.r code-line-numbers="1-11|13|15-16|18|20-21|"}
+---
+title: "¿Cómo hacer presentaciones en R?"
+author: "Haydee, Fernanda, Ximena, Sofía"
+format: 
+    revealjs: 
+        slide-number: c # mostrar solo el número de la diapositiva
+        show-slide-number: all # mostrar la numeración para todas las vistas
+        footer: "Reveal js Quarto" # pie de diapositiva
+        menu: 
+            side: left # mostrar menu de herramientas a la izquierda
+---
+
+## Diapositiva 1 
+
+- Contenido 1 
+- Contenido 2 
+
+---
+
+- Contenido 1 
+- Contenido 2 
+
+```
+
+
+
+
+
+## Diapositivas graduales 
+
+```{.r code-line-numbers="|5|8-13|15-20"}
+---
+title: "Título"
+format:
+  revealjs:
+    incremental: true   
+---
+
+:::{.incremental}
+
+- Contenido 1
+- Contenido 2
+
+:::
+
+::: {.nonincremental}
+
+- Contenido 1
+- Contenido 2
+
+:::
+
+```
+
+
+
+
+
+
+# Generen un archivo con 3 diapositivas {background-color="aquamarine" .center}
+
+
+
+
+
+
+## Columnas e imagenes
+:::{.incremental}
+<br>
+
+```{.r}
+::::{.columns}
+
+::: {.column width="50%"}
+Izquierda
+:::
+
+::: {.column width="50%"}
+![](imagenes/rladies_logo.jpeg){width="50%"}
+:::
+
+::::
+```
+<br>
+
+:::: {.columns }
+
+::: {.column width="50%"}
+:::{.blank_space}
+- Ejemplo izquierda
+:::
+:::
+
+::: {.column width="50%" .fragment}
+![](imagenes/rladies_logo.jpeg){.center_image}
+:::
+
+::::
+:::
+
+
+
+
+
+
+## `{.smaller}`
+<br>
+
+:::{.nonincremental}
+- Opciones cambiar el tamaño del texto de toda la diapositiva 
+
+
+```{.r code-line-numbers="1-6|8"}
+---
+title: "Título"
+format: 
+    revealjs:
+        smaller: true
+---
+
+## Titulo diapositiva {.smaller}
+```
+:::
+
+
+
+
+
+
+## Ejemplo (texto grande) {.bigger-font}
+:::{.incremental}
+- Contenido 1
+- Contenido 2
+:::
+
+
+
+
+
+## Ejemplo (texto pequeño) {.smaller} 
+:::{.incremental}
+- Contenido 1
+- Contenido 2
+:::
+
+
+
+
+
+
+## Notas y pies de página {.smaller}
+
+```{.r code-line-numbers="3|6-8|10-12"}
+## Título de la diapositiva
+
+- Contenido 1 ^[Rladies et al., 2023]
+- Contenido 2
+
+:::{.notes}
+Buenos días mi nombre es ....
+:::
+
+::: aside
+Nota inferior
+:::
+
+```
+<br>
+
+:::{.nonincremental}
+- Contenido 1 ^[Rladies et al., 2023]
+- Contenido 2
+:::
+::: aside
+Nota inferior
+:::
+
+
+
+
+
+
+
+# En una diapositiva añadan:  {background-color="aquamarine" .center}
+
+- Una descripción breve de ustedes (columna 1)
+- Una foto suya (columna 2)
+- Forma de contacto (nota al pie)
+
+
+
+
+## Temas {auto-animate="true"}
+
+<br>
+
+:::{.nonincremental}
+- [repositorio de css](https://github.com/quarto-dev/quarto-cli/tree/main/src/resources/formats/html/bootstrap/themes)
+
+
+```r
+---
+title: "Presentation"
+format:
+  revealjs: 
+    theme: dark
+---
+```
+:::
+
+
+
+
+
+
+
+## Temas {auto-animate="true"}
+
+<br>
+
+:::{.nonincremental}
+- [repositorio de css](https://github.com/quarto-dev/quarto-cli/tree/main/src/resources/formats/html/bootstrap/themes)
+
+
+```r 
+---
+title: "Presentation"
+format:
+  revealjs: 
+    theme: [default, custom.scss]
+---
+```
+:::
+
+
+
+
+
+
+## Cambios personalizados en los temas
+
+:::{.nonincremental}
+:::{style="font-size: 30px"}
+
+- Los archivos que definen los temas son de tipo [Sass](https://sass-lang.com/documentation/) que es un pre-procesador de CSS y le da algunas capacidades de un lenguaje de programación (variables, reglas anidadas, funciones, etc.)
+    - [Wikipedia: ilustra las diferencias con CSS](https://es.wikipedia.org/wiki/Sass)
+    - [Tutorial freecodecamp](https://www.youtube.com/watch?v=_a5j7KoflTs&ab_channel=freeCodeCamp.org)
+
+:::
+```css
+/*-- scss:defaults --*/
+
+$body-bg: #191919;
+$body-color: #fff;
+$link-color: #42affa;
+
+/*-- scss:rules --*/
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-left: 0.5em;
+}
+
+```
+:::{style="font-size: 30px"}
+- [Lista](https://quarto.org/docs/presentations/revealjs/themes.html#sass-variables) de variables que se pueden modificar
+:::
+:::
+
+
+:::{.notes}
+- En el formato scss se permite escribir codigo css
+
+:::
+
+
+
+
+
+
+
+## CSS en la presentación 
+:::{.nonincremental}
+
+- Algunos estilos específicos se pueden indicar directamente en las diaposivas
+- CSS - lenguaje para dar estilo a documentos HTML (cómo es que se deben mostrar los elementos del HTML)^[[W3Schools](https://www.w3schools.com/css/default.asp)]
+
+```r
+:::{style="font-size: 40px; color:Tomato"}
+- Ejemplo 
+:::
+```
+:::
+
+:::{style="font-size: 40px; color:Tomato"}
+- Ejemplo 
+:::
+
+
+
+
+
+
+
+# Actividad:  {background-color="aquamarine" .center}
+
+- Escoger un tema de la lista y agregarlo a la diapositiva
+- En un archivo de texto nuevo (con terminación .scss) cambien el valor de una variable de la lista (*nota: añadir tanto el archivo del tema escogido como el archivo modificado*)
+
+     ```r
+    theme: [theme, my_theme.scss]
+     ```
+
+- En uno de sus elementos de la diapositiva cambien el formato utilizando la propiedad `style`
+
+     ```r
+     :::{style="propiedad: valor;"}
+     - contenido
+     :::
+     ```
+
+
+
+
+
+
+## Diagramas y figuras 
+
+:::{.nonincremental style="font-size: 30px"}
+- Dependiendo del área (y el estilo de cada quién) hay algunas figuras (mapas mentales, diagramas de flujo, explicaciones conceptuales) que son más fáciles de hacer manualmente. Las figuras se pueden añadir como svg, png, jpg a la presentación.
+:::
+
+::::{.columns}
+::: {.column width="20%" style="font-size: 30px"}
+
+**Recursos libres**
+
+- [Biorender](https://www.biorender.com/) - más o menos libre
+- [Bioicons](https://bioicons.com/)
+- [Drawio](https://app.diagrams.net/)
+- [Inkscape](https://inkscape.org/es/)
+
+:::
+
+::: {.column width="80%" style="font-size: 30px"}
+
+```{r}
+knitr::include_graphics("imagenes/example.png")
+```
+:::
+
+::::
