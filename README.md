@@ -130,6 +130,14 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Script: [MarvelvsDCComics_Join_script.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/MarvelvsDCComics_Join_script.R)
 - Input: Vamos a emplear el Output de la clase 6 [Info_data.RData](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/Info_data.RData)
 
+### Viernes 8. Generación de diversos gráficos usando ggplot2 
+
+- Fecha: Viernes 22 de marzo 2024
+- Instructora: Sofia Salazar
+- Presentación: [Generación de diversos gráficos usando ggplot2](https://eveliacoss.github.io/ViernesBioinfo2024/Clase_ggplot/slides.html#1)
+- Grabación: Clase8
+- Script: [script_ggplot_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_ggplot/script_ggplot_clase.R)
+
 ## Licencia y términos de uso
 
 El material de los VieRnes de Bioinformatica se distribuye públicamente a través de este repositorio GitHub bajo la Licencia No Comercial Creative Commons 4.0
