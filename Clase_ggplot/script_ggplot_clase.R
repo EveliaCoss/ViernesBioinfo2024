@@ -58,8 +58,6 @@ head(infoPowers)
 head(infoStats)
 
 ###--- PROCESAMIENTO DE DATOS----
-
-
 colnames(infoCharacters)[colnames(infoCharacters) == "name"] <- "Name"
 colnames(infoPowers)[colnames(infoPowers) == "hero_names"] <- "Name"
 unique(infoCharacters$Publisher)
@@ -96,25 +94,21 @@ marvelDcGender <- fullMarvelDc %>% filter(!is.na(Gender)) %>%
 
 ggplot(data = marvelDcGender, mapping = aes(x = Gender, y = Count))
 
-#2. Se agregan los elementos esteticos
+#2. Se agregan las geometrias
 # aes(), en este caso las variables (x, y) 
 # Tipo de grafica = que queremos representar y agregamos el tipo de geometria para representar los datos.
-
+# aplicar a todo el grafico y a las capas siguientes el mapping (overide posible)
 ggplot(data = marvelDcGender) +
     geom_point(mapping = aes(x = Gender, y = Count)) # Grafica de puntos
-
-
+# aplicar el mapping especifico a una capa (mas usado)
+ggplot(data = marvelDcGender, mapping = aes(x = Gender, y = Count)) +
+  geom_point()
 
 #3. El grafico anterior se puede ir enriqueciendo al agregar atributos esteticos al mapping 
 # o asignando atributos fuera del mapping. Recordar la diferencia entre el mapping y "setting aesthetics".
 
 #a. Agregar elementos aeshetics al mapping
 
-# aplicar a todo el grafico y a las capas siguientes el mapping (overide posible)
-ggplot(marvelDcGender, mapping = aes(x = Gender, y = Count)) + 
-  geom_point(mapping = aes(colour= Publisher))
-
-# aplicar el mapping especifico a una capa (mas usado)
 ggplot(marvelDcGender) + 
   geom_point(mapping = aes(x = Gender, y = Count, colour= Publisher)) 
 
@@ -133,6 +127,7 @@ ggplot(marvelDcGender) +
 # PALETAS DE COLOR PERSONALIZADAS
 dcMarvelPalette <- c("#0476F2", "#EC1E24")
 goodBadPalette <- c("#A71D20", "#0DA751", "#818385")
+
 
 # Para agregar geometrias que representen los datos hay que  utilizar la funcion  geom_ 
 # que se usa en ggplot para representa un grafico por medio de objetos geometricos. 
@@ -156,7 +151,7 @@ d + geom_bar()
 e <- ggplot(data = infoCharacters, aes(x = Height, y = Weight))
 e
 e + geom_point()
-e + geom_jitter(alpha=0.5) #Jitter agrega una pequeña cantidad de ruido aleatorio a los datos. Se utiliza para distribuir puntos que, de otro modo, quedarían sobretrazados.
+e + geom_point(alpha=0.5)
 
 # alpha es para poner transparencia y permite ver entre mas solido
 # mas datos presentes
@@ -214,6 +209,7 @@ ggplot(bd, aes(x=Home.range, y = Mass))+
     geom_smooth(method = lm, color="black") + # ajustar una linea
     scale_shape_manual(values=c(17, 18, 19)) +
     scale_color_manual(values=c('#CC0033','#E69F00', '#00CCCC'))
+  # scale_color_manual(values=c("Carnivore" = '#CC0033', "Omnivore" = '#E69F00', "Herbivore" = '#00CCCC'))
 
 ########Etiquetado######################
 #Asignar nombres al título, subtitulo, ejes
@@ -239,7 +235,7 @@ aa + theme_void()
 aa + theme_test()
 aa + theme_classic()
 
-#Manipualar them
+#Manipular theme
 ?theme
 
 #Asignar estilo a las letras titulo y ejes
@@ -294,6 +290,18 @@ ggplot(bd, aes(x=Home.range , y = Mass))+
     scale_x_continuous(name = "Rango de hogar (log)") +
     scale_y_continuous(name = "Masa (log)")+
     scale_colour_discrete(name="Dieta")
+
+ggplot(bd, aes(x=Home.range , y = Mass))+
+  geom_point(aes(colour = Diet))+
+  scale_x_binned(name = "Rango de hogar (log)") +
+  scale_y_continuous(name = "Masa (log)")+
+  scale_colour_discrete(name="Dieta")
+
+ggplot(bd, aes(x=Home.range , y = Mass))+
+  geom_point(aes(colour = Diet))+
+  scale_x_binned(name = "Rango de hogar (log)") +
+  scale_y_binned(name = "Masa (log)")+
+  scale_colour_discrete(name="Dieta")
 
 ###Colores####
 #Colores predeterminados
@@ -389,6 +397,7 @@ f + geom_bar(stat = "identity")+
 
 f + geom_bar(stat = "identity")+
     coord_polar(theta = "y")
+
 
 #################FACETAS#####################################
 #La creación de facetas muestra un subconjunto diferente de los datos. 

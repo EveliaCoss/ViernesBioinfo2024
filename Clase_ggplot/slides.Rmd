@@ -133,6 +133,8 @@ Asistente de investigación @ [Im Lab](https://hakyimlab.org/), The University o
 - [LupusRGMX](https://twitter.com/LupusRgmx)
 
 - [Proyecto JAGUAR](https://twitter.com/PJaguarLATAM)
+
+- Viernes de Bioinformática
 ]
 
 .right-col[
