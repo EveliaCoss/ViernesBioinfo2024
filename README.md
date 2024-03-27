@@ -135,7 +135,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Fecha: Viernes 22 de marzo 2024
 - Instructora: Sofia Salazar
 - Presentación: [Generación de diversos gráficos usando ggplot2](https://eveliacoss.github.io/ViernesBioinfo2024/Clase_ggplot/slides.html#1)
-- Grabación: Clase8
+- Grabación: [Clase8](https://drive.google.com/file/d/1IOnuBGetqmuSo73346sgWb5g4o16Uj6j/view?usp=sharing)
 - Script: [script_ggplot_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_ggplot/script_ggplot_clase.R)
 
 ## Licencia y términos de uso
