@@ -1,0 +1,9 @@
+"sample","condition","color","months","weight","treatment_time"
+"SRR12363092","control","beige",12,34.2004034062847,0
+"SRR12363093","control","black",14,36.9001037999988,0
+"SRR12363095","treated","black",6,32.4729473795742,15
+"SRR12363096","treated","beige",8,21.8963038129732,15
+"SRR12363098","treated","gray",4,31.647731224075,30
+"SRR12363099","treated","gray",12,37.6663715718314,30
+"SRR12363101","treated","black",9,37.5904675712809,240
+"SRR12363102","treated","beige",10,20.2229171292856,240
