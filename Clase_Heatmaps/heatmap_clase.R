@@ -174,7 +174,37 @@ Heatmap(hMat_ordered, show_column_names = F, show_row_names = F, name = "Z-score
         left_annotation = c(type_anno, FC_anno))
 
 # ----Anotaciones mas complejas-----
+# Boxplot
+# Supongamos que tenemos pvalores para los genes y los individuos y los queremos visualizar tambien
 
+set.seed(1)
+# generar pvalores falsos, tiene que ser una matriz de la misma dimension que nuestros datos
+pvalues_matrix <- matrix(nrow = 50, ncol = 8)
+for(i in 1:8) {
+  significant_pvalues <- runif(40, min = 0.0001, max = 0.05)
+  non_significant_pvalues <- runif(10, min = 0.05, max = 1)
+  row_pvalues <- sample(c(significant_pvalues, non_significant_pvalues))
+  pvalues_matrix[,i ] <- row_pvalues
+}
 
+# para las anotaciones de boxplot se usa la funcion anno_boxplot()
+# se pueden hacer tanto para row, column o ambas, en este caso solo tenemos para row (genes)
+box_anno <- anno_boxplot(pvalues_matrix, which = c("row"), border = T,
+                         gp = gpar(fill = "#CCCCCC"), ylim = NULL,
+                         outline=T, pch = 1, size = unit(2, "mm"), axis = T)
 
-                                          
+draw(box_anno)
+
+# podemos transformar los pvalores para hacerlos mejor visibles
+box_anno <- anno_boxplot(-log10(pvalues_matrix), which = c("row"), border = T,
+                         gp = gpar(fill = "#CCCCCC"), ylim = NULL,
+                         outline=T, pch = 1, size = unit(2, "mm"), axis = T)
+
+draw(box_anno)
+
+Heatmap(hMat_ordered, show_column_names = F, show_row_names = F, name = "Z-score", cluster_rows = F, 
+        cluster_columns = F, col = col_exp,
+        top_annotation = c(color_anno,time_anno, condition_anno),
+        column_split = split, split = split_row,
+        left_annotation = c(type_anno, FC_anno),
+        right_annotation = rowAnnotation("-log10(p-value)" = box_anno))
