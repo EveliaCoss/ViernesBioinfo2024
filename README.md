@@ -138,6 +138,24 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Grabación: [Clase8](https://drive.google.com/file/d/1IOnuBGetqmuSo73346sgWb5g4o16Uj6j/view?usp=sharing)
 - Script: [script_ggplot_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_ggplot/script_ggplot_clase.R)
 
+### Viernes 9. Terapia de Bioinfo grupal (opcional) 
+
+- Fecha: Viernes 5 de abril 2024
+- Instructora: Dr. Israel Aguilar
+- Grabación: Clase9
+- Script: 
+
+### Viernes 10. Manipulación de datos para crear un heatmap (ComplexHeatmap)
+
+- Fecha: Viernes 12 de abril 2024
+- Instructora: Sofia Salazar
+- Grabación: Clase10
+- Script:
+      - [get_data.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/get_data.R)
+      - [heatmap_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/heatmap_clase.R)
+- Data: https://github.com/EveliaCoss/ViernesBioinfo2024/tree/main/Clase_Heatmaps/data
+
+
 ## Licencia y términos de uso
 
 El material de los VieRnes de Bioinformatica se distribuye públicamente a través de este repositorio GitHub bajo la Licencia No Comercial Creative Commons 4.0
