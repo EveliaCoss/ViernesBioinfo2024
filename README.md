@@ -143,7 +143,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Fecha: Viernes 5 de abril 2024
 - Instructoras: LBt Josué Guzmán Linares, Dr. Israel Aguilar
 - Grabación: Clase9
-- Script: 
+- Carpeta con scripts y data: [carpeta en gdrive](https://drive.google.com/drive/folders/1cHT86LPY9-MfqXiwpFxagcCpODl9HLWJ?usp=drive_link)
 
 ### Viernes 10. Manipulación de datos para crear un heatmap (ComplexHeatmap)
 
