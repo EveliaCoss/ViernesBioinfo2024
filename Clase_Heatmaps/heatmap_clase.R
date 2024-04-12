@@ -174,7 +174,7 @@ Heatmap(hMat_ordered, show_column_names = F, show_row_names = F, name = "Z-score
         left_annotation = c(type_anno, FC_anno))
 
 # ----Anotaciones mas complejas-----
-# Boxplot
+# ----Boxplot----
 # Supongamos que tenemos pvalores para los genes y los individuos y los queremos visualizar tambien
 
 set.seed(1)
@@ -208,3 +208,161 @@ Heatmap(hMat_ordered, show_column_names = F, show_row_names = F, name = "Z-score
         column_split = split, split = split_row,
         left_annotation = c(type_anno, FC_anno),
         right_annotation = rowAnnotation("-log10(p-value)" = box_anno))
+
+# ----Barplot----
+
+# supongamos que tenemos un valor de "temperatura" por muestra que queremos representar
+
+temp <- runif(8, min = 10, max = 35)
+
+# como las muestras estan en las columnas, creamos un HeatmapAnnotation
+# y usamos la funcion anno_barplot()
+
+temp_anno <- HeatmapAnnotation("Temperature" = anno_barplot(temp, gp = gpar(fill = "#db5c62")))
+draw(temp_anno)
+
+Heatmap(hMat_ordered, show_column_names = F, show_row_names = F, name = "Z-score", cluster_rows = F, 
+        cluster_columns = F, col = col_exp,
+        top_annotation = c(color_anno, condition_anno, temp_anno),
+        column_split = split, split = split_row,
+        left_annotation = c(type_anno, FC_anno),
+        right_annotation = rowAnnotation("-log10(p-value)" = box_anno))
+
+# podemos crear tambien una anotacion para las filas con rowAnnotation()
+
+gene_bar_anno <- rowAnnotation("Gene size" = anno_barplot(runif(50, max = 2300, min = 78 ),
+                               gp = gpar(fill = "#5c78db")))
+draw(gene_bar_anno)
+
+Heatmap(hMat_ordered, show_column_names = F, show_row_names = F, name = "Z-score", cluster_rows = F, 
+        cluster_columns = F, col = col_exp,
+        top_annotation = c(color_anno, condition_anno, temp_anno),
+        column_split = split, split = split_row,
+        left_annotation = c(type_anno, FC_anno, gene_bar_anno),
+        right_annotation = rowAnnotation("-log10(p-value)" = box_anno))
+
+# Podemos modificar la altura del barplot
+
+gene_bar_anno <- rowAnnotation("Gene size" = anno_barplot(runif(50, max = 2300, min = 78 ),
+                                                          gp = gpar(fill = "#5c78db"),
+                                                          axis_param = list(direction = "reverse"),
+                                                          width = unit(3, "cm")))
+
+Heatmap(hMat_ordered, show_column_names = F, show_row_names = F, name = "Z-score", cluster_rows = F, 
+        cluster_columns = F, col = col_exp,
+        top_annotation = c(color_anno, condition_anno, temp_anno),
+        column_split = split, split = split_row,
+        left_annotation = c(type_anno, FC_anno, gene_bar_anno),
+        right_annotation = rowAnnotation("-log10(p-value)" = box_anno))
+# ----Anotaciones dentro del heatmap---
+
+# supongamos que yo quiero dibujar un asterisco dependiento de la significancia de un gen
+# y esto a su vez depende de el zscore y de el pvalue
+# esto lo podemos lograr haciendo uso del argumento layer_fun()
+# ahi podemos definir una funcion que agregue una anotacion dependiendo de una(s)
+# condiciones
+
+
+# los argumentos j, i corresponden a las filas y columnas
+
+# ya que quiero que la anotacion dependa de tanto los zscores (hMat_ordered) y
+# los pvalues (pvalues_matrix), entonces se crearan dos "indices" con pindex
+Heatmap(hMat_ordered,  show_column_names = F, show_row_names = F,
+        name = "Z-score", col = col_exp, cluster_rows = F, 
+        cluster_columns = F,
+        layer_fun = function(j, i, x, y, width, height, fill) {
+  # para definir una posicion en la matriz, necesitamos crear un indice
+  # se usa pindex() en lugar de mat[j, i],
+  # pues esto nos daria una matriz pequena
+  v = pindex(hMat_ordered, i, j)
+  vp = pindex(pvalues_matrix, i, j)
+
+  # quiero anotar ** si es muy significativo y * si es poco significativo
+  # entonces establezco dos condiciones l y l2, que dependen del valor de zscore 
+  # (todos los v) y del de pvalue (todos los vp)
+  
+  l = ((abs(v) >= 1) & (vp < 0.05) ) # **
+  l2 = ((abs(v) >=0.5) & (abs(v) < 1) & (vp < 0.05) ) # *
+  
+  
+  # definimos el texto para poder anotarlo, asi como determinamos la
+  # altura y ancho del texto
+  gb = textGrob("**")
+  gb_w = convertWidth(grobWidth(gb), "mm")
+  gb_h = convertHeight(grobHeight(gb), "mm")
+  
+  gb2 = textGrob("*")
+  gb2_w = convertWidth(grobWidth(gb2), "mm")
+  gb2_h = convertHeight(grobHeight(gb2), "mm")
+  
+  # aqui solo muevo un poco la posicion de los simbolos para que queden
+  # centrados en las celdas
+  # y defino formalmente lo que quiero escribir en las celdas
+  grid.text("**", x[l], y[l] - gb_h*0.7 + gb_w*0.4)
+  grid.text("*", x[l2], y[l2] - gb2_h*0.5 + gb2_w*0.4)
+})
+
+# ----Heatmap final con todos los tipos de anotaciones aprendidas----
+
+heatmap_final <- Heatmap(hMat_ordered,  show_column_names = F, show_row_names = F,
+                         name = "Z-score", col = col_exp, cluster_rows = F, 
+                         cluster_columns = F, 
+                         # separaciones entre columnas y filas
+                         column_split = split, split = split_row,
+                         # Anotaciones de columna, incluyendo un barplot
+                         top_annotation = c(color_anno, month_anno, weight_anno,time_anno, condition_anno, temp_anno),
+                         # Anotaciones de fila, incuyendo boxplot y barplot
+                         left_annotation = c(type_anno, FC_anno, gene_bar_anno), 
+                         right_annotation = rowAnnotation("-log10(p-value)" = box_anno),
+                         # Anotacion de texto en celda
+                         layer_fun = function(j, i, x, y, width, height, fill) {
+                           # para definir una posicion en la matriz, necesitamos crear un indice
+                           # se usa pindex() en lugar de mat[j, i],
+                           # pues esto nos daria una matriz pequena
+                           v = pindex(hMat_ordered, i, j)
+                           vp = pindex(pvalues_matrix, i, j)
+                           
+                           # quiero anotar ** si es muy significativo y * si es poco significativo
+                           # entonces establezco dos condiciones l y l2, que dependen del valor de zscore 
+                           # (todos los v) y del de pvalue (todos los vp)
+                           
+                           l = ((abs(v) >= 1) & (vp < 0.05) ) # **
+                           l2 = ((abs(v) >=0.5) & (abs(v) < 1) & (vp < 0.05) ) # *
+                           
+                           
+                           # definimos el texto para poder anotarlo, asi como determinamos la
+                           # altura y ancho del texto
+                           gb = textGrob("**")
+                           gb_w = convertWidth(grobWidth(gb), "mm")
+                           gb_h = convertHeight(grobHeight(gb), "mm")
+                           
+                           gb2 = textGrob("*")
+                           gb2_w = convertWidth(grobWidth(gb2), "mm")
+                           gb2_h = convertHeight(grobHeight(gb2), "mm")
+                           
+                           # aqui solo muevo un poco la posicion de los simbolos para que queden
+                           # centrados en las celdas
+                           # y defino formalmente lo que quiero escribir en las celdas
+                           grid.text("**", x[l], y[l] - gb_h*0.7 + gb_w*0.4)
+                           grid.text("*", x[l2], y[l2] - gb2_h*0.5 + gb2_w*0.4)
+                         })
+
+draw(heatmap_final)
+
+
+# ----Guardar un heatmap----
+
+# la opcion que mas recomiendo es usar la funcion png() o pdf() o incluso svg() y combinarlo con draw()
+# en la funcion png podemos jugar con los tamanos
+
+png(filename = paste0(indir, "final_Heatmap.png"), res = 300, height = 30, width = 30, units = "cm")
+  draw(heatmap_final)
+dev.off()
+
+pdf(file = paste0(indir, "final_Heatmap.pdf"))
+draw(heatmap_final)
+dev.off()
+
+svg(filename = paste0(indir, "final_Heatmap.svg"), height = 12, width = 12)
+draw(heatmap_final)
+dev.off()
