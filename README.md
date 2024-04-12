@@ -154,6 +154,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
       - [get_data.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/get_data.R)
       - [heatmap_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/heatmap_clase.R)
 - Data: https://github.com/EveliaCoss/ViernesBioinfo2024/tree/main/Clase_Heatmaps/data
+- Manual de [Complexheatmap](https://jokergoo.github.io/ComplexHeatmap-reference/book/index.html)
 
 
 ## Licencia y términos de uso
