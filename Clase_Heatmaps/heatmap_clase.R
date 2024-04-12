@@ -1,5 +1,6 @@
 library(tidyverse)
 
+# GUIA SUPREMA: https://jokergoo.github.io/ComplexHeatmap-reference/book/index.html
 # ----Datos----
 indir <- "/Users/sofiasalazar/Desktop/LAB/ViernesBioinfo2024/Clase_Heatmaps/"
 
