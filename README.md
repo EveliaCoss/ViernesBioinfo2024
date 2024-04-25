@@ -149,7 +149,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 
 - Fecha: Viernes 12 de abril 2024
 - Instructora: Sofia Salazar
-- Grabación: Clase10
+- Grabación: [Clase10](https://drive.google.com/file/d/1zqvo38VxFaxdfYdxqfESv4C0PwN8X_Pd/view?usp=sharing)
 - Script:
       - [get_data.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/get_data.R)
       - [heatmap_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/heatmap_clase.R)
