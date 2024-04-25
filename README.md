@@ -160,7 +160,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 
 - Fecha: Viernes 19 de abril 2024
 - Instructora: Dr. Obed Ramirez
-- Grabación: Clase11
+- Grabación: [Clase11](https://drive.google.com/file/d/1aQXJnMdF89uyC8wUIxqHKCSVRu0vuc4w/view?usp=sharing)
 - Script:
 
 ### Viernes 12. Bioestadistica parte 2
