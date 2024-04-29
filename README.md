@@ -141,7 +141,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 ### Viernes 9. Terapia de Bioinfo grupal (opcional) 
 
 - Fecha: Viernes 5 de abril 2024
-- Instructoras: LBt Josué Guzmán Linares, Dr. Israel Aguilar
+- Instructores: LBt Josué Guzmán Linares, Dr. Israel Aguilar
 - Grabación: [Clase9](https://drive.google.com/file/d/1S4esWqRRAwYtUixunCoTMipx8CK1ycMt/view?usp=sharing)
 - Carpeta con scripts y data: [carpeta en gdrive](https://drive.google.com/drive/folders/1cHT86LPY9-MfqXiwpFxagcCpODl9HLWJ?usp=drive_link)
 
@@ -159,17 +159,21 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 ### Viernes 11. Bioestadistica parte 1 
 
 - Fecha: Viernes 19 de abril 2024
-- Instructora: Dr. Obed Ramirez
+- Instructor: Dr. Obed Ramirez
 - Grabación: [Clase11](https://drive.google.com/file/d/1aQXJnMdF89uyC8wUIxqHKCSVRu0vuc4w/view?usp=sharing)
 - Script:
 
 ### Viernes 12. Bioestadistica parte 2
 
 - Fecha: Viernes 26 de abril 2024
-- Instructora: Dr. Obed Ramirez
-- Grabación: Clase12
+- Instructor: Dr. Obed Ramirez
+- Grabación: [Clase12](https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/view?usp=sharing)
 - Script:
 
+### Viernes 13. Terapia de Bioinfo grupal (opcional) 
+
+- Fecha: Viernes 3 de mayo 2024
+- Instructor: Dr. Israel Aguilar
 
 ## Licencia y términos de uso
 
