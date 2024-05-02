@@ -176,7 +176,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructor: Dr. Israel Aguilar
 
 
-## Proximos eventos en estos meses
+## Próximos eventos en estos meses
 
 Por ocasión especial, por ser la primera vez que daremos Python en los Viernes de Bioinformatica, estaremos aceptando nuevos alumnos para este curso. Inviten a sus conocidos, amigos, novi@s, etc.
 
