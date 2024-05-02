@@ -175,6 +175,25 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Fecha: Viernes 3 de mayo 2024
 - Instructor: Dr. Israel Aguilar
 
+
+## Proximos eventos en estos meses
+
+Por ocasión especial, por ser la primera vez que daremos Python en los Viernes de Bioinformatica, estaremos aceptando nuevos alumnos para este curso. Inviten a sus conocidos, amigos, novi@s, etc.
+
+NO SE INSCRIBAN SI YA ESTAN PARTICIPANDO EN LOS VIERNES DE BIOINFORMATICA, recuerden que ustedes ya llenan sus formularios de asistencia cada viernes. Por eso no es necesario.
+
+###  Viernes 14 y 15. Exploración de datos y elección de pruebas o modelos
+
+- Fecha: Viernes 17 de mayo y 24 de mayo 2024 
+- Instructor: Dr. Domingo Martinez
+- Registro: https://forms.gle/wCcNWaGRQaLfB4wx8 (Fechas de inscripción: 29 de abril - 15 de mayo, cierre a las 6 pm)
+
+### Viernes 16, 17, 18 y 19. Introducción a Python (31/mayo/2024) 
+
+- Fecha: Viernes 31 de mayo, 7, 14 y 21 de junio 2024
+- Instructor: Dr. Shaday Guerrero
+- Registro: https://forms.gle/UeDCCS7oqUmGw9zcA (Fechas de inscripción: 29 de abril - 29 de mayo, cierre a las 6 pm)
+
 ## Licencia y términos de uso
 
 El material de los VieRnes de Bioinformatica se distribuye públicamente a través de este repositorio GitHub bajo la Licencia No Comercial Creative Commons 4.0
