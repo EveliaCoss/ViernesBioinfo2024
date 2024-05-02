@@ -192,6 +192,8 @@ NO SE INSCRIBAN SI YA ESTAN PARTICIPANDO EN LOS VIERNES DE BIOINFORMATICA, recue
 
 ### Viernes 16, 17, 18 y 19. Introducción a Python (31/mayo/2024) 
 
+![Shaday](VieRnesBioinfo_ShaddayGuerrero.jpg)
+
 - Fecha: Viernes 31 de mayo, 7, 14 y 21 de junio 2024
 - Instructor: Dr. Shaday Guerrero
 - Registro: https://forms.gle/UeDCCS7oqUmGw9zcA (Fechas de inscripción: 29 de abril - 29 de mayo, cierre a las 6 pm)
