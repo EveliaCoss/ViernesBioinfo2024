@@ -184,6 +184,8 @@ NO SE INSCRIBAN SI YA ESTAN PARTICIPANDO EN LOS VIERNES DE BIOINFORMATICA, recue
 
 ###  Viernes 14 y 15. Exploración de datos y elección de pruebas o modelos
 
+![Domingo](VieRnesBioinfo_DomingoMartinez.jpg)
+
 - Fecha: Viernes 17 de mayo y 24 de mayo 2024 
 - Instructor: Dr. Domingo Martinez
 - Registro: https://forms.gle/wCcNWaGRQaLfB4wx8 (Fechas de inscripción: 29 de abril - 15 de mayo, cierre a las 6 pm)
