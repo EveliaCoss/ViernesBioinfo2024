@@ -161,14 +161,12 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Fecha: Viernes 19 de abril 2024
 - Instructor: Dr. Obed Ramirez
 - Grabación: [Clase11](https://drive.google.com/file/d/1aQXJnMdF89uyC8wUIxqHKCSVRu0vuc4w/view?usp=sharing)
-- Script:
 
 ### Viernes 12. Bioestadistica parte 2
 
 - Fecha: Viernes 26 de abril 2024
 - Instructor: Dr. Obed Ramirez
 - Grabación: [Clase12](https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/view?usp=sharing)
-- Script:
 
 ### Viernes 13. Terapia de Bioinfo grupal (opcional) 
 
@@ -206,7 +204,7 @@ Creative Commons Licence This work is licensed under a Creative Commons Attribut
 
 ## Agradecimientos
 
-Queremos agradecer al LIIGH - UNAM por el apoyo y facilidades prestadas para poder impartir estos cursos. Queremos explícitamente agradecer, de manera muy especial, a la Dra. Maria Avila, la Dra, Alejandra Medina-Rivera, Licenciada Eglee Lomelin, Jair Santiago y Luis Aguilar por su extraordinaria labor y por impulsar estos cursos para el crecimiemnto de todos.
+Queremos agradecer al LIIGH - UNAM por el apoyo y facilidades prestadas para poder impartir estos cursos. Queremos explícitamente agradecer, de manera muy especial, a la Dra. Maria Avila, la Dra, Alejandra Medina-Rivera, Licenciada Eglee Lomelin, Jair Santiago y Luis Aguilar por su extraordinaria labor y por impulsar estos cursos para el crecimiento de todos.
 
 --------------
 Cursos hechos con amor 💜
