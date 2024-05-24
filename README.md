@@ -34,13 +34,13 @@ Link del calendario de [VieRnes de Bioinfo](https://calendar.google.com/calendar
 Se otorgará un diploma a los participantes que cuenten con el 80 % de las asistencias emitido por el LIIGH-UNAM, teniendo como representante a la Dra. Maria Avila.
 ## Instructores 👾
 
-- Dra. Evelia Lorena Coss Navarrete (ecoss@liigh.unam.mx)
-- Dr. Israel Aguilar (iaguilar@inmegen.gob.mx)
-- Sofia Salazar
-- LCG. Alejandra Schafer
-- Dr. Obed Ramirez
-- Dr. Domingo Martinez
-- Dr. Shadday Guerrero
+- Dra. Evelia Lorena Coss Navarrete (ecoss@liigh.unam.mx) - Posdoc, LIIGH - UNAM
+- Dr. Israel Aguilar - Jefe de Bioinformática, INMEGEN
+- Sofia Salazar - estudiante de Licenciatura en Ciencias Genomicas, ENES Juriquilla - UNAM
+- LCG. Alejandra Schafer - estudiante de doctorado, LIIGH - UNAM
+- Dr. Obed Ramirez - Chief Data Scientist (CDS) & Principal Investigator (PI), Solena Ag.
+- Dr. Domingo Martinez - Posdoc, LIIGH - UNAM
+- Dr. Shadday Guerrero - Posdoc, Centro de Ciencias Matemáticas - UNAM
 
 ## Contenido 📌
 
