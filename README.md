@@ -16,7 +16,7 @@ Fomentar la formación y crecimiento en bioinformática a través de cursos grat
     - Aula de Bioinformatica de LIIGH
     - Google meet (se encuentra el link en el calendario)
 - Grabación de las sesiones 📹.
-- Este curso de contempla finalizar hasta junio de 2024 (5 meses).
+- Este curso de contempla finalizar hasta julio de 2024 (6 meses).
 - Los cambios en horarios se anunciaran por Discord.
 
 ## Inscripción
@@ -32,6 +32,7 @@ Link del calendario de [VieRnes de Bioinfo](https://calendar.google.com/calendar
 ## Entrega de Diplomas
 
 Se otorgará un diploma a los participantes que cuenten con el 80 % de las asistencias emitido por el LIIGH-UNAM, teniendo como representante a la Dra. Maria Avila.
+
 ## Instructores 👾
 
 - Dra. Evelia Lorena Coss Navarrete (ecoss@liigh.unam.mx) - Posdoc, LIIGH - UNAM
