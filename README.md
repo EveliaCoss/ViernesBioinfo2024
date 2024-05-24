@@ -173,21 +173,24 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Fecha: Viernes 3 de mayo 2024
 - Instructor: Dr. Israel Aguilar
 - Script: [Material](https://raw.githubusercontent.com/EveliaCoss/ViernesBioinfo2024/main/Clase13/escalera.R)
+- Grabación: Clase13
 
+###  Viernes 14 y 15. Exploración de datos y elección de pruebas o modelos
+
+- Fecha: Viernes 17 de mayo y 24 de mayo 2024 
+- Instructor: Dr. Domingo Martinez
+- Grabación:
+      - [Clase 14](https://drive.google.com/file/d/1FoCG0hKrTzpUCJBquRRnfm1USTDBFF2S/view?usp=sharing)
+      - Clase 15
+- Material:
+      - Clase 14
+      - [Clase 15](https://drive.google.com/drive/folders/1a6SfQ--zAcuiq4zUB9x4qSFfBPleE_uU?usp=drive_link)
 
 ## Próximos eventos en estos meses
 
 Por ocasión especial, por ser la primera vez que daremos Python en los Viernes de Bioinformatica, estaremos aceptando nuevos alumnos para este curso. Inviten a sus conocidos, amigos, novi@s, etc.
 
 NO SE INSCRIBAN SI YA ESTAN PARTICIPANDO EN LOS VIERNES DE BIOINFORMATICA, recuerden que ustedes ya llenan sus formularios de asistencia cada viernes. Por eso no es necesario.
-
-###  Viernes 14 y 15. Exploración de datos y elección de pruebas o modelos
-
-![Domingo](VieRnesBioinfo_DomingoMartinez.jpg)
-
-- Fecha: Viernes 17 de mayo y 24 de mayo 2024 
-- Instructor: Dr. Domingo Martinez
-- Registro: https://forms.gle/wCcNWaGRQaLfB4wx8 (Fechas de inscripción: 29 de abril - 15 de mayo, cierre a las 6 pm)
 
 ### Viernes 16, 17, 18 y 19. Introducción a Python (31/mayo/2024) 
 
