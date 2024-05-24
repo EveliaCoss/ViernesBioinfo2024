@@ -41,7 +41,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - LCG. Alejandra Schafer - estudiante de doctorado, LIIGH - UNAM
 - Dr. Obed Ramirez - Chief Data Scientist (CDS) & Principal Investigator (PI), Solena Ag.
 - Dr. Domingo Martinez - Posdoc, LIIGH - UNAM
-- Dr. Shadday Guerrero - Posdoc, Centro de Ciencias Matemáticas - UNAM
+- Dr. Shaday Guerrero - Posdoc, Centro de Ciencias Matemáticas - UNAM
 
 ## Contenido 📌
 
