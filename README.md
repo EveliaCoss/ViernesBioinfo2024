@@ -182,7 +182,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructor: Dr. Domingo Martinez
 - Grabación:
       - [Clase 14](https://drive.google.com/file/d/1FoCG0hKrTzpUCJBquRRnfm1USTDBFF2S/view?usp=sharing)
-      - Clase 15
+      - [Clase 15](https://drive.google.com/file/d/12uApQHD_simPRd_zno2hWFVcsM5shEVE/view?usp=sharing)
 - Material:
       - Clase 14
       - [Clase 15](https://drive.google.com/drive/folders/1a6SfQ--zAcuiq4zUB9x4qSFfBPleE_uU?usp=drive_link)
