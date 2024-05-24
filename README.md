@@ -174,7 +174,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Fecha: Viernes 3 de mayo 2024
 - Instructor: Dr. Israel Aguilar
 - Script: [Material](https://raw.githubusercontent.com/EveliaCoss/ViernesBioinfo2024/main/Clase13/escalera.R)
-- Grabación: Clase13
+- Grabación: [Clase13](https://drive.google.com/file/d/1OIvuhlg1gBJIh2E1d0lD6GJallbY6Rlu/view?usp=sharing)
 
 ###  Viernes 14 y 15. Exploración de datos y elección de pruebas o modelos
 
