@@ -193,13 +193,29 @@ Por ocasión especial, por ser la primera vez que daremos Python en los Viernes 
 
 NO SE INSCRIBAN SI YA ESTAN PARTICIPANDO EN LOS VIERNES DE BIOINFORMATICA, recuerden que ustedes ya llenan sus formularios de asistencia cada viernes. Por eso no es necesario.
 
-### Viernes 16, 17, 18 y 19. Introducción a Python (31/mayo/2024) 
+### Viernes 16, 17, 18 y 19. Introducción a Python
 
 ![Shaday](VieRnesBioinfo_ShaddayGuerrero.jpg)
 
 - Fecha: Viernes 31 de mayo, 7, 14 y 21 de junio 2024
 - Instructor: Dr. Shaday Guerrero
 - Registro: https://forms.gle/UeDCCS7oqUmGw9zcA (Fechas de inscripción: 29 de abril - 29 de mayo, cierre a las 6 pm)
+
+### Viernes 20 y 21. Introducción a Bash (28 de junio y 5 de julio) 
+
+![Israel](VieRnesBioinfo_IsraelAguilar.png)
+
+- Fecha: Viernes 328 de junio y 5 de julio 2024
+- Instructor: Dr. Israel Aguilar
+- Registro: https://forms.gle/wYdTgz6Z2nni9m2TA (Fechas de inscripción: 27 de mayo - 26 de junio, cierre a las 6 pm)
+
+### Viernes 22, 23 y 24. Nextflow 
+
+![Israel](VieRnesBioinfo_IsraelAguilar.png)
+
+- Fecha: Viernes 12, 19 y 26 de julio 2024
+- Instructor: Dr. Israel Aguilar
+- Registro: https://forms.gle/wYdTgz6Z2nni9m2TA (Fechas de inscripción: 27 de mayo - 26 de junio, cierre a las 6 pm)
 
 ## Licencia y términos de uso
 
