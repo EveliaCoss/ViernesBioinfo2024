@@ -205,7 +205,7 @@ NO SE INSCRIBAN SI YA ESTAN PARTICIPANDO EN LOS VIERNES DE BIOINFORMATICA, recue
 
 ![Israel](VieRnesBioinfo_IsraelAguilar.png)
 
-- Fecha: Viernes 328 de junio y 5 de julio 2024
+- Fecha: Viernes 28 de junio y 5 de julio 2024
 - Instructor: Dr. Israel Aguilar
 - Registro: https://forms.gle/wYdTgz6Z2nni9m2TA (Fechas de inscripción: 27 de mayo - 26 de junio, cierre a las 6 pm)
 
