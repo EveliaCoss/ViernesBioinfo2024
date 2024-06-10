@@ -66,10 +66,11 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Viernes 19. Python (21/junio/2024) - Shadday Guerrero (confirmado)
 - Viernes 20. Introducción a Bash (28/junio/2024) - Israel Aguilar
 - Viernes 21. Introducción a Bash (5/julio/2024) - Israel Aguilar
-- Viernes 22. Nextflow (12/julio/2024) - Israel Aguilar
-- Viernes 23. Nextflow (19/julio/2024) - Israel Aguilar
-- Viernes 24. Nextflow (26/julio/2024) - Israel Aguilar
-
+- Viernes 12 de julio - No hay clase
+- Viernes 22. Nextflow (19/julio/2024) - Israel Aguilar
+- Viernes 23. Nextflow (26/julio/2024) - Israel Aguilar
+- Viernes 24. Nextflow (2/agosto/2024) - Israel Aguilar
+  
 ### Viernes 1. Información general del curso e Introducción a R
 
 - Fecha: Viernes 2 de febrero 2024
