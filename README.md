@@ -191,7 +191,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 
 - Fecha: Viernes 31 de mayo, 7, 14 y 21 de junio 2024
 - Instructor: Dr. Shaday Guerrero
-- Grabación: Clase16, 
+- Grabación: Clase16, [Clase17](https://drive.google.com/file/d/1qlutWIUZIXhnlTCH5jpMJRSM7gOTsopO/view?usp=sharing)
 - Material:
       - Clase 16 - [Plotting and Programming in Python](https://swcarpentry.github.io/python-novice-gapminder/)
       - Clase 17 - [Built-in Functions and Help](https://swcarpentry.github.io/python-novice-gapminder/04-built-in.html)
@@ -201,14 +201,6 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 Por ocasión especial, por ser la primera vez que daremos Python en los Viernes de Bioinformatica, estaremos aceptando nuevos alumnos para este curso. Inviten a sus conocidos, amigos, novi@s, etc.
 
 NO SE INSCRIBAN SI YA ESTAN PARTICIPANDO EN LOS VIERNES DE BIOINFORMATICA, recuerden que ustedes ya llenan sus formularios de asistencia cada viernes. Por eso no es necesario.
-
-### Viernes 16, 17, 18 y 19. Introducción a Python
-
-![Shaday](VieRnesBioinfo_ShaddayGuerrero.jpg)
-
-- Fecha: Viernes 31 de mayo, 7, 14 y 21 de junio 2024
-- Instructor: Dr. Shaday Guerrero
-- Registro: https://forms.gle/UeDCCS7oqUmGw9zcA (Fechas de inscripción: 29 de abril - 29 de mayo, cierre a las 6 pm)
 
 ### Viernes 20 y 21. Introducción a Bash (28 de junio y 5 de julio) 
 
