@@ -158,11 +158,13 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Data: https://github.com/EveliaCoss/ViernesBioinfo2024/tree/main/Clase_Heatmaps/data
 - Manual de [Complexheatmap](https://jokergoo.github.io/ComplexHeatmap-reference/book/index.html)
 
-### Viernes 11. Bioestadistica parte 1 
+### Viernes 11 y 12. Bioestadistica parte 1 
 
 - Fecha: Viernes 19 de abril 2024
 - Instructor: Dr. Obed Ramirez
-- Grabación: [Clase11](https://drive.google.com/file/d/1aQXJnMdF89uyC8wUIxqHKCSVRu0vuc4w/view?usp=sharing)
+- Grabación:
+    - Parte 1. [Clase11](https://drive.google.com/file/d/1aQXJnMdF89uyC8wUIxqHKCSVRu0vuc4w/view?usp=sharing)
+    - Parte 2. [Clase12](https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/view?usp=sharing)
 
 ### Viernes 12. Bioestadistica parte 2
 
