@@ -192,10 +192,11 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 
 - Fecha: Viernes 31 de mayo, 7, 14 y 21 de junio 2024
 - Instructor: Dr. Shaday Guerrero
-- Grabación: [Clase16](https://drive.google.com/file/d/1miKsbRlqhIA4bdNanVVwl863uoILZZyM/view?usp=sharing), [Clase17](https://drive.google.com/file/d/1qlutWIUZIXhnlTCH5jpMJRSM7gOTsopO/view?usp=sharing)
+- Grabación: [Clase16](https://drive.google.com/file/d/1miKsbRlqhIA4bdNanVVwl863uoILZZyM/view?usp=sharing), [Clase17](https://drive.google.com/file/d/1qlutWIUZIXhnlTCH5jpMJRSM7gOTsopO/view?usp=sharing), Clase18
 - Material:
-      - Clase 16 - [Plotting and Programming in Python](https://swcarpentry.github.io/python-novice-gapminder/)
-      - Clase 17 - [Built-in Functions and Help](https://swcarpentry.github.io/python-novice-gapminder/04-built-in.html)
+    - Clase 16 - [Plotting and Programming in Python](https://swcarpentry.github.io/python-novice-gapminder/)
+    - Clase 17 - [Built-in Functions and Help](https://swcarpentry.github.io/python-novice-gapminder/04-built-in.html)
+    - Clase 18 - [plotting](https://swcarpentry.github.io/python-novice-gapminder/09-plotting.html)
 
 ## Próximos eventos en estos meses
 
