@@ -197,7 +197,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Grabación:
     * [Clase16](https://drive.google.com/file/d/1miKsbRlqhIA4bdNanVVwl863uoILZZyM/view?usp=sharing)
     * [Clase17](https://drive.google.com/file/d/1qlutWIUZIXhnlTCH5jpMJRSM7gOTsopO/view?usp=sharing),
-    * Clase18
+    * [Clase18](https://drive.google.com/file/d/15km9mnTTS7bpSb59h1ryYFG4PIi0i8oc/view?usp=sharing)
     * Clase19
 - Material:
     * Clase 16 - [Plotting and Programming in Python](https://swcarpentry.github.io/python-novice-gapminder/)
