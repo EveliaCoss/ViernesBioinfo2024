@@ -1,0 +1,292 @@
+---
+title: "Exploración de datos y elección de pruebas o modelos"
+author: "Domingo Martínez"
+date: "2024-05-17"
+# El ouput controla los parámetros de salida del renderizado
+output:                                   
+  html_document:                   
+    collapsed: true                # Contraer celdas de salida
+    code_folding: show             # Mostrar el código
+    toc: true                      # Mostrar la tabla de contenidos
+    toc_depth: 3                   # Niveles de títulos que se mostrarán
+    toc_float: true                # Índices o contenidos flotantes 
+    smooth_scroll: true            # Activar el scroll
+    highlight: tango               # Destacar
+    df_print: paged                # Mostrar los dataframes en páginas
+    number_sections: true          # Numeración de contenidos
+    theme: flatly                  # Tema
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(emojifont)
+```
+
+<p align="justify">
+
+</p>
+
+# Introducción
+
+<p align="justify">
+
+En esta sesión vamos a trabajar en los siguientes objetivos de aprendizaje:
+
+-   Explorar la consistencia y calidad de nuestros datos.
+-   Identificar la escala de nuestras variables de interés.
+-   Identificar en qué casos podríamos:
+    -   Hacer una descripción.
+    -   Hacer algúna comparación.
+    -   Modelar relaciones "causales".
+
+En este script vamos a trabajar con la misma base de datos utilizada en el artículo: *"Machine learning in medicine: Performance calculation of dementia prediction by support vector machines (SVM)"*, publicado en 2019 por Gopi Battineni, Nalini Chintalapudi, y Francesco Amenta. Quienes usan la base de datos pública llamada OASIS-2.
+
+El artículo y repositorios se pueden consultar en:
+
+</p>
+
+-   <https://www.oasis-brains.org/>
+-   <https://direct.mit.edu/jocn/article/22/12/2677/4983/Open-Access-Series-of-Imaging-Studies-Longitudinal>
+-   <https://www.sciencedirect.com/science/article/pii/S2352914819300917?via%3Dihub>
+-   <https://doi.org/10.1016/j.imu.2019.100200>
+-   <https://data.mendeley.com/datasets/tsy6rbc5d4/1>
+-   <https://www.kaggle.com/datasets/shashwatwork/dementia-prediction-dataset?select=dementia_dataset.csv>
+
+La base de datos en cuestión, tiene información clínica, socio-demográfica, datos de rendimiento cognitivo y datos longitudinales de imagen cerebral por resonancia magnética de 150 participantes diestros; con, o sin demencia, con edades entre 60 y 96 años. Las variables contenidas en la base de datos (OASIS-2) son:
+
+-   Subject ID (Número de identificación del sujeto)
+-   MRI ID (Número de identificación temporal de la resonancia, recordemos que se trata de un estudio longitudinal con hasta 3 resonancias separadas por un año)
+-   Group {Indica si pertenece al grupo con demencia, sin demencia o convertido, estos últimos se habían tratado inicialmente com con demencia, luego se trataron como sin demencia}
+-   Visit (Indica el número de vistia para adquirir las imágenes de resonancia magnética)
+-   MR delay (Días transcurridos entre cada resonancia)
+-   Sex (Indica el sexo del participante, M = masculino, F = femenino)
+-   Age (Edad del participante en años cumplidos)
+-   Social Economic Status (SES, nivel socio económico con 5 niveles, el más alto es 5)
+-   Education level (EDUC, nivel de educación en años cursados en el sistema escolar)
+-   MMSE (mini-mental state examination parameters, indica el resultado de la prueba minimental, que sirve para medir el deterioro cognitvo)
+-   Clinical Dementia Ratio (CDR) Con base en una entrevista, se evalúan áreas cognitivas y funcionales del paciente, los códigos son:
+    -   0 = sin demencia.
+    -   0.5 = demencia muy leve.
+    -   1 = demencia leve.
+    -   2 = demencia moderada.
+    -   3 = demencia severa.
+-   Estimated Total Intracranial Volume (e-TIV) Volumen intercranial total estimado.
+-   Normalized Whole Brain Volume (n-WBV) Volumen normalizado del cerebro.
+-   Atlas Scaling Factor, convierte "las coordenadas" del cerebro a las "coordenadas" del atlas cerebral que se usará.
+
+## PASO 1: Lectura de la base de datos
+
+NOTA: para abrir un chunk de R el atajo es: ctrl + alt + i
+
+```{r Lectura de la base de datos}
+bd.demencia <- read.csv("oasis_longitudinal_demographics.csv")
+```
+
+Para eachar un ojo a mi base de datos puedo usar el comando View()
+
+```{r Echarle un ojo a la bd}
+View(bd.demencia)
+
+```
+
+`r emojifont::emoji("question")`
+
+RETO: ¿Cuántas variables y cuantos registro tenemos?
+
+RETO: ¿Cuántos NAs tengo?
+
+## PASO 2: Visualización de NAs
+
+Podemos usar el paquete visdat para echar un vistazo y saber qué tantos valores perdidos tengo.
+
+```{r Echamos un vistazo a los valores perdidos}
+library(visdat)
+visdat::vis_miss(bd.demencia)
+```
+
+RETO: ¿Cuál es la variable que más valores perdidos tiene?
+
+RETO: ¿Qué debería hacer con los valores perdidos o NAs?
+
+# Tipos de datos
+
+En nuestro ejemplo tenemos una base de datos tabular, o conjunto de datos tabulares. Aquí la información se estructura de la siguiente manera, en cada renglón tenemos un caso u observación, y en cada columna registramos los datos de una, y solo una variable.
+
+En términos generales, la escala de medición en la cual están registrados los datos de cada variable, para cada sujeto, nos indican el tipo de valor o dato que tengo registrado.
+
+## Escalas de medición
+
+Las escalas de medición nos permiten organizar los datos en orden jerárquico, a continuación vamos a describirlas desde la más "simple" a la más "completa".
+
+Fuentes:
+
+-   Siegel, S., & Castellan, J. (1998). Nonparametric statistics for the behavioral sciences- (2nd ed.). Mcgraw-Hill Book Company.
+-   <https://en.wikipedia.org/wiki/Level_of_measurement>
+
+### Escala nominal o categórica.
+
+Corresponde al nivel de medición "más débil", aquí usamos símbolos para identificar los grupos a los que pertencen nuestras observaciones. Por ejemplo, registremos el color favorito de quienes asisten a este taller.
+
+```{r ejemplo de una variable en escala categórica}
+data.frame(Sujetos_ID=c(1:5),Color_favorito = c("azul",
+                                              "verde",
+                                              "azul",
+                                              "rojo",
+                                              "rojo"))
+```
+
+En esta escala solo podemos aplicar los operadores matemáticos $=$ y $\neq$; además podemos agrupar y calcular la moda.
+
+### Escala ordinal.
+
+Si en una escala categórica, resulta que, podemos organizar las categorías de acuerdo a una jerarquía dictada por el operador $>$, entonces tenemos una escala ordinal. Un ejemplo muy común es la escala likert.
+
+Si a cada persona le pedimos que nos diga qué tanto le gusta el chocolate, de acuerdo a las siguientes opciones: 3 = me gusta mucho, 2 = me gusta poco, 1 = no me gusta. Entonces tenemos una escala de intervalo.
+
+```{r ejemplo de una variable en escala ordinal}
+data.frame(Sujetos_ID=c(1:5),
+           Gusto_por_chocolate = c("1", "3",  "3", "2", "1"))
+```
+
+En esta escala podemos aplicar los operadores $>$ y $<$ para ordenar las respuestas. También podemos calcular la mediana.
+
+`r emojifont::emoji("scream")`
+
+**IMPORANTE:** ¿Podemos estar segurxs que, la distancia entre "me gusta poco" a "me gusta mucho", es igual entre todxs nuetrxs sujetos?
+
+RETO: responde a la pregunta anterior...
+
+### Escala de intervalo.
+
+Si, en una escala ordinal, resulta que, podemos conocer el intervalo (i.e., distancia) entre categorías. En este caso tendremos una escala de intervalo. Importante: en esta escala, el punto cero y la unidad de medidas son arbitrarios. El ejemplo más común que tenemos es la temperatura medida en grados fahrenheit o en grados celcius; el cero es arbitrario y tenemos dos unidades de medida. No obstante, ambas escalas tienen la misma cantidad y la misma clase de información.
+
+NOTA: **la razón entre dos intervalos** es independiente de la unidad de medida y del punto cero, pero, el cero y la unidad de medida son arbitrarios. Entonces, unidades diferentes arrojarán razones diferentes.
+
+A diferencia de las escalas anteriores, en la escala de intervalo, sí podemos aplicar los operadores matemáticos $+$ y $-$. Y ya podemos calcular la media aritmética.
+
+```{r ejemplo de una variable en escala de intervalo}
+data.frame(Sujetos_ID=c(1:4),
+           Temperatura_corporal_celciuls = c(36.5, 37.2, 38.0, 37.1),
+           Temperatura_corporal_fahrenheit = c(97.7, 98.96, 100.4, 98.78)
+           )
+```
+
+### Escala de razón.
+
+Si una escala de intervalo tiene un punto cero absoluto o verdadero, entonces tendremos una escala de razón, porque, **la razón (ratio) entre dos puntos**, es independiente de la unidad de medida.
+
+Un buen ejemplo es la medición de la masa, sin importar si medimos en kilogramos o en libras, existe un zero verdadero o absoluto. Y la razón entre dos pesos es la misma, sin importar que lo midamos en kilogramos o en libras.
+
+En otras palabras, las razones (ratios) entre dos valores serán iguales pese que se hayan medido en unidades diferentes. A datos medidos en esta escala le podemos aplicar la media arítmética y también la geométrica.
+
+```{r ejemplo de una variable en una escala de razón}
+data.frame(Sujetos_ID=c(1:4),
+           Peso_kgs = c(62.5, 78.4, 60.1, 82.4),
+           Peso_lbs = c(137.79, 172.84, 132.5, 181.66)
+           )
+```
+
+*En la "medida" de los posible, siempre nos gustaría tener una escala de razón.*
+
+RETO: ¿Estas son las únicas escalas de medición?
+
+## Tipo o formato de nuestros datos
+
+Fuente: <https://bookdown.org/chescosalgado/intro_r/tipos-y-estructuras-de-datos-en-r.html>
+
+Normalmente tenemos los siguientes tipos de datos
+
+| Tipo de dato | Descripción                         |
+|:------------:|:------------------------------------|
+|   Numeric    | Números decimales                   |
+|   Integer    | Números enteros                     |
+|  Character   | Cadenas de texto                    |
+|   Complex    | Números complejos                   |
+|   Logical    | Valor verdadero o falso             |
+|    Factor    | Agrupación por categorías y niveles |
+
+**Y, la pregunta del millón es:**
+
+*¿Qué formato o tipo de datos deben tener cada una de las escalas de medición descritas anteriormente*
+
+**ACTIVIDAD:** Completa el tipo de datos
+
+-   Escala nominal -\> datos tipo...
+-   Escala ordinal -\> datos tipo...
+-   Escala de intervalo -\> datos tipo...
+-   Escala de razón -\> datos tipo...
+
+RETO: ¿Cómo podemos diferenciar el tipo de datos de una variable en una escala ordinal en comparación con una variable de razón que solamente tenga números enteros?
+
+## Exploración del tipo de datos
+
+Ahora, con ayuda de la función str() revisaremos qué formato o tipo de datos tiene cada una de nuestras variables.
+
+```{r Exploración del tipo de datos}
+str(bd.demencia)
+```
+
+**ACTIVIDAD:** Revisa que, cada variable esté declarada en el formato o tipo de datos adecuado.
+
+RETO: Si el tipo de los datos no es el adecuado para algunas variables, entonces formatea al tipo correcto.
+
+TIP: Consulta la descripción de cada variable en la **Introducción**.
+
+## Formateo del tipo de datos
+
+```{r Cambiamos el tipo de datos de las siguientes variables, include=F}
+bd.demencia$Subject.ID<-as.factor(bd.demencia$Subject.ID)
+levels(bd.demencia$Subject.ID)
+length(levels(bd.demencia$Subject.ID))
+str(bd.demencia$Subject.ID)
+
+bd.demencia$MRI.ID<-as.factor(bd.demencia$MRI.ID)
+str(bd.demencia$MRI.ID)
+
+bd.demencia$Group<-as.factor(bd.demencia$Group)
+str(bd.demencia$Group)
+levels(bd.demencia$Group)
+
+bd.demencia$M.F<-as.factor(bd.demencia$M.F)
+str(bd.demencia$M.F)
+
+bd.demencia$Hand<-as.factor(bd.demencia$Hand)
+str(bd.demencia$Hand)
+
+str(bd.demencia)
+```
+
+TIP: Recuerda verificar que tus variables tienen declarado el tipo de datos correcto.
+
+# Exploración visual de mi base de datos
+
+A continuación, hagamos una exploración visual inicial a nuestra base de datos. Este paso es indispensable para identificar errores o corroborar que nuestra base de datos corresponde a lo esperado.
+
+```{r Exploración visual inicial de nuestro dataset, warning=F}
+library(GGally)
+ggpairs(data = bd.demencia[,c(3,8)],
+        aes(color=Group,
+            alpha=0.6),
+        title = "Exploración inicial Demencia dataset")
+ggsave("Exploracion_inicial_demencia.png", 
+       plot = last_plot(), 
+       device = png,
+       width = 30,
+       height = 20,
+       units = c("cm"),
+       dpi = 300)
+```
+
+# Aplicando estadística para responder preguntas
+
+Fuentes:
+
+-   <https://stats.oarc.ucla.edu/other/mult-pkg/whatstat/>
+-   <https://statsandr.com/blog/what-statistical-test-should-i-do/>
+
+En términos generales, a nuestros datos les podemos hacer alguna o varías de las siguientes cosas:
+
+-   Análisis exploratorio (estadística descriptiva, clustering)
+-   Observar correlaciones
+-   Comparaciones
+-   Modelado
