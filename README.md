@@ -188,7 +188,8 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
     * [Clase 15](https://drive.google.com/file/d/12uApQHD_simPRd_zno2hWFVcsM5shEVE/view?usp=sharing)
 - Material:
     * [Clase 14](https://github.com/EveliaCoss/ViernesBioinfo2024/tree/main/Clase14)
-    *  [Clase 15](https://drive.google.com/drive/folders/1a6SfQ--zAcuiq4zUB9x4qSFfBPleE_uU?usp=drive_link)
+    * [Clase 14 - Presentacion](https://eveliacoss.github.io/ViernesBioinfo2024/Clase14/Exploracion_de_datos_y_eleccion_de_pruebas_o_modelos_1.2.html)
+    * [Clase 15](https://drive.google.com/drive/folders/1a6SfQ--zAcuiq4zUB9x4qSFfBPleE_uU?usp=drive_link)
 
 ### Viernes 16, 17, 18 y 19. Introducción a Python
 
