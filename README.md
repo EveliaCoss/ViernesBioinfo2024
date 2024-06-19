@@ -153,8 +153,8 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructora: Sofia Salazar
 - Grabación: [Clase10](https://drive.google.com/file/d/1zqvo38VxFaxdfYdxqfESv4C0PwN8X_Pd/view?usp=sharing)
 - Script:
-      - [get_data.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/get_data.R)
-      - [heatmap_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/heatmap_clase.R)
+      * [get_data.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/get_data.R)
+      * [heatmap_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/heatmap_clase.R)
 - Data: https://github.com/EveliaCoss/ViernesBioinfo2024/tree/main/Clase_Heatmaps/data
 - Manual de [Complexheatmap](https://jokergoo.github.io/ComplexHeatmap-reference/book/index.html)
 
@@ -163,8 +163,8 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Fecha: Viernes 19 de abril 2024
 - Instructor: Dr. Obed Ramirez
 - Grabación:
-    - Parte 1. [Clase11](https://drive.google.com/file/d/1aQXJnMdF89uyC8wUIxqHKCSVRu0vuc4w/view?usp=sharing)
-    - Parte 2. [Clase12](https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/view?usp=sharing)
+    * Parte 1. [Clase11](https://drive.google.com/file/d/1aQXJnMdF89uyC8wUIxqHKCSVRu0vuc4w/view?usp=sharing)
+    * Parte 2. [Clase12](https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/view?usp=sharing)
 
 ### Viernes 12. Bioestadistica parte 2
 
@@ -184,11 +184,11 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Fecha: Viernes 17 de mayo y 24 de mayo 2024 
 - Instructor: Dr. Domingo Martinez
 - Grabación:
-      - [Clase 14](https://drive.google.com/file/d/1FoCG0hKrTzpUCJBquRRnfm1USTDBFF2S/view?usp=sharing)
-      - [Clase 15](https://drive.google.com/file/d/12uApQHD_simPRd_zno2hWFVcsM5shEVE/view?usp=sharing)
+    * [Clase 14](https://drive.google.com/file/d/1FoCG0hKrTzpUCJBquRRnfm1USTDBFF2S/view?usp=sharing)
+    * [Clase 15](https://drive.google.com/file/d/12uApQHD_simPRd_zno2hWFVcsM5shEVE/view?usp=sharing)
 - Material:
-      - Clase 14
-      - [Clase 15](https://drive.google.com/drive/folders/1a6SfQ--zAcuiq4zUB9x4qSFfBPleE_uU?usp=drive_link)
+    * [Clase 14](https://github.com/EveliaCoss/ViernesBioinfo2024/tree/main/Clase14)
+    *  [Clase 15](https://drive.google.com/drive/folders/1a6SfQ--zAcuiq4zUB9x4qSFfBPleE_uU?usp=drive_link)
 
 ### Viernes 16, 17, 18 y 19. Introducción a Python
 
