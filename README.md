@@ -204,7 +204,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
     * Clase 16 - [Plotting and Programming in Python](https://swcarpentry.github.io/python-novice-gapminder/)
     * Clase 17 - [Built-in Functions and Help](https://swcarpentry.github.io/python-novice-gapminder/04-built-in.html)
     * Clase 18 - [plotting](https://swcarpentry.github.io/python-novice-gapminder/09-plotting.html) y [listas](https://swcarpentry.github.io/python-novice-gapminder/11-lists.html)
-    * Clase 19
+    * [Clase 19- for loops](https://swcarpentry.github.io/python-novice-gapminder/12-for-loops.html)
 
 ## Próximos eventos en estos meses
 
