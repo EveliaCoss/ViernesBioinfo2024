@@ -14,7 +14,7 @@ Fomentar la formación y crecimiento en bioinformática a través de cursos grat
 - Inicio: 2 de Febrero de 11:30 am a 1:30 pm.
 - Clases hibridas en:
     - Aula de Bioinformatica de LIIGH
-    - Google meet (se encuentra el link en el calendario)
+    - Google meet
 - Grabación de las sesiones 📹.
 - Este curso de contempla finalizar hasta julio de 2024 (6 meses).
 - Los cambios en horarios se anunciaran por Discord.
@@ -26,8 +26,6 @@ Los cursos se imparten cada viernes, se les pide que se inscriban máximo el JUE
 La click en el siguiente link de [Google form](https://forms.gle/7e2e2mrLHG3HqQeu5)
 
 Para cualquier duda o problema mandar un correo con copia a los coordinadores del curso, la Dra. Evelia Coss (ecoss@liigh.unam.mx) y el Dr. Israel Aguilar (iaguilar@inmegen.gob.mx).
-
-Link del calendario de [VieRnes de Bioinfo](https://calendar.google.com/calendar/u/1?cid=MDdmMzVjZTU2MGJiMzg1M2E1MTk5NDUwZTlkOTEwOTM1NTc2ZGYxODVlOGZhNmQyMDAzZmY4OTJhMTkzN2I4MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 
 ## Entrega de Diplomas
 
@@ -204,7 +202,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
     * Clase 16 - [Plotting and Programming in Python](https://swcarpentry.github.io/python-novice-gapminder/)
     * Clase 17 - [Built-in Functions and Help](https://swcarpentry.github.io/python-novice-gapminder/04-built-in.html)
     * Clase 18 - [plotting](https://swcarpentry.github.io/python-novice-gapminder/09-plotting.html) y [listas](https://swcarpentry.github.io/python-novice-gapminder/11-lists.html)
-    * [Clase 19- for loops](https://swcarpentry.github.io/python-novice-gapminder/12-for-loops.html)
+    * Clase 19- [for loops](https://swcarpentry.github.io/python-novice-gapminder/12-for-loops.html)
 
 ## Próximos eventos en estos meses
 
