@@ -197,34 +197,32 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
     * [Clase16](https://drive.google.com/file/d/1miKsbRlqhIA4bdNanVVwl863uoILZZyM/view?usp=sharing)
     * [Clase17](https://drive.google.com/file/d/1qlutWIUZIXhnlTCH5jpMJRSM7gOTsopO/view?usp=sharing),
     * [Clase18](https://drive.google.com/file/d/15km9mnTTS7bpSb59h1ryYFG4PIi0i8oc/view?usp=sharing)
-    * Clase19
+    * [Clase19](https://drive.google.com/file/d/16DcB6ZYbs3fs8X5k6j89cUuW-gRfJviR/view?usp=sharing)
 - Material:
     * Clase 16 - [Plotting and Programming in Python](https://swcarpentry.github.io/python-novice-gapminder/)
     * Clase 17 - [Built-in Functions and Help](https://swcarpentry.github.io/python-novice-gapminder/04-built-in.html)
     * Clase 18 - [plotting](https://swcarpentry.github.io/python-novice-gapminder/09-plotting.html) y [listas](https://swcarpentry.github.io/python-novice-gapminder/11-lists.html)
     * Clase 19- [for loops](https://swcarpentry.github.io/python-novice-gapminder/12-for-loops.html)
 
-## Próximos eventos en estos meses
-
-Por ocasión especial, por ser la primera vez que daremos Python en los Viernes de Bioinformatica, estaremos aceptando nuevos alumnos para este curso. Inviten a sus conocidos, amigos, novi@s, etc.
-
-NO SE INSCRIBAN SI YA ESTAN PARTICIPANDO EN LOS VIERNES DE BIOINFORMATICA, recuerden que ustedes ya llenan sus formularios de asistencia cada viernes. Por eso no es necesario.
-
 ### Viernes 20 y 21. Introducción a Bash (28 de junio y 5 de julio) 
-
-![Israel](VieRnesBioinfo_IsraelAguilar.png)
 
 - Fecha: Viernes 28 de junio y 5 de julio 2024
 - Instructor: Dr. Israel Aguilar
-- Registro: https://forms.gle/wYdTgz6Z2nni9m2TA (Fechas de inscripción: 27 de mayo - 26 de junio, cierre a las 6 pm)
+- Grabación:
+    * [Clase20](https://drive.google.com/file/d/13-Z14k6i8ZNCKnpoZNee8s_t17TECGOE/view?usp=sharing)
+- Material:
+    * Instalación de una terminal de BASH (PREVIO A LA CLASE)
+      + Opción A: Instalar una Máquina virtual (VM) en sus computadoras
+        - Videos explicativos: https://youtu.be/Rt0agy32pFo , https://youtu.be/cInUitD6Wws
+        - Manuales de instalación: [Manuales De Instalación de Virtual Box y Ubuntu](https://drive.google.com/drive/folders/1xa_6GZqc9_R5t81h7bCipJWbX5MgZ5d0?usp=sharing)
+      + Opción B: Instalar Git Bashy MobaXterm
+        - Instalar Git Bash (seguir las instrucciones de instalación https://miguel-mx.github.io/2024-01-24-ccm-unam-swc/)
+        - Instalar MobaXterm https://mobaxterm.mobatek.net/
 
 ### Viernes 22, 23 y 24. Nextflow 
 
-![Israel](VieRnesBioinfo_IsraelAguilar.png)
-
-- Fecha: Viernes 12, 19 y 26 de julio 2024
+- Fecha: Viernes 19 y 26 de julio, viernes 2 de agosto 2024
 - Instructor: Dr. Israel Aguilar
-- Registro: https://forms.gle/wYdTgz6Z2nni9m2TA (Fechas de inscripción: 27 de mayo - 26 de junio, cierre a las 6 pm)
 
 ## Licencia y términos de uso
 
