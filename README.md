@@ -210,6 +210,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructor: Dr. Israel Aguilar
 - Grabación:
     * [Clase20](https://drive.google.com/file/d/13-Z14k6i8ZNCKnpoZNee8s_t17TECGOE/view?usp=sharing)
+    * Clase21
 - Material:
     * Instalación de una terminal de BASH (PREVIO A LA CLASE)
       + Opción A: Instalar una Máquina virtual (VM) en sus computadoras
@@ -218,6 +219,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
       + Opción B: Instalar Git Bashy MobaXterm
         - Instalar Git Bash (seguir las instrucciones de instalación https://miguel-mx.github.io/2024-01-24-ccm-unam-swc/)
         - Instalar MobaXterm https://mobaxterm.mobatek.net/
+    - Ejercicios para practicar: [RegexOne](https://regexone.com/) 
 
 ### Viernes 22, 23 y 24. Nextflow 
 
