@@ -219,7 +219,9 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
       + Opción B: Instalar Git Bashy MobaXterm
         - Instalar Git Bash (seguir las instrucciones de instalación https://miguel-mx.github.io/2024-01-24-ccm-unam-swc/)
         - Instalar MobaXterm https://mobaxterm.mobatek.net/
-    - Ejercicios para practicar: [RegexOne](https://regexone.com/) 
+    - Ejercicios para practicar: [RegexOne](https://regexone.com/)
+    - Presentacion:
+        + [Clase 21](https://drive.google.com/file/d/1sygVkUAq_WqF-Bjaw7ZfeGzD4DYBuP8A/view?usp=sharing)
 
 ### Viernes 22, 23 y 24. Nextflow 
 
