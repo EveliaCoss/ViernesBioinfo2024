@@ -227,6 +227,10 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 
 - Fecha: Viernes 19 y 26 de julio, viernes 2 de agosto 2024
 - Instructor: Dr. Israel Aguilar
+- Grabación: 
+    * Clase22
+    * Clase23
+    * Clase24
 
 ## Licencia y términos de uso
 
