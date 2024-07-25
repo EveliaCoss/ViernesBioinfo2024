@@ -210,7 +210,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructor: Dr. Israel Aguilar
 - Grabación:
     * [Clase20](https://drive.google.com/file/d/13-Z14k6i8ZNCKnpoZNee8s_t17TECGOE/view?usp=sharing)
-    * Clase21
+    * [Clase21](https://drive.google.com/file/d/1HMI3h6KhRGExcpCABl3IQbYn5bCdn6tE/view?usp=sharing)
 - Material:
     * Instalación de una terminal de BASH (PREVIO A LA CLASE)
       + Opción A: Instalar una Máquina virtual (VM) en sus computadoras
@@ -228,7 +228,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Fecha: Viernes 19 y 26 de julio, viernes 2 de agosto 2024
 - Instructor: Dr. Israel Aguilar
 - Grabación: 
-    * Clase22
+    * [Clase22](https://drive.google.com/file/d/1-9RxTrnfDrXjnczSri6q7LjympEIZY7R/view?usp=sharing)
     * Clase23
     * Clase24
 
