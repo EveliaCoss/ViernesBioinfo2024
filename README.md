@@ -229,7 +229,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructor: Dr. Israel Aguilar
 - Grabación: 
     * [Clase22](https://drive.google.com/file/d/1-9RxTrnfDrXjnczSri6q7LjympEIZY7R/view?usp=sharing)
-    * Clase23
+    * [Clase23](https://drive.google.com/file/d/1h3W_iygPAaqNUqPTbYObhBZsLr0cCuLA/view?usp=sharing)
     * Clase24
 
 ## Licencia y términos de uso
