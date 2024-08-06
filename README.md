@@ -230,7 +230,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Grabación: 
     * [Clase22](https://drive.google.com/file/d/1-9RxTrnfDrXjnczSri6q7LjympEIZY7R/view?usp=sharing)
     * [Clase23](https://drive.google.com/file/d/1h3W_iygPAaqNUqPTbYObhBZsLr0cCuLA/view?usp=sharing)
-    * Clase24
+    * [Clase24](https://drive.google.com/file/d/1iEktZg5WXtSOA5wfEOsMjXHO7_UNIxyX/view?usp=sharing)
 
 ## Licencia y términos de uso
 
