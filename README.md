@@ -234,13 +234,13 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 
 ## Licencia y términos de uso
 
-El material de los VieRnes de Bioinformatica se distribuye públicamente a través de este repositorio GitHub bajo la Licencia No Comercial Creative Commons 4.0
+El material de los VieRnes de Bioinformatica se distribuye públicamente a través de este repositorio GitHub bajo la [Licencia No Comercial Creative Commons 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
-Creative Commons Licence This work is licensed under a Creative Commons Attribution-NonCommercial 4.0
+Creative Commons Licence This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Agradecimientos
 
-Queremos agradecer al LIIGH - UNAM por el apoyo y facilidades prestadas para poder impartir estos cursos. Queremos explícitamente agradecer, de manera muy especial, a la Dra. Maria Avila, la Dra, Alejandra Medina-Rivera, Licenciada Eglee Lomelin, Jair Santiago y Luis Aguilar por su extraordinaria labor y por impulsar estos cursos para el crecimiento de todos.
+Queremos agradecer al [LIIGH - UNAM](https://liigh.unam.mx/) por el apoyo y facilidades prestadas para poder impartir estos cursos. Queremos explícitamente agradecer, de manera muy especial, a la [Dra. Maria Avila](https://liigh.unam.mx/profile/dra-maria-c-avila-arcos/), la [Dra. Alejandra Medina-Rivera](https://liigh.unam.mx/profile/dra-alejandra-medina-rivera/), Licenciada Eglee Lomelin, Jair Santiago y Luis Aguilar por su extraordinaria labor y por impulsar estos cursos para el crecimiento de todos.
 
 --------------
 Cursos hechos con amor 💜
