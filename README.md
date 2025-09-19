@@ -79,6 +79,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
     - [R for dummies](https://drive.google.com/file/d/1qgmGVEFd93qyISIPNkuZU-iQArG-YyhQ/view?usp=sharing)
     - [R for beginners](https://drive.google.com/file/d/1iCRDCXB5wzSzbpk0LJjPpYutluKTSlTp/view?usp=sharing)
     - [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
+- Video en YouTube: 
 
 ### Viernes 2. Manipulación de datos con R base (vector y dataframe)
 
@@ -90,6 +91,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
     - [R for dummies](https://drive.google.com/file/d/1qgmGVEFd93qyISIPNkuZU-iQArG-YyhQ/view?usp=sharing)
     - [R for beginners](https://drive.google.com/file/d/1iCRDCXB5wzSzbpk0LJjPpYutluKTSlTp/view?usp=sharing)
     - [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
+- Video en YouTube: 
 
 ### Viernes 3. Manipulación de datos con R base (matrix y lista)
 
@@ -105,6 +107,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructora: LCG Alejandra Schafer
 - Presentación: [Introducción a Rmarkdown](https://eveliacoss.github.io/ViernesBioinfo2024/Clase4/Rmakrdown.html#1)
 - Grabación: [Clase4](https://drive.google.com/file/d/1Efrm9AtSV4S8frzkKT_-a-AMAa-m1DXx/view?usp=sharing)
+- Video en YouTube: [Clase 4 - Introducción a Rmarkdown](https://youtu.be/yMjHWthyLe8)
 
 ### Viernes 5. Terapia de Bioinfo grupal (opcional)
 
@@ -112,6 +115,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructora: Dr. Israel Aguilar
 - Presentación: [Resolucion de problemas](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase5_%20Viernes%20de%20Bioinfo.pdf)
 - Grabación: [Clase5](https://drive.google.com/file/d/1aZ9niNhjRrE9tCs0ANqP_NAwUPW6JGd6/view?usp=sharing)
+- Video en YouTube: 
 
 ### Viernes 6. Manipulación de datos con funciones de R base 
 
@@ -121,6 +125,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Grabación: [Clase6](https://drive.google.com/file/d/1QlYPZu25JUC-yY8EhGoVV4HnvjtBdCX1/view?usp=sharing)
 - Script: [MarvelvsDCComics_limpieza_script.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/MarvelvsDCComics_limpieza_script.R)
 - Output: Variables [Info_data.RData](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/Info_data.RData)
+- Video en YouTube: 
 
 ### Viernes 7. Manipulación de datos usando dplyr 
 
@@ -130,6 +135,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Grabación: [Clase7](https://drive.google.com/file/d/1eL6Kpr--F8Bak--ahKhX7_W0T4Q6TP7Y/view?usp=sharing)
 - Script: [MarvelvsDCComics_Join_script.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/MarvelvsDCComics_Join_script.R)
 - Input: Vamos a emplear el Output de la clase 6 [Info_data.RData](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/Info_data.RData)
+- Video en YouTube: 
 
 ### Viernes 8. Generación de diversos gráficos usando ggplot2 
 
@@ -138,6 +144,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Presentación: [Generación de diversos gráficos usando ggplot2](https://eveliacoss.github.io/ViernesBioinfo2024/Clase_ggplot/slides.html#1)
 - Grabación: [Clase8](https://drive.google.com/file/d/1IOnuBGetqmuSo73346sgWb5g4o16Uj6j/view?usp=sharing)
 - Script: [script_ggplot_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_ggplot/script_ggplot_clase.R)
+- Video en YouTube: 
 
 ### Viernes 9. Terapia de Bioinfo grupal (opcional) 
 
@@ -145,6 +152,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructores: LBt Josué Guzmán Linares, Dr. Israel Aguilar
 - Grabación: [Clase9](https://drive.google.com/file/d/1S4esWqRRAwYtUixunCoTMipx8CK1ycMt/view?usp=sharing)
 - Carpeta con scripts y data: [carpeta en gdrive](https://drive.google.com/drive/folders/1cHT86LPY9-MfqXiwpFxagcCpODl9HLWJ?usp=drive_link)
+- Video en YouTube: 
 
 ### Viernes 10. Manipulación de datos para crear un heatmap (ComplexHeatmap)
 
@@ -156,6 +164,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
       * [heatmap_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/heatmap_clase.R)
 - Data: https://github.com/EveliaCoss/ViernesBioinfo2024/tree/main/Clase_Heatmaps/data
 - Manual de [Complexheatmap](https://jokergoo.github.io/ComplexHeatmap-reference/book/index.html)
+- Video en YouTube:
 
 ### Viernes 11 y 12. Bioestadistica parte 1 
 
@@ -164,12 +173,14 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Grabación:
     * Parte 1. [Clase11](https://drive.google.com/file/d/1aQXJnMdF89uyC8wUIxqHKCSVRu0vuc4w/view?usp=sharing)
     * Parte 2. [Clase12](https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/view?usp=sharing)
+- Video en YouTube: 
 
 ### Viernes 12. Bioestadistica parte 2
 
 - Fecha: Viernes 26 de abril 2024
 - Instructor: Dr. Obed Ramirez
 - Grabación: [Clase12](https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/view?usp=sharing)
+- Video en YouTube: 
 
 ### Viernes 13. Terapia de Bioinfo grupal (opcional) 
 
@@ -177,6 +188,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructor: Dr. Israel Aguilar
 - Script: [Material](https://raw.githubusercontent.com/EveliaCoss/ViernesBioinfo2024/main/Clase13/escalera.R)
 - Grabación: [Clase13](https://drive.google.com/file/d/1OIvuhlg1gBJIh2E1d0lD6GJallbY6Rlu/view?usp=sharing)
+- Video en YouTube: 
 
 ###  Viernes 14 y 15. Exploración de datos y elección de pruebas o modelos
 
@@ -189,6 +201,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
     * [Clase 14](https://github.com/EveliaCoss/ViernesBioinfo2024/tree/main/Clase14)
     * [Clase 14 - Presentacion](https://eveliacoss.github.io/ViernesBioinfo2024/Clase14/Exploracion_de_datos_y_eleccion_de_pruebas_o_modelos_1.2.html)
     * [Clase 15](https://drive.google.com/drive/folders/1a6SfQ--zAcuiq4zUB9x4qSFfBPleE_uU?usp=drive_link)
+- Video en YouTube: 
 
 ### Viernes 16, 17, 18 y 19. Introducción a Python
 
@@ -204,6 +217,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
     * Clase 17 - [Built-in Functions and Help](https://swcarpentry.github.io/python-novice-gapminder/04-built-in.html)
     * Clase 18 - [plotting](https://swcarpentry.github.io/python-novice-gapminder/09-plotting.html) y [listas](https://swcarpentry.github.io/python-novice-gapminder/11-lists.html)
     * Clase 19- [for loops](https://swcarpentry.github.io/python-novice-gapminder/12-for-loops.html)
+- Video en YouTube: 
 
 ### Viernes 20 y 21. Introducción a Bash (28 de junio y 5 de julio) 
 
@@ -223,6 +237,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
     - Ejercicios para practicar: [RegexOne](https://regexone.com/)
     - Presentacion:
         + [Clase 21](https://drive.google.com/file/d/1sygVkUAq_WqF-Bjaw7ZfeGzD4DYBuP8A/view?usp=sharing)
+- Video en YouTube: 
 
 ### Viernes 22, 23 y 24. Nextflow 
 
@@ -232,6 +247,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
     * [Clase22](https://drive.google.com/file/d/1-9RxTrnfDrXjnczSri6q7LjympEIZY7R/view?usp=sharing)
     * [Clase23](https://drive.google.com/file/d/1h3W_iygPAaqNUqPTbYObhBZsLr0cCuLA/view?usp=sharing)
     * [Clase24](https://drive.google.com/file/d/1iEktZg5WXtSOA5wfEOsMjXHO7_UNIxyX/view?usp=sharing)
+- Video en YouTube: 
 
 ## Licencia y términos de uso
 
