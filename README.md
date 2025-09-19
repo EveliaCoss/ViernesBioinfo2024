@@ -135,7 +135,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Grabación: [Clase7](https://drive.google.com/file/d/1eL6Kpr--F8Bak--ahKhX7_W0T4Q6TP7Y/view?usp=sharing)
 - Script: [MarvelvsDCComics_Join_script.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/MarvelvsDCComics_Join_script.R)
 - Input: Vamos a emplear el Output de la clase 6 [Info_data.RData](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/Info_data.RData)
-- Video en YouTube:[Clase 7 - Manipulación de datos con funciones de R base](https://youtu.be/snrtSU8qEqE) 
+- Video en YouTube: [Clase 7 - Manipulación de datos con funciones de R base](https://youtu.be/snrtSU8qEqE) 
 
 ### Viernes 8. Generación de diversos gráficos usando ggplot2 
 
