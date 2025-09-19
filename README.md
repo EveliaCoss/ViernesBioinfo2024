@@ -115,7 +115,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructora: Dr. Israel Aguilar
 - Presentación: [Resolucion de problemas](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase5_%20Viernes%20de%20Bioinfo.pdf)
 - Grabación: [Clase5](https://drive.google.com/file/d/1aZ9niNhjRrE9tCs0ANqP_NAwUPW6JGd6/view?usp=sharing)
-- Video en YouTube: 
+- Video en YouTube: [Clase 5 - Terapia de Bioinfo grupal - Instalación de paquetes en R](https://youtu.be/TUILeV5bibg) 
 
 ### Viernes 6. Manipulación de datos con funciones de R base 
 
