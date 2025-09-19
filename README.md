@@ -125,7 +125,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Grabación: [Clase6](https://drive.google.com/file/d/1QlYPZu25JUC-yY8EhGoVV4HnvjtBdCX1/view?usp=sharing)
 - Script: [MarvelvsDCComics_limpieza_script.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/MarvelvsDCComics_limpieza_script.R)
 - Output: Variables [Info_data.RData](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/Info_data.RData)
-- Video en YouTube: 
+- Video en YouTube: [Clase 6 - Manipulación de datos con funciones de R base ](https://youtu.be/TGwgcrSx9fs)
 
 ### Viernes 7. Manipulación de datos usando dplyr 
 
