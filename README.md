@@ -79,7 +79,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
     - [R for dummies](https://drive.google.com/file/d/1qgmGVEFd93qyISIPNkuZU-iQArG-YyhQ/view?usp=sharing)
     - [R for beginners](https://drive.google.com/file/d/1iCRDCXB5wzSzbpk0LJjPpYutluKTSlTp/view?usp=sharing)
     - [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
-- Video en YouTube: 
+- Video en YouTube: [Clase 1 - Introducción a R y Rstudio](https://www.youtube.com/watch?v=NocLTygu6DM&t=513s) 
 
 ### Viernes 2. Manipulación de datos con R base (vector y dataframe)
 
