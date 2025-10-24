@@ -143,7 +143,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructora: Sofia Salazar
 - Presentación: [Generación de diversos gráficos usando ggplot2](https://eveliacoss.github.io/ViernesBioinfo2024/Clase_ggplot/slides.html#1)
 - Script: [script_ggplot_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_ggplot/script_ggplot_clase.R)
-- Video en OneDrive: [Clase8](https://drive.google.com/file/d/1IOnuBGetqmuSo73346sgWb5g4o16Uj6j/view?usp=sharing)
+- Video en YouTube: [Clase8](https://youtu.be/87c_NEn55bk)
 
 ### Viernes 9. Terapia de Bioinfo grupal (opcional) 
 
