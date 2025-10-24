@@ -91,7 +91,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
     - [R for dummies](https://drive.google.com/file/d/1qgmGVEFd93qyISIPNkuZU-iQArG-YyhQ/view?usp=sharing)
     - [R for beginners](https://drive.google.com/file/d/1iCRDCXB5wzSzbpk0LJjPpYutluKTSlTp/view?usp=sharing)
     - [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
-- Video en YouTube: 
+- Video en OneDrive: [CLase2](https://drive.google.com/file/u/0/d/1E8HLYIOP-7b_1oX5Xsos-ikVtvyTpgS6/view)  
 
 ### Viernes 3. Manipulación de datos con R base (matrix y lista)
 
@@ -142,29 +142,26 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Fecha: Viernes 22 de marzo 2024
 - Instructora: Sofia Salazar
 - Presentación: [Generación de diversos gráficos usando ggplot2](https://eveliacoss.github.io/ViernesBioinfo2024/Clase_ggplot/slides.html#1)
-- Grabación: [Clase8](https://drive.google.com/file/d/1IOnuBGetqmuSo73346sgWb5g4o16Uj6j/view?usp=sharing)
 - Script: [script_ggplot_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_ggplot/script_ggplot_clase.R)
-- Video en YouTube: 
+- Video en OneDrive: [Clase8](https://drive.google.com/file/d/1IOnuBGetqmuSo73346sgWb5g4o16Uj6j/view?usp=sharing)
 
 ### Viernes 9. Terapia de Bioinfo grupal (opcional) 
 
 - Fecha: Viernes 5 de abril 2024
 - Instructores: LBt Josué Guzmán Linares, Dr. Israel Aguilar
-- Grabación: [Clase9](https://drive.google.com/file/d/1S4esWqRRAwYtUixunCoTMipx8CK1ycMt/view?usp=sharing)
 - Carpeta con scripts y data: [carpeta en gdrive](https://drive.google.com/drive/folders/1cHT86LPY9-MfqXiwpFxagcCpODl9HLWJ?usp=drive_link)
-- Video en YouTube: 
+- Video en YouTube: [Clase9](https://youtu.be/Hd13DFbIfSU)
 
 ### Viernes 10. Manipulación de datos para crear un heatmap (ComplexHeatmap)
 
 - Fecha: Viernes 12 de abril 2024
 - Instructora: Sofia Salazar
-- Grabación: [Clase10](https://drive.google.com/file/d/1zqvo38VxFaxdfYdxqfESv4C0PwN8X_Pd/view?usp=sharing)
 - Script:
       * [get_data.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/get_data.R)
       * [heatmap_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/heatmap_clase.R)
 - Data: https://github.com/EveliaCoss/ViernesBioinfo2024/tree/main/Clase_Heatmaps/data
 - Manual de [Complexheatmap](https://jokergoo.github.io/ComplexHeatmap-reference/book/index.html)
-- Video en YouTube:
+- Video en YouTube: [Clase10](https://youtu.be/jTMLcVAeCJ0)
 
 ### Viernes 11 y 12. Bioestadistica parte 1 
 
