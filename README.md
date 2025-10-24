@@ -174,7 +174,7 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
     * Parte 1. [Clase11](https://drive.google.com/file/d/1aQXJnMdF89uyC8wUIxqHKCSVRu0vuc4w/view?usp=sharing)
     * Parte 2. [Clase12](https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/view?usp=sharing)
 
-> Video en YouTube: 
+> Video en YouTube: [Clase 11 - Bioestadistica Parte1](https://youtu.be/B1Hj9DY_CDI)
 
 ### Viernes 12. Bioestadistica parte 2
 
