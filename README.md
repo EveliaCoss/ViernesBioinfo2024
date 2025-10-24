@@ -74,68 +74,68 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Fecha: Viernes 2 de febrero 2024
 - Instructora: Dra. Evelia Coss
 - Presentación: [Introducción a R](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D1_IntroduccionR_slides_P2.html#1)
-- Grabación: [Clase1](https://drive.google.com/file/d/1E8HLYIOP-7b_1oX5Xsos-ikVtvyTpgS6/view?usp=sharing)
 - Lecturas y cursos recomendados:
     - [R for dummies](https://drive.google.com/file/d/1qgmGVEFd93qyISIPNkuZU-iQArG-YyhQ/view?usp=sharing)
     - [R for beginners](https://drive.google.com/file/d/1iCRDCXB5wzSzbpk0LJjPpYutluKTSlTp/view?usp=sharing)
     - [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
-- Video en YouTube: [Clase 1 - Introducción a R y Rstudio](https://www.youtube.com/watch?v=NocLTygu6DM&t=513s) 
+
+> Video en YouTube: [Clase 1 - Introducción a R y Rstudio](https://www.youtube.com/watch?v=NocLTygu6DM&t=513s) 
 
 ### Viernes 2. Manipulación de datos con R base (vector y dataframe)
 
 - Fecha: Viernes 9 de febrero 2024
 - Instructora: Dra. Evelia Coss
 - Presentación: [Manipulación de datos con R base (vector y dataframe)](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D2_IntroduccionR_segunda.html#1)
-- Grabación: [Clase2](https://drive.google.com/file/d/16vskGRS0QAS7f3acI886BVWgLI7j3dkf/view?usp=sharing)
 - Lecturas y cursos recomendados:
     - [R for dummies](https://drive.google.com/file/d/1qgmGVEFd93qyISIPNkuZU-iQArG-YyhQ/view?usp=sharing)
     - [R for beginners](https://drive.google.com/file/d/1iCRDCXB5wzSzbpk0LJjPpYutluKTSlTp/view?usp=sharing)
     - [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
-- Video en OneDrive: [CLase2](https://drive.google.com/file/u/0/d/1E8HLYIOP-7b_1oX5Xsos-ikVtvyTpgS6/view)  
+
+> Video en OneDrive: [CLase 2- Manipulación de datos con R base](https://drive.google.com/file/u/0/d/1E8HLYIOP-7b_1oX5Xsos-ikVtvyTpgS6/view)  
 
 ### Viernes 3. Manipulación de datos con R base (matrix y lista)
 
 - Fecha: Viernes 16 de febrero 2024
 - Instructora: Dra. Evelia Coss
 - Presentación: [Manipulación de datos con R base (matrix y lista)](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D3_ManipulacionDatos_P2.html#1)
-- Grabación: [Clase3](https://drive.google.com/file/d/1btEicNMEOYE9b-8xmACiR4qKc9YOgIEy/view?usp=sharing)
-- Video en YouTube: [Clase 3 - Manipulación de datos con R base (matrix y lista)](https://youtu.be/zAANhrSmlO4)
+
+> Video en YouTube: [Clase 3 - Manipulación de datos con R base (matrix y lista)](https://youtu.be/zAANhrSmlO4)
 
 ### Viernes 4. Introducción a Rmarkdown 
 
 - Fecha: Viernes 23 de febrero 2024
 - Instructora: LCG Alejandra Schafer
 - Presentación: [Introducción a Rmarkdown](https://eveliacoss.github.io/ViernesBioinfo2024/Clase4/Rmakrdown.html#1)
-- Grabación: [Clase4](https://drive.google.com/file/d/1Efrm9AtSV4S8frzkKT_-a-AMAa-m1DXx/view?usp=sharing)
-- Video en YouTube: [Clase 4 - Introducción a Rmarkdown](https://youtu.be/yMjHWthyLe8)
+
+>  Video en YouTube: [Clase 4 - Introducción a Rmarkdown](https://youtu.be/yMjHWthyLe8)
 
 ### Viernes 5. Terapia de Bioinfo grupal (opcional)
 
 - Fecha: Viernes 1 de marzo 2024
 - Instructora: Dr. Israel Aguilar
 - Presentación: [Resolucion de problemas](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase5_%20Viernes%20de%20Bioinfo.pdf)
-- Grabación: [Clase5](https://drive.google.com/file/d/1aZ9niNhjRrE9tCs0ANqP_NAwUPW6JGd6/view?usp=sharing)
-- Video en YouTube: [Clase 5 - Terapia de Bioinfo grupal - Instalación de paquetes en R](https://youtu.be/TUILeV5bibg) 
+
+> Video en YouTube: [Clase 5 - Terapia de Bioinfo grupal - Instalación de paquetes en R](https://youtu.be/TUILeV5bibg) 
 
 ### Viernes 6. Manipulación de datos con funciones de R base 
 
 - Fecha: Viernes 8 de marzo 2024
 - Instructora: Dr. Evelia Coss
 - Presentación: [Manipulación de datos con funciones de R base](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D6_ManipulacionDatos_FuncionesRbase.html#1)
-- Grabación: [Clase6](https://drive.google.com/file/d/1QlYPZu25JUC-yY8EhGoVV4HnvjtBdCX1/view?usp=sharing)
 - Script: [MarvelvsDCComics_limpieza_script.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/MarvelvsDCComics_limpieza_script.R)
 - Output: Variables [Info_data.RData](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/Info_data.RData)
-- Video en YouTube: [Clase 6 - Manipulación de datos con funciones de R base ](https://youtu.be/TGwgcrSx9fs)
+
+> Video en YouTube: [Clase 6 - Manipulación de datos con funciones de R base ](https://youtu.be/TGwgcrSx9fs)
 
 ### Viernes 7. Manipulación de datos usando dplyr 
 
 - Fecha: Viernes 15 de marzo 2024
 - Instructora: Dr. Evelia Coss
 - Presentación: [Manipulación de datos usando dplyr](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D7_Manipulacion_dplyr.html#1)
-- Grabación: [Clase7](https://drive.google.com/file/d/1eL6Kpr--F8Bak--ahKhX7_W0T4Q6TP7Y/view?usp=sharing)
 - Script: [MarvelvsDCComics_Join_script.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/MarvelvsDCComics_Join_script.R)
 - Input: Vamos a emplear el Output de la clase 6 [Info_data.RData](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/Info_data.RData)
-- Video en YouTube: [Clase 7 - Manipulación de datos con funciones de R base](https://youtu.be/snrtSU8qEqE) 
+
+> Video en YouTube: [Clase 7 - Manipulación de datos con funciones de R base](https://youtu.be/snrtSU8qEqE) 
 
 ### Viernes 8. Generación de diversos gráficos usando ggplot2 
 
@@ -143,14 +143,16 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructora: Sofia Salazar
 - Presentación: [Generación de diversos gráficos usando ggplot2](https://eveliacoss.github.io/ViernesBioinfo2024/Clase_ggplot/slides.html#1)
 - Script: [script_ggplot_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_ggplot/script_ggplot_clase.R)
-- Video en YouTube: [Clase8](https://youtu.be/87c_NEn55bk)
+
+> Video en YouTube: [Clase8](https://youtu.be/87c_NEn55bk)
 
 ### Viernes 9. Terapia de Bioinfo grupal (opcional) 
 
 - Fecha: Viernes 5 de abril 2024
 - Instructores: LBt Josué Guzmán Linares, Dr. Israel Aguilar
 - Carpeta con scripts y data: [carpeta en gdrive](https://drive.google.com/drive/folders/1cHT86LPY9-MfqXiwpFxagcCpODl9HLWJ?usp=drive_link)
-- Video en YouTube: [Clase9](https://youtu.be/Hd13DFbIfSU)
+
+> Video en YouTube: [Clase9](https://youtu.be/Hd13DFbIfSU)
 
 ### Viernes 10. Manipulación de datos para crear un heatmap (ComplexHeatmap)
 
@@ -161,7 +163,8 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
       * [heatmap_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/heatmap_clase.R)
 - Data: https://github.com/EveliaCoss/ViernesBioinfo2024/tree/main/Clase_Heatmaps/data
 - Manual de [Complexheatmap](https://jokergoo.github.io/ComplexHeatmap-reference/book/index.html)
-- Video en YouTube: [Clase10](https://youtu.be/jTMLcVAeCJ0)
+
+> Video en YouTube: [Clase10](https://youtu.be/jTMLcVAeCJ0)
 
 ### Viernes 11 y 12. Bioestadistica parte 1 
 
@@ -170,14 +173,16 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Grabación:
     * Parte 1. [Clase11](https://drive.google.com/file/d/1aQXJnMdF89uyC8wUIxqHKCSVRu0vuc4w/view?usp=sharing)
     * Parte 2. [Clase12](https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/view?usp=sharing)
-- Video en YouTube: 
+
+> Video en YouTube: 
 
 ### Viernes 12. Bioestadistica parte 2
 
 - Fecha: Viernes 26 de abril 2024
 - Instructor: Dr. Obed Ramirez
 - Grabación: [Clase12](https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/view?usp=sharing)
-- Video en YouTube: 
+
+> Video en YouTube: 
 
 ### Viernes 13. Terapia de Bioinfo grupal (opcional) 
 
@@ -185,7 +190,8 @@ Se otorgará un diploma a los participantes que cuenten con el 80 % de las asist
 - Instructor: Dr. Israel Aguilar
 - Script: [Material](https://raw.githubusercontent.com/EveliaCoss/ViernesBioinfo2024/main/Clase13/escalera.R)
 - Grabación: [Clase13](https://drive.google.com/file/d/1OIvuhlg1gBJIh2E1d0lD6GJallbY6Rlu/view?usp=sharing)
-- Video en YouTube: 
+
+> Video en YouTube: 
 
 ###  Viernes 14 y 15. Exploración de datos y elección de pruebas o modelos
 
